@@ -15,7 +15,8 @@
 //-->
 </script>
 
-<script src="<?=URL;?>js/ete.js"></script>
+<script src="<?=URL;?>js/89.js"></script>
+<script src="<?=URL;?>js/combine.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="<?=URL;?>assets/js/ie10-viewport-bug-workaround.js"></script>

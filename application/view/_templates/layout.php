@@ -28,7 +28,13 @@
 
 <?php require APP . 'view/_templates/header.php'; ?>
 
-<?php require APP . $content;  ?>
+<section id="page">
+	<section id="main_body">
+
+		<?php require APP . $content;  ?>
+
+	</section>
+</section>
 
 <?php require APP . 'view/_templates/footer.php'; ?>
 

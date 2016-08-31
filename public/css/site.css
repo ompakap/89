@@ -7545,7 +7545,7 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_popup .close {
-    background: transparent url(../../images/home/icon_home.png) no-repeat scroll 0 -68px;
+    background: transparent url(../images/home/icon_home.png) no-repeat scroll 0 -68px;
     display: block;
     border: 5px solid transparent;
     height: 29px;
