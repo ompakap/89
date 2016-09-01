@@ -6747,7 +6747,7 @@ th.visible-print,td.visible-print {
 }
 
 .helvethaica_xcond_bold {
-    font-family: DBHelvethaicaXCond-Bold
+    font-family: DBHelvetORICond-Bold
 }
 
 .helvethaica_xcond_med {
@@ -6759,11 +6759,11 @@ th.visible-print,td.visible-print {
 }
 
 .helvethaica_xcond_reg {
-    font-family: DBHelvethaicaXCond
+    font-family: DBHelvetORICond
 }
 
 .helvethaica_xcond_it_bold {
-    font-family: DBHelvethaicaXCond-BoldItalic
+    font-family: DBHelvetORICond-BoldItalic
 }
 
 .helvethaica_xcond_it_med {
@@ -6775,39 +6775,39 @@ th.visible-print,td.visible-print {
 }
 
 .helvethaica_xcond_it_reg {
-    font-family: DBHelvethaicaXCond-Italic
+    font-family: DBHelvetORICond-Italic
 }
 
 .helvethaica_x_bold {
-    font-family: DBHelvethaicaX-Bold
+    font-family: DBHelvetORI-Bold
 }
 
 .helvethaica_x_med {
-    font-family: DBHelvethaicaX-Medium
+    font-family: DBHelvetORI-Md
 }
 
 .helvethaica_x_li {
-    font-family: DBHelvethaicaX-Light
+    font-family: DBHelvetORI-Light
 }
 
 .helvethaica_x_reg {
-    font-family: DBHelvethaicaX
+    font-family: DBHelvetORI
 }
 
 .helvethaica_x_it_bold {
-    font-family: DBHelvethaicaX-BoldItalic
+    font-family: DBHelvetORI-BoldItalic
 }
 
 .helvethaica_x_it_med {
-    font-family: DBHelvethaicaX-MediumItalic
+    font-family: DBHelvetORI-MdItalic
 }
 
 .helvethaica_x_it_li {
-    font-family: DBHelvethaicaX-LightItalic
+    font-family: DBHelvetORI-LiIt
 }
 
 .helvethaica_x_it_reg {
-    font-family: DBHelvethaicaX-Italic
+    font-family: DBHelvetORI-Italic
 }
 
 html {
@@ -7440,7 +7440,7 @@ body {
 
 #footer .ft_cp_right,#footer .ft_cp_right_mb {
     float: left;
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORICond;
     line-height: 20px;
     font-size: 16px
 }
@@ -7588,13 +7588,13 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p1 {
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORICond;
     font-size: 24px;
     line-height: 25px
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p2 {
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORICond;
     font-size: 24px;
     line-height: 25px;
     padding-top: 5px
@@ -7610,18 +7610,18 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p3 {
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORICond;
     font-size: 24px;
     line-height: 25px;
     padding-top: 5px
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p3 span {
-    font-family: DBHelvethaicaXCond-Bold
+    font-family: DBHelvetORICond-Bold
 }
 
 .bx_pup_content.pu_ssc {
-    background: url(../../images/home/bg.jpg) no-repeat scroll top center transparent;
+    background: #E6EBEF;
     background-size: auto 100%
 }
 
@@ -7649,7 +7649,7 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_pup_content.pu_ssc .tt_ssc .tt2 {
-    font-family: DBHelvethaicaX;
+    font-family: DBHelvetORI;
     font-size: 32px;
     line-height: 40px
 }
@@ -7660,7 +7660,7 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_pup_content.pu_ssc .tt_ssc .tt3 {
-    font-family: DBHelvethaicaX-Medium;
+    font-family: DBHelvetORI-Md;
     font-size: 38px;
     line-height: 45px;
     margin-top: 10px
@@ -7679,7 +7679,7 @@ body.dialog_show,body.menu_active {
     height: 40px;
     line-height: 40px;
     font-size: 25px;
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORICond;
     padding: 0 10px;
     max-width: 326px;
     margin: 0 auto;
@@ -7690,7 +7690,7 @@ body.dialog_show,body.menu_active {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvetORI-LiIt;
     font-size: 19px
 }
 
@@ -7698,7 +7698,7 @@ body.dialog_show,body.menu_active {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvetORI-LiIt;
     font-size: 19px
 }
 
@@ -7706,7 +7706,7 @@ body.dialog_show,body.menu_active {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvetORI-LiIt;
     font-size: 19px
 }
 
@@ -7714,23 +7714,25 @@ body.dialog_show,body.menu_active {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvetORI-LiIt;
     font-size: 19px
 }
 
 .bx_pup_content.pu_ssc #frm_pu_newsletter .btn_ssc {
     width: 128px;
     height: 45px;
-    background: transparent url(../../images/home/btn_submit_mail.png) no-repeat scroll center center;
+    background: #000;
+	color:#fff;
     border: none;
     margin: 20px auto 0;
     display: block;
-    text-indent: -9999px
+	font-size: 23px;
+	font-family: DBHelvetORI-Li;
 }
 
 .btn_more_detail {
     font-size: 20px;
-    font-family: DBHelvethaicaX
+    font-family: DBHelvetORI
 }
 
 .btn_more_detail a {
@@ -7765,7 +7767,7 @@ body.dialog_show,body.menu_active {
 
 .btn_back .back--txt {
     font-size: 20px;
-    font-family: DBHelvethaicaX
+    font-family: DBHelvetORI
 }
 
 .sprite {
@@ -8006,6 +8008,13 @@ body.dialog_show,body.menu_active {
 @font-face {
     font-family: DBHelvetORI-Li;
     src: url(/fonts/DBHeaventv3.201/DB_Heavent_Original/DB_Heavent_Li_v3.2.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: DBHelvetORI-LiIt;
+    src: url(/fonts/DBHeaventv3.201/DB_Heavent_Original/DB_Heavent_Li_It_v3.2.ttf) format('truetype');
     font-weight: 400;
     font-style: normal
 }

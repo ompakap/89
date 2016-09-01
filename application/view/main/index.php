@@ -1,161 +1,159 @@
 <div id="ctl_main_ctn">
 
+<div class="bx-banner">
+    <div id="banner-mom" class="row sty_banner">
+        <div id="banner-slick" class="slick-slider">
+                
+			<div class="banner-list" data-delay="10">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_title_pc" value="">
+				<input type="hidden" class="image_title_mb" value="">
+				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
+
+				<div class="bx-item playing">
+					<div id="btnVideoPlay1462424183570" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="zHnTKKZu4sM"></div>
+					<div class="play-control play_video " onclick="playPauseVideo();"></div>
+					<div class="dim_shield_video"></div>
+				</div>
+			</div>
+
+			<div class="banner-list" data-delay="10">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_title_pc" value="">
+				<input type="hidden" class="image_title_mb" value="">
+				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
+
+				<div class="bx-item playing">
+					<div id="btnVideoPlay234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="V9G5vil03-s"></div>
+					<div class="play-control play_video " onclick="playPauseVideo();"></div>
+					<div class="dim_shield_video"></div>
+				</div>
+			</div>
+
+			<div class="banner-list" data-delay="10">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_title_pc" value="">
+				<input type="hidden" class="image_title_mb" value="">
+				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
+
+				<div class="bx-item playing">
+					<div id="btnVideoPlaydd234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="hcysusFTpdU"></div>
+					<div class="play-control play_video " onclick="playPauseVideo();"></div>
+					<div class="dim_shield_video"></div>
+				</div>
+			</div>
+
+
+			<div class="banner-list" data-delay="10">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/02.gif">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/02.gif">
+				<input type="hidden" class="image_title_pc" value="">
+				<input type="hidden" class="image_title_mb" value="">
+				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
+				<div class="bx-item">
+					<input type="hidden" class="type" value="img">
+					<div id="img_xs" class="img_xs_style visible-xs">
+						<img class="images-list slide-banner-list images-list-portrait" width="640" height="950" data-type="image" src="<?=URL;?>images/banner/02.gif" alt="EITYEIGHT 88">
+					</div>
+					<div id="img_lg" class="img_lg_style hidden-xs">
+						<img class="images-list slide-banner-list images-list-lanscape" width="1280" height="620" data-type="image" src="<?=URL;?>images/banner/02.gif" alt="EITYEIGHT 88">
+					</div>
+				</div>
+			</div>
+
+			<div class="banner-list" data-delay="10">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/03.gif">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/03.gif">
+				<input type="hidden" class="image_title_pc" value="">
+				<input type="hidden" class="image_title_mb" value="">
+				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
+				<div class="bx-item">
+					<input type="hidden" class="type" value="img">
+					<div id="img_xs" class="img_xs_style visible-xs">
+						<img class="images-list slide-banner-list images-list-portrait" width="640" height="950" data-type="image" src="<?=URL;?>images/banner/03.gif" alt="EITYEIGHT 88">
+					</div>
+					<div id="img_lg" class="img_lg_style hidden-xs">
+						<img class="images-list slide-banner-list images-list-lanscape" width="1280" height="620" data-type="image" src="<?=URL;?>images/banner/03.gif" alt="EITYEIGHT 88">
+					</div>
+				</div>
+			</div>
+
+        </div>
+    </div>
+</div>
+
 <div class="bx-ctn">
 	<div class="bx_ct">
 		<div class="bx-product">
 			<div class="banner_product">
-				<div class="slider product_slide slick-initialized slick-slider">
-					<div aria-live="polite" class="slick-list draggable" tabindex="0">
+				<div class="slider product_slide  slick-slider">
 						
-						<div class="slick-track" style="opacity: 1; width: 4225px; transform: translate3d(-1950px, 0px, 0px);">
-						<div class="lt_pd slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/mist">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_synakemist.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_synakemist.jpg" alt="SYN-AKE MIST"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">SYN-AKE MIST</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/cream">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_facialcream.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_facialcream.jpg" alt="FACIAL CREAM"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">FACIAL CREAM</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/concentrate_cream">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_concentrate_cream.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_concentrate_cream.jpg" alt="CONCENTRATE FACIAL CREAM"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">CONCENTRATE FACIAL CREAM</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide" data-slick-index="0" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/sunscreen">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_sunscreen.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_sunscreen.jpg" alt="SUNSCREEN"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">SUNSCREEN</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide" data-slick-index="1" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/cleansing">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_cleansing.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_cleansing.jpg" alt="CLEANSING"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">CLEANSING</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide" data-slick-index="2" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/body_booster">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_bodybooster.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_bodybooster.jpg" alt="BODY BOOSTER"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">BODY BOOSTER</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/mask">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_maskshot.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_maskshot.jpg" alt="MASK SHOT"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">MASK SHOT</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-active" data-slick-index="4" aria-hidden="false" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/mist">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_synakemist.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_synakemist.jpg" alt="SYN-AKE MIST"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">SYN-AKE MIST</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-active" data-slick-index="5" aria-hidden="false" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/cream">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_facialcream.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_facialcream.jpg" alt="FACIAL CREAM"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">FACIAL CREAM</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide" data-slick-index="6" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/concentrate_cream">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_concentrate_cream.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_concentrate_cream.jpg" alt="CONCENTRATE FACIAL CREAM"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">CONCENTRATE FACIAL CREAM</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/sunscreen">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_sunscreen.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_sunscreen.jpg" alt="SUNSCREEN"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">SUNSCREEN</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/cleansing">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_cleansing.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_cleansing.jpg" alt="CLEANSING"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">CLEANSING</p></div>
-								</a>
-							</div>
-						</div>
-						<div class="lt_pd slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" style="width: 325px;">
-							<div class="bx_pd">
-								<a href="http://www.namulife.com/th/body_booster">
-									<div class="dt_img">
-										<div class="img_pd" style="background-image: url('http://www.namulife.com/images/home/img_bodybooster.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="http://www.namulife.com/images/home/img_bodybooster.jpg" alt="BODY BOOSTER"><div class="dim_shield"></div></div>
-										<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
-									</div>
-									<div class="dt_pd"><p class="tt1">SNAILWHITE</p><p class="tt2">BODY BOOSTER</p></div>
-								</a>
-							</div>
+					<div class="lt_pd">
+						<div class="bx_pd">
+							<a href="#">
+								<div class="dt_img">
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616195334Gif-Cushion.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616195334Gif-Cushion.gif" alt="VER. 88 BOUNCE UP PACT SPF 50 PA+++"><div class="dim_shield"></div></div>
+									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
+								</div>
+								<div class="dt_pd"><p class="tt1">VER. 88</p><p class="tt2">BOUNCE UP PACT SPF 50 PA+++</p></div>
+							</a>
 						</div>
 					</div>
+					<div class="lt_pd">
+						<div class="bx_pd">
+							<a href="#">
+								<div class="dt_img">
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616201323Gif-Dewy-2.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616201323Gif-Dewy-2.gif" alt="EITY EIGHT DEWY FACE GLOW"><div class="dim_shield"></div></div>
+									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
+								</div>
+								<div class="dt_pd"><p class="tt1">EITY EIGHT</p><p class="tt2">DEWY FACE GLOW</p></div>
+							</a>
+						</div>
+					</div>
+					<div class="lt_pd">
+						<div class="bx_pd">
+							<a href="#">
+								<div class="dt_img">
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616202752Gif-Liquid-Foundation-and-Brush.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616202752Gif-Liquid-Foundation-and-Brush.gif" alt="EITY EIGHT LIQUID FOUNDATION SPF 30 PA"><div class="dim_shield"></div></div>
+									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
+								</div>
+								<div class="dt_pd"><p class="tt1">EITY EIGHT</p><p class="tt2">LIQUID FOUNDATION SPF 30 PA</p></div>
+							</a>
+						</div>
+					</div>
+					<div class="lt_pd">
+						<div class="bx_pd">
+							<a href="#">
+								<div class="dt_img">
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616203408Gif-Lips-Box.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616203408Gif-Lips-Box.gif" alt="VER.88 HOLIDAY LIP PENCIL SET"><div class="dim_shield"></div></div>
+									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
+								</div>
+								<div class="dt_pd"><p class="tt1">VER.88</p><p class="tt2">HOLIDAY LIP PENCIL SET</p></div>
+							</a>
+						</div>
+					</div>
+					<div class="lt_pd">
+						<div class="bx_pd">
+							<a href="#">
+								<div class="dt_img">
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616204633AW-88-Button-Wed-03.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616204633AW-88-Button-Wed-03.gif" alt="VER.88 MINI MIRROR ORANGE NEON"><div class="dim_shield"></div></div>
+									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
+								</div>
+								<div class="dt_pd"><p class="tt1">VER. 88</p><p class="tt2">MINI MIRROR ORANGE NEON</p></div>
+							</a>
+						</div>
+					</div>
+
 				</div>
-				
-				<button type="button" data-role="none" class="slick-prev" aria-label="previous" style="display: block;">Previous</button>
-				<button type="button" data-role="none" class="slick-next" aria-label="next" style="display: block;">Next</button></div>
+
 			</div>
 		</div>
 
@@ -167,12 +165,3 @@
 
 
 
-
-
-
-
-
-<div id="bx_pu_ssc" class="bx_popup fade in" style="display: block;"><div class="bx_pup_dialog"><div class="bx_pup_content pu_ssc"><button type="button" class="close">×</button><div class="tt_ssc"><div class="tt1"></div><div class="tt2"><p>เพียงลงทะเบียนรับข่าวสาร</p></div><div class="tt2"><p>คุณก็ไม่พลาดกับมิติใหม่แห่งผิวสวย</p></div><div class="tt3">และสิทธิพิเศษก่อนใคร</div></div><form id="frm_pu_newsletter" name="frm_pu_newsletter"><input type="text" class="inp_ssc" autocomplete="off" name="email" placeholder="Enter your email address"><input type="hidden" id="csrf_popup_newsletter" name="csrf_popup_newsletter" value="bc86353640be0097f73a63c3e7666945"><input type="submit" class="btn_ssc" value="SUBMIT"></form><div class="check_show_popup"><label><input type="checkbox" name="inp_check_show_popup" id="inp_check_show_popup" value="T"> <span>ไม่แสดงกล่องนี้อีก</span></label></div></div></div></div>
-
-
-<div class="bx_popup_shield pu_ssc" style="display: block;"></div>

@@ -320,7 +320,7 @@ nav.nav-growpop,nav.nav-growpop a {
     position: relative;
     z-index: 10;
     font-size: 19px;
-    font-family: DBHelvethaicaXCond-Light
+    font-family: DBHelvetORI-Light
 }
 
 .bg_shield {
@@ -648,7 +648,7 @@ nav.nav-growpop,nav.nav-growpop a {
 .dim_text {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     color: #fff;
     font-size: 2em;
     z-index: 5;
@@ -735,11 +735,11 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .banner_product .lt_pd .dt_pd .tt1 {
-    font-family: DBHelvethaicaXCond
+    font-family: DBHelvetORI
 }
 
 .banner_product .lt_pd .dt_pd .tt2 {
-    font-family: DBHelvethaicaXCond-Medium;
+    font-family: DBHelvetORI-Md;
     font-size: 1.2em;
     line-height: 1.1em
 }
@@ -830,12 +830,12 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .bx-ingredients .tt_ingredients .sp_dbq {
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     font-size: 25px
 }
 
 .bx-ingredients .tt_ingredients .tt1 {
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORI;
     margin-bottom: 8px;
     font-size: 3.6em;
     line-height: 1em
@@ -856,7 +856,7 @@ nav.nav-growpop,nav.nav-growpop a {
     display: block;
     font-size: 1.8em;
     line-height: 1em;
-    font-family: DBHelvethaicaX-Light
+    font-family: DBHelvet-Li
 }
 
 .bx-news {
@@ -871,7 +871,7 @@ nav.nav-growpop,nav.nav-growpop a {
 .bx-news .tt_news {
     height: 90px;
     text-align: center;
-    font-family: DBHelvethaicaXCond-Medium;
+    font-family: DBHelvetORI-Md;
     font-size: 30px;
     line-height: 30px;
     padding-top: 17px;
@@ -883,7 +883,7 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .bx-news .tt_news .tt2 {
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 19px;
@@ -907,7 +907,7 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .bx-news .bx_des_news .date_news {
-    font-family: DBHelvethaicaXCond-Medium;
+    font-family: DBHelvetORI-Md;
     font-size: 16px;
     line-height: 16px;
     text-align: center;
@@ -916,7 +916,7 @@ nav.nav-growpop,nav.nav-growpop a {
 
 .bx-news .bx_des_news .tt_news {
     padding-bottom: 6px;
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     font-size: 18px;
     line-height: 20px;
     text-align: center;
@@ -1095,19 +1095,19 @@ nav.nav-growpop,nav.nav-growpop a {
     max-width: 255px;
     margin: 0 auto;
     text-align: center;
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORI;
     font-size: 2.5em;
     line-height: .65em
 }
 
 .bx-newsletter .tt_newsletter .tt2 {
-    font-family: DBHelvethaicaXCond-Medium;
+    font-family: DBHelvetORI-Md;
     font-size: 1.2em;
     line-height: 1em
 }
 
 .bx-newsletter .tt_newsletter .tt3 {
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     font-size: 18px;
     line-height: 18px;
     padding-top: 12px
@@ -1131,7 +1131,7 @@ nav.nav-growpop,nav.nav-growpop a {
     background: #FFF;
     height: 37px;
     font-size: 25px;
-    font-family: DBHelvethaicaXCond;
+    font-family: DBHelvetORI;
     padding: 0 10px;
     max-width: 255px;
     margin: 0 auto;
@@ -1143,7 +1143,7 @@ nav.nav-growpop,nav.nav-growpop a {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvet-LiItalic;
     font-size: 19px
 }
 
@@ -1151,7 +1151,7 @@ nav.nav-growpop,nav.nav-growpop a {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvet-LiItalic;
     font-size: 19px
 }
 
@@ -1159,7 +1159,7 @@ nav.nav-growpop,nav.nav-growpop a {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvet-LiItalic;
     font-size: 19px
 }
 
@@ -1167,7 +1167,7 @@ nav.nav-growpop,nav.nav-growpop a {
     text-align: center;
     color: #a5a5a5;
     opacity: 1;
-    font-family: DBHelvethaicaX-LightItalic;
+    font-family: DBHelvet-LiItalic;
     font-size: 19px
 }
 
@@ -1186,7 +1186,7 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .check_show_popup span {
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     font-size: 1.6em;
     padding-left: 10px
 }
@@ -1239,7 +1239,7 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .bx-beautytips .tt_beautytips {
-    font-family: DBHelvethaicaXCond-Medium;
+    font-family: DBHelvetORI-Md;
     font-size: 30px;
     line-height: 30px;
     padding-bottom: 15px;
@@ -1253,7 +1253,7 @@ nav.nav-growpop,nav.nav-growpop a {
 }
 
 .bx-beautytips .tt_beautytips .tt2 {
-    font-family: DBHelvethaicaX-Light;
+    font-family: DBHelvet-Li;
     font-size: 18px;
     line-height: 20px;
     margin-bottom: 17px
