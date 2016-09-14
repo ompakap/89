@@ -7150,8 +7150,8 @@ body {
 }
 
 #header #hd_logo {
-    background: transparent url(../../../../images/layout/logo.png) no-repeat scroll 0 0;
-    height: 35px;
+    background: transparent url(../../../../images/layout/logo.jpg) no-repeat scroll 0 0;
+    height: 38px;
     background-size: 100% auto;
     text-indent: -9999px;
     width: 65px;
@@ -7812,7 +7812,7 @@ body.dialog_show,body.menu_active {
         background-color: #FFF;
         height: auto;
         margin-top: 0;
-        padding-top: 25px;
+        padding-top: 20px;
         padding-bottom: 11px
     }
 
@@ -7822,7 +7822,7 @@ body.dialog_show,body.menu_active {
 
     #header #hd_logo {
         width: 100px;
-        height: 54px;
+        height: 59px;
         margin: 0 auto;
         float: none
     }
