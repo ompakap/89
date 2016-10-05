@@ -9,7 +9,7 @@
 				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
 				<input type="hidden" class="image_title_pc" value="">
 				<input type="hidden" class="image_title_mb" value="">
-				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="title_banner" value="jellysthailand">
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
@@ -24,7 +24,7 @@
 				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
 				<input type="hidden" class="image_title_pc" value="">
 				<input type="hidden" class="image_title_mb" value="">
-				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="title_banner" value="jellysthailand">
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
@@ -39,7 +39,7 @@
 				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
 				<input type="hidden" class="image_title_pc" value="">
 				<input type="hidden" class="image_title_mb" value="">
-				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="title_banner" value="jellysthailand">
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
@@ -55,7 +55,7 @@
 				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/02.gif">
 				<input type="hidden" class="image_title_pc" value="">
 				<input type="hidden" class="image_title_mb" value="">
-				<input type="hidden" class="title_banner" value="EITYEIGHT 88">
+				<input type="hidden" class="title_banner" value="jellysthailand">
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 				<div class="bx-item">
 					<input type="hidden" class="type" value="img">
@@ -100,10 +100,10 @@
 						<div class="bx_pd">
 							<a href="#">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616195334Gif-Cushion.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616195334Gif-Cushion.gif" alt="VER. 88 BOUNCE UP PACT SPF 50 PA+++"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_cream_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_cream_01.jpg" alt="PURE CREAM"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
-								<div class="dt_pd"><p class="tt1">VER. 88</p><p class="tt2">BOUNCE UP PACT SPF 50 PA+++</p></div>
+								<div class="dt_pd"><p class="tt1">PURE CREAM</p><p class="tt2"></p></div>
 							</a>
 						</div>
 					</div>
@@ -111,10 +111,10 @@
 						<div class="bx_pd">
 							<a href="#">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616201323Gif-Dewy-2.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616201323Gif-Dewy-2.gif" alt="EITY EIGHT DEWY FACE GLOW"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_dd_cream_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_dd_cream_01.jpg" alt="PURE DD CREAM"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
-								<div class="dt_pd"><p class="tt1">EITY EIGHT</p><p class="tt2">DEWY FACE GLOW</p></div>
+								<div class="dt_pd"><p class="tt1">PURE DD CREAM</p></div>
 							</a>
 						</div>
 					</div>
@@ -122,10 +122,10 @@
 						<div class="bx_pd">
 							<a href="#">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616202752Gif-Liquid-Foundation-and-Brush.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616202752Gif-Liquid-Foundation-and-Brush.gif" alt="EITY EIGHT LIQUID FOUNDATION SPF 30 PA"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_lotion_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/pure_lotion_01.jpg" alt="PURE LOTION"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
-								<div class="dt_pd"><p class="tt1">EITY EIGHT</p><p class="tt2">LIQUID FOUNDATION SPF 30 PA</p></div>
+								<div class="dt_pd"><p class="tt1">PURE LOTION</p></div>
 							</a>
 						</div>
 					</div>
@@ -133,10 +133,10 @@
 						<div class="bx_pd">
 							<a href="#">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616203408Gif-Lips-Box.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616203408Gif-Lips-Box.gif" alt="VER.88 HOLIDAY LIP PENCIL SET"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_soap_02.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_soap_02.jpg" alt="Pure Soap"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
-								<div class="dt_pd"><p class="tt1">VER.88</p><p class="tt2">HOLIDAY LIP PENCIL SET</p></div>
+								<div class="dt_pd"><p class="tt1">PURE SOAP</p></div>
 							</a>
 						</div>
 					</div>
@@ -144,10 +144,10 @@
 						<div class="bx_pd">
 							<a href="#">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/88/10071616204633AW-88-Button-Wed-03.gif');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/10071616204633AW-88-Button-Wed-03.gif" alt="VER.88 MINI MIRROR ORANGE NEON"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_underarm_cream_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_underarm_cream_01.jpg" alt="Pure Underarm Cream"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
-								<div class="dt_pd"><p class="tt1">VER. 88</p><p class="tt2">MINI MIRROR ORANGE NEON</p></div>
+								<div class="dt_pd"><p class="tt1">PURE UNDERARM CREAM</p></div>
 							</a>
 						</div>
 					</div>
