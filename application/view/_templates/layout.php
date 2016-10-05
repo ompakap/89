@@ -38,6 +38,7 @@
 
 <?php require APP . 'view/_templates/footer.php'; ?>
 
+
 <?php require APP . 'view/_templates/script.php'; ?>
 
 </body>
