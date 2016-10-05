@@ -5776,7 +5776,7 @@ function playAuto() {
 ;var checkSubscribe = !1;
 $(document).ready(function() {
     if ($('#val_check_show_popup').val() != 'T') {
-        popupSubscribe('show');
+        //popupSubscribe('show');
         $('#frm_newsletter, #frm_pu_newsletter').submit(function(t) {
             t.preventDefault();
             submitNewsletterForm($(this))

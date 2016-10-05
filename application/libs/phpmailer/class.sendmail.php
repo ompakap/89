@@ -12,7 +12,7 @@ class mail extends PHPMailer
 
 		
 
-	function mail(){
+	function __construct(){
 
 		$this->email			= new PHPMailer();
 
