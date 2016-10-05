@@ -2323,8 +2323,8 @@ textarea.input-lg {
 
 .btn-danger {
     color: #fff;
-    background-color: #d9534f;
-    border-color: #d43f3a
+    background-color: #e673a6;
+    border-color: #e673a6
 }
 
 .btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open .dropdown-toggle.btn-danger {
@@ -6747,7 +6747,7 @@ th.visible-print,td.visible-print {
 }
 
 .helvethaica_xcond_bold {
-    font-family: DBHelvetORICond-Bold
+    font-family: DBHelvet-Bd
 }
 
 .helvethaica_xcond_med {
@@ -6759,7 +6759,7 @@ th.visible-print,td.visible-print {
 }
 
 .helvethaica_xcond_reg {
-    font-family: DBHelvetORICond
+    font-family: DBHelvet
 }
 
 .helvethaica_xcond_it_bold {
@@ -7440,7 +7440,7 @@ body {
 
 #footer .ft_cp_right,#footer .ft_cp_right_mb {
     float: left;
-    font-family: DBHelvetORICond;
+    font-family: DBHelvet;
     line-height: 20px;
     font-size: 16px
 }
@@ -7588,13 +7588,13 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p1 {
-    font-family: DBHelvetORICond;
+    font-family: DBHelvet;
     font-size: 24px;
     line-height: 25px
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p2 {
-    font-family: DBHelvetORICond;
+    font-family: DBHelvet;
     font-size: 24px;
     line-height: 25px;
     padding-top: 5px
@@ -7610,14 +7610,14 @@ body.dialog_show,body.menu_active {
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p3 {
-    font-family: DBHelvetORICond;
+    font-family: DBHelvet;
     font-size: 24px;
     line-height: 25px;
     padding-top: 5px
 }
 
 .bx_pup_content.pu_qr .bx_ct_qr .tt_qr .p3 span {
-    font-family: DBHelvetORICond-Bold
+    font-family: DBHelvet-Bd
 }
 
 .bx_pup_content.pu_ssc {
@@ -8096,6 +8096,3 @@ body.dialog_show,body.menu_active {
     font-weight: 400;
     font-style: normal
 }
-
-
-

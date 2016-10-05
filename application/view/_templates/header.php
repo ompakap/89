@@ -12,19 +12,19 @@
 				</div>
 				<div class="bx_select_lang clearfix">
 					<ul>
-						<li class="list_flag" onclick="gotoPageChina();">
+						<li class="list_flag" onclick="location.href='<?=URL;?>cn'">
 							<div class="bx_flag flag_cn"></div><div class="lb_lang lb_lang_chn">中国</div>
 							<div class="claerfix"></div>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="hd_ctn_search">
+			<!-- <div class="hd_ctn_search">
 				<form id="hd_search_form">
 					<input type="text" value="" name="" placeholder="SEARCH" class="inp_search_sty hd_inp_search">
 					<input type="submit" value="" id="hd_btn_search">
 				</form>
-			</div>
+			</div> -->
 
 			<div class="clearfix"></div>
 		</div>
@@ -48,13 +48,13 @@
 
 	<div id="main_menu" style="">
 		<ul class="">
-			<li class="list_menu first "><a href="#">ABOUT US</a></li>
-			<li class="list_menu "><a href="#">PRODUCTS</a></li>
-			<li class="list_menu "><a href="#" class="">WHERE TO BUY</a></li>
-			<li class="list_menu "><a href="<?=URL;?>news">NEWS</a></li>
-			<li class="list_menu "><a href="#">BEAUTY TIPS</a></li>
-			<li class="list_menu "><a href="#" class="">SPOT A FAKE</a></li>
-			<li class="list_menu last "><a href="#">CONTACT US</a></li>
+			<li class="list_menu first "><a href="<?=$_URL;?>about"><?=_ABOUT_US;?></a></li>
+			<li class="list_menu "><a href="<?=$_URL;?>product">PRODUCTS</a></li>
+			<li class="list_menu "><a href="<?=$_URL;?>where_to_buy" class="">WHERE TO BUY</a></li>
+			<li class="list_menu "><a href="<?=$_URL;?>news">NEWS</a></li>
+			<li class="list_menu "><a href="<?=$_URL;?>tips">BEAUTY TIPS</a></li>
+			<li class="list_menu "><a href="<?=$_URL;?>spot_to_fake" class="">SPOT A FAKE</a></li>
+			<li class="list_menu last "><a href="<?=$_URL;?>contact_us">CONTACT US</a></li>
 			<li class="list_menu_mb">
 				<div class="ft_bx_social">
 					<div class="ft_list_sc ft_sc1 first"><a href="#" target="_blank"><span>FACEBOOK</span></a></div>
@@ -65,12 +65,12 @@
 			</li>
 			<li class="list_menu_mb">
 				<div class="bx_lang">
-					<div class="list_flag active" onclick="location.href='http://www.jellysthailand.com/th/home'">
+					<div class="list_flag active" onclick="location.href='<?=URL;?>th'">
 						<div class="bx_flag flag_th"></div>
 						<div class="lb_lang">ไทย</div>
 						<div class="claerfix"></div>
 					</div>
-					<div class="list_flag " onclick="gotoPageChina();">
+					<div class="list_flag " onclick="location.href='<?=URL;?>cn'">
 						<div class="bx_flag flag_cn"></div>
 						<div class="lb_lang lb_lang_chn">中国</div>
 						<div class="claerfix"></div>

@@ -122,7 +122,7 @@
 						<div class="bx_pd">
 							<a href="#">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_lotion_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/88/pure_lotion_01.jpg" alt="PURE LOTION"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_lotion_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_lotion_01.jpg" alt="PURE LOTION"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
 								<div class="dt_pd"><p class="tt1">PURE LOTION</p></div>

@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Class About
+ * Class Error
  *
  * Please note:
  * Don't use the same name for class and method, as this might trigger an (unintended) __construct of the class.
  * This is really weird behaviour, but documented here: http://php.net/manual/en/language.oop5.decon.php
  *
  */
-class About extends Controller
+class Spot_to_fake extends Controller
 {
     /**
      * PAGE: index
@@ -17,12 +17,11 @@ class About extends Controller
     public function index()
     {
 		$_URL = URL . $_SESSION["Lang"] . "/";
-
-        //$txtaboutus = $this->model->getaboutus();   
+		
 
         // load views
-		$content = 'view/about/index.php';
+		$content = 'view/spot_to_fake/index.php';
         require APP . 'view/_templates/layout.php';
-    }	
+    }
 
 }

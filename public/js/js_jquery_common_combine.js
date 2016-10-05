@@ -4533,9 +4533,7 @@ placeholder = $.fn.placeholder = function(e) {
     return !1
 }
 ;
-function gotoPageChina() {
-    window.open("http://namulifechina.com/home", "_blank")
-}
+
 ;function closeSearch() {
     if ($(".btn_mobile_search").hasClass("active")) {
         $(".btn_mobile_search").removeClass("active");
@@ -4580,35 +4578,7 @@ function gotoPageChina() {
         $("#hd_inp_search").val("")
     }
 }
-;function popupQr(e) {
-    if ($("#bx_pu_qr").size() == 0) {
-        var t = "";
-        t += "<div id=\"bx_pu_qr\" class=\"bx_popup fade in\">";
-        t += "<div class=\"bx_pup_dialog\">";
-        t += "<div class=\"bx_pup_content pu_qr\">";
-        t += "<button type=\"button\" class=\"close\" >×</button>";
-        t += "<div class=\"bx_ct_qr\"><img class=\"img_qr\" src=\"" + BASE_URL + "images/layout/img_qr.jpg\" alt=\"qr code\"/><div class=\"tt_qr\"><p class=\"p1\">Add LINE Friends via QR Codes</p><p class=\"p2\"><span class=\"line_hrz_txt\"></span>or<span class=\"line_hrz_txt\"></span></p><p class=\"p3\">Line id: <span>NAMULIFE2</span></p></div></div>";
-        t += "</div>";
-        t += "</div>";
-        t += "</div>";
-        t += "<div class=\"bx_popup_shield pu_qr\"></div>";
-        $("body").append(t);
-        $("#bx_pu_qr .close").click(function() {
-            $("#bx_pu_qr").hide();
-            $(".bx_popup_shield.pu_qr").hide();
-            $("body").removeClass("dialog_show")
-        })
-    }
-    ;if (e == "show") {
-        $("body").addClass("dialog_show");
-        $(".bx_popup_shield.pu_qr").show();
-        $("#bx_pu_qr").show()
-    } else {
-        $("#bx_pu_qr").hide();
-        $(".bx_popup_shield.pu_qr").hide();
-        $("body").removeClass("dialog_show")
-    }
-}
+
 ;function DetectMobile() {
     var e = !1;
     if (navigator.userAgent.match(/iPad/i)) {

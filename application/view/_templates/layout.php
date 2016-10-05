@@ -4,12 +4,33 @@
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="Generator" content="EditPlus">
 	<meta name="Author" content="OM">
 	<meta name="Keywords" content="jellysthailand">
 	<meta name="Description" content="">
-	<meta name="viewport" content="width=device-width">
+
+	<!--[if lt IE 9]>
+      <script src="<?=URL;?>js/html5shiv.js"></script>
+      <script src="<?=URL;?>js/core/respond.min.js"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script type="text/javascript">
+		var _SCREEN_ = (window.devicePixelRatio * screen.width) / window.devicePixelRatio;
+		var S = window.innerWidth;
+		var media = "desktop";
+	    var _VIEWPORT_ = '<meta name="viewport" content="width=device-width, user-scalable=yes" />';
+		if((_SCREEN_ <= 1280 && _SCREEN_ >= 768) || (S <= 1280 && S >= 768)){
+			media = "tablet";
+	    	_VIEWPORT_ = '<meta name="viewport" content="width=1000, user-scalable=yes" />';
+		}
+		if(_SCREEN_ < 768 || S < 768){
+			media = "mobile";
+	    	_VIEWPORT_ = '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+		}
+		document.write(_VIEWPORT_);
+	</script>
 
 	<title><?=SITE_TITLE;?></title>
 
@@ -22,6 +43,8 @@
 	<link href="<?=URL;?>img/logo.gif" rel="icon" sizes="128x128" />
 
 	<?php require APP . 'view/_templates/style.php'; ?>
+
+	
 
 </head>
 <body>

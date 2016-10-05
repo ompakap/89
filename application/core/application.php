@@ -11,7 +11,7 @@ class Application
     /** @var array URL parameters */
     private $url_params = array();
 
-    private $lang = "en";
+    private $lang = "th";
 	
     /**
      * "Start" the application:
@@ -91,8 +91,8 @@ class Application
             $url = filter_var($url, FILTER_SANITIZE_URL);
             $url = explode('/', $url);
 			
-			$this->lang = "en";
-			if( strtolower($url[0]) == "en" || strtolower($url[0]) == "th" )
+			$this->lang = "th";
+			if( strtolower($url[0]) == "th" || strtolower($url[0]) == "cn" )
 			{
 				$this->lang = $url[0];
 				$url[0] = isset($url[1]) ? $url[1] : null;

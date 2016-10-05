@@ -1,0 +1,177 @@
+.fix-word {
+    display: inline-block
+}
+
+.clear-both {
+    clear: both
+}
+
+#frm1 input.placeholder,#frm1 textarea.placeholder {
+    color: #999
+}
+
+.content {
+    line-height: 1;
+    letter-spacing: .05em
+}
+
+#main_body {
+    background-position: center center;
+    background-size: cover
+}
+
+.content__wrap {
+    padding: 0 20px;
+    max-width: 1010px;
+    margin: auto
+}
+
+.line_qr_code {
+    max-width: 200px
+}
+
+.content__detail {
+    padding: 0 15px 0 0
+}
+
+.content__detail__title {
+    padding-top: 1em;
+    font-size: 4em
+}
+
+.content__detail__des {
+    font-size: 2.2em;
+    padding-top: 1.2em
+}
+
+.content__detail__contact {
+    padding-top: 1.8em
+}
+
+.contact-box {
+    font-size: 2.2em
+}
+
+.contact-box__row:nth-child(1) {
+    margin-top: 0
+}
+
+.contact-box__row {
+    margin-top: .6em;
+    line-height: 1.09;
+    position: relative
+}
+
+.contact-box__row__pic,.contact-box__row__txt {
+    float: left
+}
+
+.contact-box__row__pic {
+    width: 36px;
+    height: 35px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.contact-box__row__pic--line-off {
+    margin-top: .2em;
+    background-position: 0 0
+}
+
+.contact-box__row__pic--line {
+    margin-top: .2em;
+    background-position: 0 0
+}
+
+.contact-box__row__pic--tel {
+    margin-top: .2em;
+    background-position: -41px 0
+}
+
+.contact-box__row__pic--mail {
+    margin-top: .4em;
+    background-position: -81px 0
+}
+
+.contact-box__row__txt {
+    padding-left: 2.5em
+}
+
+.contact-box__row__txt__row a {
+    color: #000;
+    text-decoration: none
+}
+
+.content__form {
+    font-size: 2.2em;
+    padding: 1.5em 0
+}
+
+.content__form__row__form-box__inp-box.line {
+    border-bottom: 1px solid #000
+}
+
+.content__form__row__form-box__inp-box__inp {
+    width: 100%;
+    background: 0 0;
+    border: 0;
+    padding: 1.4em 0 0 0;
+    line-height: 1.2em;
+    outline: 0
+}
+
+.content__form__row__form-box__inp-box.inp-warning {
+    border-bottom: 1px solid red
+}
+
+.content__form__row__form-box__btn-box {
+    padding-top: .95em
+}
+
+.content__form__row__form-box__btn-box__btn {
+    background: 0 0;
+    border: 1px solid #000;
+    padding: .35em 1.7em;
+    font-size: 1em
+}
+
+.content__form__row__form-box__btn-box__btn:hover {
+    background: #000;
+    color: #fff
+}
+
+.content__form__row__form-box__btn-box__btn--submit,.content__form__row__form-box__btn-box__btn--loading {
+    margin: 0
+}
+
+.content__form__row__form-box__btn-box__btn--loading {
+    display: none
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size:60%
+    }
+
+    .content__wrap {
+        padding: 0 20px
+    }
+
+    .content__detail {
+        padding: 0
+    }
+
+    .content__detail {
+        padding: 0
+    }
+
+    .content__detail__title {
+        text-align: center
+    }
+
+    .content__form__row__form-box__btn-box {
+        text-align: center
+    }
+}
