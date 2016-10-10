@@ -8,7 +8,10 @@
 	<div class="bg-box">
 		<div class="box-text">
 			<div class="helvethaica_xcond_med box-text-first">Spot to fake</div>
-			<div class="helvethaica_x_li box-text-second">มั่นใจ ปลอดภัย ด้วยนวัตกรรมการเช็คสินค้าลิขสิทธิ์ของแท้แน่นอน</div>
+			<div class="helvethaica_x_li box-text-second">WITH &quot;ANTI – COUNTERFEIT STICKER&quot;</div>
+			<div class="helvethaica_x_li box-text-second col-xs-12 col-sm-6 col-sm-offset-3">
+				<p>มั่นใจ ปลอดภัย ด้วยนวัตกรรมการเช็คสินค้าลิขสิทธิ์ของแท้แน่นอนJELLYS มุ่งมั่นสู่มาตรฐานความงามระดับโลก สร้างความเชื่อมั่นในผลิตภัณฑ์ด้วยนวัตกรรมล้ำสมัย ANTI – COUNTERFEIT STICKERในการตรวจสอบสินค้าลิขสิทธิ์แท้แน่นอน สะดวก รวดเร็วรู้ผลทันที เพื่อความมั่นใจสูงสุดของผู้บริโภค</p>
+			</div>
 
 			<div class="list-shops">
 				<div class="container">
