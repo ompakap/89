@@ -4483,10 +4483,12 @@
     e
 });
 $(document).ready(function() {
+
     $(".bx_show_lang").click(function() {
         $(".hd_ctn_lang").toggleClass("active");
         $(".bx_select_lang").slideToggle("fast")
     });
+
     $("#hd_search_form,#hd_search_form_mb").submit(function(e) {
         e.preventDefault();
         if ($(this).find(".hd_inp_search").val().trim() == "") {

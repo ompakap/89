@@ -7378,11 +7378,15 @@ body {
 }
 
 #header #main_menu .list_menu_mb .bx_lang .flag_th {
-    background: transparent url(../images/layout/all_icon.png) no-repeat scroll 0 -23px
+    background: transparent url(../images/layout/all_icon.png) no-repeat scroll 0 -23px;
 }
 
 #header #main_menu .list_menu_mb .bx_lang .flag_cn {
-    background: transparent url(../images/layout/all_icon.png) no-repeat scroll -30px -23px
+    background: transparent url(../images/layout/all_icon.png) no-repeat scroll -30px -23px;
+}
+
+#header #main_menu .list_menu_mb .bx_lang .flag_en {
+    background: transparent url(../images/layout/all_icon.png) no-repeat scroll -27px 0;
 }
 
 #page {

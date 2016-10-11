@@ -500,6 +500,7 @@
 .list-shop {
     position: relative;
     height: 90px;
+	margin-top: 50px;
     text-align: center
 }
 
@@ -688,6 +689,7 @@
 @media (min-width: 1200px) {
     .list-shop {
         width:20%
+		margin-top: 50px;
     }
 
     .header-text {

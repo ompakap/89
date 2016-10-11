@@ -92,7 +92,7 @@ class Application
             $url = explode('/', $url);
 			
 			$this->lang = "th";
-			if( strtolower($url[0]) == "th" || strtolower($url[0]) == "cn" )
+			if( strtolower($url[0]) == "th" || strtolower($url[0]) == "cn" || strtolower($url[0]) == "en" )
 			{
 				$this->lang = $url[0];
 				$url[0] = isset($url[1]) ? $url[1] : null;
