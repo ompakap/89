@@ -50,7 +50,7 @@ define('URL_DOMAIN', $_SERVER['HTTP_HOST']);
 define('URL_SUB_FOLDER', str_replace(URL_PUBLIC_FOLDER, '', dirname($_SERVER['SCRIPT_NAME'])));
 define('URL', URL_PROTOCOL . URL_DOMAIN . URL_SUB_FOLDER);
 
-define('SITE_TITLE', "Eity Eight - Official Site");
+define('SITE_TITLE', "JellysThailand - Official Site");
 
 /**
  * Configuration for: Database
@@ -63,7 +63,7 @@ date_default_timezone_set("Asia/Bangkok");
 $host = "localhost";
 $username ="root"; 
 $password =""; 
-$dbname ="eityeight_local_db"; 
+$dbname ="jellys_db"; 
 
 
 define('DB_TYPE', 'mysql');

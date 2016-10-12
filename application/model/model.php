@@ -35,9 +35,9 @@ class Model
 			$Login = $query->fetch(PDO::FETCH_ASSOC);
 			$Login["count"] = $count;
 
-			$_SESSION['EELOGINS'] = 1;
-			$_SESSION['EELOGININFO'] = $Login;
-			$_SESSION['EEUSERNAME'] = $Login['username'] . ' ' . $Login['lastname'];
+			$_SESSION['LOGINS'] = 1;
+			$_SESSION['LOGININFO'] = $Login;
+			$_SESSION['USERNAME'] = $Login['username'] . ' ' . $Login['lastname'];
 		}
 
 		return $Login;
@@ -131,7 +131,7 @@ class Model
 
 			if( ($i % $chuck) == 0 || $i == $max )
 			{
-				$sql = 'INSERT INTO product89_serials( code_product, code_serial ) VALUES ';
+				$sql = 'INSERT INTO product_serials( code_product, code_serial ) VALUES ';
 				$strSQL = $sql . substr($vsql, 0, -1);
 				$query = $this->db->prepare($strSQL);
 				$query->execute();
@@ -226,7 +226,7 @@ class Model
 	{
 		$res = array();
 
-		$sql = " INSERT INTO product( code_product, name_th, name_eng, weights, costs, stocks, details, detail_th, timep, types) VALUES( :code_product, :name_th, :name_eng, :weights, :costs, :stocks, :details, :detail_th, :timep, '001')";
+		$sql = " INSERT INTO product( code_product, name_th, name_en, weights, costs, stocks, details, detail_th, timep, types) VALUES( :code_product, :name_th, :name_en, :weights, :costs, :stocks, :details, :detail_th, :timep, '001')";
         $query = $this->db->prepare($sql);
 
 		$code = $this->genCode("prod");
@@ -234,7 +234,7 @@ class Model
         $parameters = array(
 			':code_product' => $code,
 			':name_th' => $param["txtname_th"],
-			':name_eng' => $param["txtname_eng"],
+			':name_en' => $param["txtname_en"],
 			':weights' => $param["txtweights"],
 			':costs' => $param["txtcosts"],
 			':stocks' => $param["txtstocks"],
@@ -260,7 +260,7 @@ class Model
 					':file_name' => $cont,
 					':times' => date("d-M-y H.i.s"),
 					':prod_id' => $code,
-					':name_title' => $param["txtname_eng"]
+					':name_title' => $param["txtname_en"]
 				);
 				
 				$query->execute($parameters);
@@ -283,7 +283,7 @@ class Model
 
 		$sql = " UPDATE product SET
 					name_th = :name_th,
-					name_eng = :name_eng,
+					name_en = :name_en,
 					weights = :weights,
 					costs = :costs,
 					stocks = :stocks,
@@ -295,7 +295,7 @@ class Model
         $parameters = array(
 			':code_product' => $param["code"],
 			':name_th' => $param["txtname_th"],
-			':name_eng' => $param["txtname_eng"],
+			':name_en' => $param["txtname_en"],
 			':weights' => $param["txtweights"],
 			':costs' => $param["txtcosts"],
 			':stocks' => $param["txtstocks"],
@@ -322,7 +322,7 @@ class Model
 						':file_name' => $cont,
 						':times' => date("d-M-y H.i.s"),
 						':prod_id' => $param["code"],
-						':name_title' => $param["txtname_eng"]
+						':name_title' => $param["txtname_en"]
 					);
 					
 					$query->execute($parameters);
@@ -415,6 +415,65 @@ class Model
 
 
 		return $code;
+	}
+
+	public function chk_serial($pos)
+	{
+		$r = array("FAKE" => true);
+
+		$sql = "SELECT count(ps.code_product) as ctn, p.name_eng as name FROM product_serials ps, product p WHERE p.id = ps.code_product AND ps.code_product= :id and ps.code_serial= :serials "; 
+		$query = $this->db->prepare($sql);
+
+		$parameters = array(
+			":id" => $pos["pid"],
+			":serials" => $pos["pdata"]
+		);
+
+		$query->execute($parameters);
+		$chk = $query->fetch(PDO::FETCH_ASSOC);
+
+		if( $chk["ctn"] > 0 )
+		{
+			$r["FAKE"] = false;
+			$r["PRODNAME"]  = $chk["name"];
+		}
+
+		return $r;
+	}
+
+	public function chk_serial_all($pos)
+	{
+		$r = array(
+			"FAKE" => true,
+			"DUP" => false
+		);
+
+		$sql = "SELECT count(ps.code_product) as ctn, p.name_en as name, ps.id as cid, ps.dupflag FROM product_serials ps, product p WHERE p.id = ps.code_product AND ps.code_serial= :serials "; 
+		$query = $this->db->prepare($sql);
+
+		$parameters = array(
+			":serials" => $pos["pdata"]
+		);
+		// echo '[ PDO DEBUG ]: ' . Helper::debugPDO($sql, $parameters);  exit();
+		$query->execute($parameters);
+		$chk = $query->fetch(PDO::FETCH_ASSOC);
+
+		if( $chk["dupflag"] > 2 )
+		{
+			$r["DUP"] = true;
+			$r["FAKE"] = false;
+		}
+		elseif( $chk["ctn"] > 0 )
+		{
+			$r["FAKE"] = false;
+			$r["PRODNAME"]  = $chk["name"];
+
+			$sql = " UPDATE product_serials SET dupflag = '".($chk["dupflag"]+1)."' WHERE id='".$chk["cid"]."' ";
+			$query = $this->db->prepare($sql);
+			$query->execute($parameters);
+		}
+
+		return $r;
 	}
 
 }	

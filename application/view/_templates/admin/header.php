@@ -4,7 +4,7 @@
 	
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>EityEight : Back-End</title>
+	<title>JellysThailand : Back-End</title>
 	<meta name="description" content="eityeight.com">
 	<meta name="author" content="OM">
 	<meta name="keyword" content="eityeight, eityeight.com">

@@ -36,7 +36,7 @@ class Controller
 
         // generate a database connection, using the PDO connector
         // @see http://net.tutsplus.com/tutorials/php/why-you-should-be-using-phps-pdo-for-database-access/
-        //$this->db = new PDO(DB_TYPE . ':host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=' . DB_CHARSET, DB_USER, DB_PASS, $options);
+        $this->db = new PDO(DB_TYPE . ':host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=' . DB_CHARSET, DB_USER, DB_PASS, $options);
     }
 
     /**
@@ -47,6 +47,6 @@ class Controller
     {
         require APP . 'model/model.php';
         // create new "model" (and pass the database connection)
-        //$this->model = new Model($this->db);
+        $this->model = new Model($this->db);
     }
 }

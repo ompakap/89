@@ -81,5 +81,17 @@ class Product extends Controller
 		return $response;
 	}
 
+    public function ajax_chkserial()
+    {
+        $res = $this->model->chk_serial($_POST);
+        
+        echo json_encode($res);
+    }
 
+    public function ajax_chkserial_all()
+    {
+        $res = $this->model->chk_serial_all($_POST);
+        
+        echo json_encode($res);
+    }
 }

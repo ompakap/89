@@ -26,7 +26,12 @@ var jelly = function( $, d, w ) {
 	{
 
 	};
-	
+
+	var stf = function ()
+	{
+
+	};
+
 	idx.prototype = {
 		
 		// setup button
@@ -102,10 +107,60 @@ var jelly = function( $, d, w ) {
 		}
 	};
 
+	stf.prototype = {
+		
+		data_url : '',
+
+		init : function() 
+		{
+			var self = this;
+
+			$(function() {
+				
+				self.overideEvent();
+
+			});
+		},
+
+		overideEvent : function()
+		{
+			var self = this;
+
+			$('#btn-chkall-serial').click(function() {
+				
+				var serial = $('#input-serial').val();
+
+				self.chkserials(serial);
+			});
+		},
+
+		chkserials : function(data)
+		{
+			$.post("product/ajax_chkserial_all", { pdata : data }, function(msg) {
+				
+				if( msg.FAKE )
+				{
+					$('#isfake').modal('show');
+				}
+				else if( msg.DUP )
+				{
+					$('#isdup').modal('show');
+				}
+				else if( !msg.FAKE )
+				{
+					$('#isreal').modal('show');
+					//alert( "This is " + msg.PRODNAME )
+				}
+			}, 'json');
+		}	
+	
+	};
+
 	return {
 		idx : new idx(),
 		nde : new nde(),
 		nws : new nws(),
+		stf : new stf(),
 		item : {},
 		debug : false
 	};

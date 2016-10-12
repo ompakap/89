@@ -77,8 +77,123 @@
 <br>
 <br>
 <br>
+
+
+
+<div class="modal fade" id="isreal" tabindex="-1" role="dialog" style="z-index: 9999;">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12 chkp text-center helvethaica_x_li box-text-second">
+                    http://jellysthailand.com/
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    This is the product = Authenticity
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    Nomor kode ini benar = berarti produk ini asli
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    ผลิตภัณฑ์นี้เป็นผลิตภัณฑ์ = ของจริง
+                </div>
+            </div>   
+        </div>
+        <div class="modal-footer" style="padding: 10px;">
+            <div class="row">
+                <div class="col-xs-12 chkp-foot text-center">
+                    <a href="#" data-dismiss="modal" style="color: #1260b1;">ตกลง</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="isfake" tabindex="-1" role="dialog" style="z-index: 9999;">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12 chkp text-center helvethaica_x_li box-text-second">
+                    http://jellysthailand.com/
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    Product code is not found = Fake
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    Nomor kode ini tidak ada = berarti produk ini palsu
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    ไม่พบรหัสผลิตภัณฑ์ = ของปลอม
+                </div>
+            </div>   
+        </div>
+        <div class="modal-footer" style="padding: 10px;">
+            <div class="row">
+                <div class="col-xs-12 chkp-foot text-center">
+                    <a href="#" data-dismiss="modal" style="color: #1260b1;">ตกลง</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    
+
+
+  </div>
+</div>
+
+<div class="modal fade" id="isdup" tabindex="-1" role="dialog" style="z-index: 9999;">
+    <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-xs-12 chkp text-center helvethaica_x_li box-text-second">
+                    http://jellysthailand.com/
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    This product has already been checked = Rechecking
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    Nomor kode ini sudah terdaftar = berarti ini pemeriksaan ulang
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
+                    มีการตรวจผลิตภัณฑ์นี้แล้ว = เช็คซ้ำ
+                </div>
+            </div>   
+        </div>
+        <div class="modal-footer" style="padding: 10px;">
+            <div class="row">
+                <div class="col-xs-12 chkp-foot text-center">
+                    <a href="#" data-dismiss="modal" style="color: #1260b1;">ตกลง</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+    </div>
+</div>
+
 <?php
 
-$m = 'wtb';
+$m = 'stf';
 
 ?>

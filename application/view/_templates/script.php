@@ -22,6 +22,7 @@
 
 <!-- <script src="<?=URL;?>js/jquery-1.12.0.min.js"></script> -->
 <script src="<?=URL;?>js/js_jquery_common_combine.js"></script>
+<script src="<?=URL;?>js/bootstrap.min.js"></script>
 <script src="<?=URL;?>js/video.min.js"></script>
 
 <?php
