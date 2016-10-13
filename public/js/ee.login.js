@@ -20,11 +20,11 @@ var ee = {
 			{
 				$("#btn-login").click(function() {
 					
-					$.post( URL+"login/getLogin", $("#form-signin").serialize(), function( data ) {
+					$.post( _URL+"login/getLogin", $("#form-signin").serialize(), function( data ) {
 
 						if( data.SUCCESS )
 						{
-							window.location = URL + 'product';
+							window.location = _URL + 'admin';
 						}
 						else
 						{

@@ -1,6 +1,6 @@
 
 var ee = {
-	module : 'product',
+	module : 'admin',
 	version : '1.0'
 };
 
@@ -77,7 +77,7 @@ var ee = {
 
 					var $this = $(this);
 
-					window.location = URL + 'product/edit?p='+$this.attr('c');
+					window.location = _URL + 'admin/edit?p='+$this.attr('c');
 
 				});
 			}
@@ -88,7 +88,7 @@ var ee = {
 
 					var $this = $(this);
 
-					window.open( URL + 'product/gencode?m=gen&p='+$this.attr('c') , "_blank" );
+					window.open( _URL + 'admin/gencode?m=gen&p='+$this.attr('c') , "_blank" );
 
 				});
 			}
@@ -99,7 +99,7 @@ var ee = {
 
 					var $this = $(this);
 
-					$.post( URL+"product/clrgen", { id : $this.attr('c') }, function( data ) {
+					$.post( _URL+"admin/clrgen", { id : $this.attr('c') }, function( data ) {
 				
 						if( data.SUCCESS )
 						{
@@ -118,7 +118,7 @@ var ee = {
 
 					var $this = $(this);
 
-					window.open( URL + 'product/gencode?m=view&p='+$this.attr('c') , "_blank" );
+					window.open( _URL + 'admin/gencode?m=view&p='+$this.attr('c') , "_blank" );
 
 				});
 			}
@@ -170,11 +170,11 @@ var ee = {
 			{
 				if( mode == 'edit' )
 				{
-					var vUrl = URL+"product/updateproduct";
+					var vUrl = _URL+"admin/updateproduct";
 				}
 				else
 				{
-					var vUrl = URL+"product/newproduct";
+					var vUrl = _URL+"admin/newproduct";
 				}
 
 				$('#form1').ajaxForm({
@@ -216,7 +216,7 @@ var ee = {
 
 						if( data.SUCCESS )
 						{
-							window.location = URL + 'product/edit?p=' + data.code;
+							window.location = _URL + 'admin/edit?p=' + data.code;
 						}
 					}
 				}); 
@@ -239,11 +239,11 @@ var ee = {
 
 		deleteProduct : function(prod)
 		{
-			$.post( URL+"product/deleteproduct", { id : prod }, function( data ) {
+			$.post( _URL+"admin/deleteproduct", { id : prod }, function( data ) {
 				
 				if( data.SUCCESS )
 				{
-					window.location = URL + 'product';
+					window.location = _URL + 'admin';
 				}
 
 			}, 'json');

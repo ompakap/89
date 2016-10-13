@@ -25,11 +25,11 @@ class Product extends Controller
         require APP . 'view/_templates/layout.php';
     }
 
-	public function detail()
+	public function detail($page, $id)
     {
 		$_URL = URL . $_SESSION["Lang"] . "/";
 		
-		$list = $this->getproductlist();
+		//$list = $this->getproductlist();
 
         // load views
 		$content = 'view/product/detail.php';

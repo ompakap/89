@@ -39,7 +39,7 @@ class Admin extends Controller
 		
         // load views
         require APP . 'view/_templates/admin/header.php';
-        require APP . 'view/product/ae.php';
+        require APP . 'view/admin/ae.php';
         require APP . 'view/_templates/admin/footer.php';
     }
 
@@ -56,7 +56,7 @@ class Admin extends Controller
 		
         // load views
         require APP . 'view/_templates/admin/header.php';
-        require APP . 'view/product/ae.php';
+        require APP . 'view/admin/ae.php';
         require APP . 'view/_templates/admin/footer.php';
     }
 
@@ -88,7 +88,7 @@ class Admin extends Controller
 		
         // load views
         require APP . 'view/_templates/admin/header.php';
-        require APP . 'view/product/gencode.php';
+        require APP . 'view/admin/gencode.php';
         require APP . 'view/_templates/admin/footer.php';
     }
 	

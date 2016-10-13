@@ -287,7 +287,7 @@ class Model
 					weights = :weights,
 					costs = :costs,
 					stocks = :stocks,
-					details = :details,
+					detail_en = :detail_en,
 					detail_th = :detail_th
 					WHERE code_product = :code_product ";
         $query = $this->db->prepare($sql);
@@ -299,7 +299,7 @@ class Model
 			':weights' => $param["txtweights"],
 			':costs' => $param["txtcosts"],
 			':stocks' => $param["txtstocks"],
-			':details' => $param["txtdetails"],
+			':detail_en' => $param["txtdetails"],
 			':detail_th' => $param["txtdetail_th"]
 		);
 

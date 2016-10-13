@@ -18,9 +18,9 @@
 	<script src='<?=URL;?>js/dataTables.bootstrap.min.js'></script>
 	<script src='<?=URL;?>js/dataTables.responsive.min.js'></script>
 	<script src='<?=URL;?>js/responsive.bootstrap.min.js'></script>
+	<script src='<?=URL;?>js/fileinput.js'></script>
 
 	<script src='<?=URL;?>js/jspdf.debug.js'></script>
-	<script src='<?=URL;?>js/fileinput.min.js'></script>
 
 	<!-- <script src="<?=URL;?>js/excanvas.js"></script> -->
 	<script src="<?=URL;?>js/jquery.form.js"></script>

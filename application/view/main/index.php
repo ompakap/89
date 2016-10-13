@@ -98,7 +98,7 @@
 						
 					<div class="lt_pd">
 						<div class="bx_pd">
-							<a href="#">
+							<a href="<?=$_URL;?>product/detail/1">
 								<div class="dt_img">
 									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_cream_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_cream_01.jpg" alt="PURE CREAM"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
@@ -109,7 +109,7 @@
 					</div>
 					<div class="lt_pd">
 						<div class="bx_pd">
-							<a href="#">
+							<a href="<?=$_URL;?>product/detail/2">
 								<div class="dt_img">
 									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_dd_cream_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_dd_cream_01.jpg" alt="PURE DD CREAM"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
@@ -120,7 +120,7 @@
 					</div>
 					<div class="lt_pd">
 						<div class="bx_pd">
-							<a href="#">
+							<a href="<?=$_URL;?>product/detail/3">
 								<div class="dt_img">
 									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_lotion_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_lotion_01.jpg" alt="PURE LOTION"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
@@ -131,7 +131,7 @@
 					</div>
 					<div class="lt_pd">
 						<div class="bx_pd">
-							<a href="#">
+							<a href="<?=$_URL;?>product/detail/4">
 								<div class="dt_img">
 									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_soap_02.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_soap_02.jpg" alt="Pure Soap"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
@@ -142,7 +142,7 @@
 					</div>
 					<div class="lt_pd">
 						<div class="bx_pd">
-							<a href="#">
+							<a href="<?=$_URL;?>product/detail/5">
 								<div class="dt_img">
 									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_underarm_cream_01.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_underarm_cream_01.jpg" alt="Pure Underarm Cream"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>

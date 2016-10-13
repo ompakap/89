@@ -24,4 +24,15 @@ class Tips extends Controller
         require APP . 'view/_templates/layout.php';
     }
 
+	public function detail($page, $id)
+    {
+		$_URL = URL . $_SESSION["Lang"] . "/";
+		
+		//$list = $this->getproductlist();
+
+        // load views
+		$content = 'view/tips/detail.php';
+        require APP . 'view/_templates/layout.php';
+    }
+
 }
