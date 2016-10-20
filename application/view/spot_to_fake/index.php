@@ -94,11 +94,11 @@
                     This is the product = Authenticity
                 </div>
             </div>  
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
                     Nomor kode ini benar = berarti produk ini asli
                 </div>
-            </div>   
+            </div>   --> 
             <div class="row">
                 <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
                     ผลิตภัณฑ์นี้เป็นผลิตภัณฑ์ = ของจริง
@@ -130,11 +130,11 @@
                     Product code is not found = Fake
                 </div>
             </div>  
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
                     Nomor kode ini tidak ada = berarti produk ini palsu
                 </div>
-            </div>   
+            </div>    -->
             <div class="row">
                 <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
                     ไม่พบรหัสผลิตภัณฑ์ = ของปลอม
@@ -170,11 +170,11 @@
                     This product has already been checked = Rechecking
                 </div>
             </div>  
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
                     Nomor kode ini sudah terdaftar = berarti ini pemeriksaan ulang
                 </div>
-            </div>   
+            </div>  -->  
             <div class="row">
                 <div class="col-xs-12 chkp-sub text-center helvethaica_x_li box-text-second">
                     มีการตรวจผลิตภัณฑ์นี้แล้ว = เช็คซ้ำ
