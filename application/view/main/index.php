@@ -13,7 +13,7 @@
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
-					<div id="btnVideoPlay1462424183570" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="zHnTKKZu4sM"></div>
+					<div id="btnVideoPlay1462424183570" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="53ZqxQqnt4w"></div>
 					<div class="play-control play_video " onclick="playPauseVideo();"></div>
 					<div class="dim_shield_video"></div>
 				</div>
@@ -28,7 +28,7 @@
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
-					<div id="btnVideoPlay234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="V9G5vil03-s"></div>
+					<div id="btnVideoPlay234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="4bhWbQre0mA"></div>
 					<div class="play-control play_video " onclick="playPauseVideo();"></div>
 					<div class="dim_shield_video"></div>
 				</div>
@@ -43,16 +43,16 @@
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
-					<div id="btnVideoPlaydd234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="hcysusFTpdU"></div>
+					<div id="btnVideoPlaydd234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="ETvOEXwi98o"></div>
 					<div class="play-control play_video " onclick="playPauseVideo();"></div>
 					<div class="dim_shield_video"></div>
 				</div>
 			</div>
 
-
+			<!-- 
 			<div class="banner-list" data-delay="10">
-				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/02.gif">
-				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/02.gif">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/promotion/promo1.jpg">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/promotion/promo1.jpg">
 				<input type="hidden" class="image_title_pc" value="">
 				<input type="hidden" class="image_title_mb" value="">
 				<input type="hidden" class="title_banner" value="jellysthailand">
@@ -60,14 +60,14 @@
 				<div class="bx-item">
 					<input type="hidden" class="type" value="img">
 					<div id="img_xs" class="img_xs_style visible-xs">
-						<img class="images-list slide-banner-list images-list-portrait" width="640" height="950" data-type="image" src="<?=URL;?>images/banner/02.gif" alt="EITYEIGHT 88">
+						<img class="images-list slide-banner-list images-list-portrait" width="640" height="950" data-type="image" src="<?=URL;?>images/promotion/promo1.jpg" alt="EITYEIGHT 88">
 					</div>
 					<div id="img_lg" class="img_lg_style hidden-xs">
-						<img class="images-list slide-banner-list images-list-lanscape" width="1280" height="620" data-type="image" src="<?=URL;?>images/banner/02.gif" alt="EITYEIGHT 88">
+						<img class="images-list slide-banner-list images-list-lanscape" width="1280" height="620" data-type="image" src="<?=URL;?>images/promotion/promo1.jpg" alt="EITYEIGHT 88">
 					</div>
 				</div>
 			</div>
-
+			
 			<div class="banner-list" data-delay="10">
 				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/03.gif">
 				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/03.gif">
@@ -84,7 +84,7 @@
 						<img class="images-list slide-banner-list images-list-lanscape" width="1280" height="620" data-type="image" src="<?=URL;?>images/banner/03.gif" alt="EITYEIGHT 88">
 					</div>
 				</div>
-			</div>
+			</div> -->
 
         </div>
     </div>

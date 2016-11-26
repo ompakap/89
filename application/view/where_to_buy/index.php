@@ -39,12 +39,12 @@
 							</div>
 						</div>
 
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col_no_padding list-shop">
+						<!-- <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col_no_padding list-shop">
 							<div class="image-banner-ic">
 								<h4>SINGAPORE</h4>
 								<h6>089651643922</h6>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col_no_padding list-shop">
 							<div class="image-banner-ic">
