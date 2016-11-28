@@ -6,6 +6,7 @@
 <!-- <link href="<?=URL;?>css/bootstrap.min.css" rel="stylesheet"> -->
 <link href="<?=URL;?>css/site.css" rel="stylesheet">
 <link href="<?=URL;?>css/home.css" rel="stylesheet">
+<link href="<?=URL;?>css/flags.css" rel="stylesheet">
 
 <link href="<?=URL;?>font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
