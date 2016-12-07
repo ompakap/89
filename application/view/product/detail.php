@@ -1,5 +1,5 @@
 
-<link href="<?=URL;?>css/tips.css" rel="stylesheet">
+<link href="<?=URL;?>css/slick.css" rel="stylesheet">
 
 <div class="content">
 
