@@ -3,7 +3,7 @@
  * CreateDt : 2016-08-23
  */
 if ("undefined" == typeof jQuery)
-    throw new Error("Travflex Golf's JavaScript requires jQuery");
+    throw new Error("Jelly's JavaScript requires jQuery");
 
 var jelly = function( $, d, w ) {
 	
@@ -28,6 +28,12 @@ var jelly = function( $, d, w ) {
 	};
 
 	var stf = function ()
+	{
+
+	};
+		
+	// product detail
+	var pdd = function ()
 	{
 
 	};
@@ -156,11 +162,70 @@ var jelly = function( $, d, w ) {
 	
 	};
 
+	pdd.prototype = {
+		
+		data_url : '',
+
+		init : function() 
+		{
+			var self = this;
+
+			$(function() {
+				
+				self.overideEvent();
+
+			});
+		},
+
+		overideEvent : function()
+		{
+			var self = this;
+
+			var i1 = $('#doslick1');
+			i1.on('init', function(t, e) {});
+			i1.slick({
+				dots: !1,
+				infinite: !0,
+				autoPlay: !1,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				fade: !0
+			});
+
+
+			var i2 = $('#doslick2');
+			i2.on('init', function(t, e) {});
+			i2.slick({
+				dots: !1,
+				infinite: !0,
+				autoPlay: !1,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				fade: !0
+			});
+
+
+			var e1 = $('#doslicke1');
+			e1.on('init', function(t, e) {});
+			e1.slick({
+				dots: !1,
+				infinite: !0,
+				autoPlay: !1,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				fade: !0
+			});
+
+		}
+	
+	};
+
 	return {
 		idx : new idx(),
 		nde : new nde(),
 		nws : new nws(),
 		stf : new stf(),
+		pdd : new pdd(),
 		item : {},
 		debug : false
 	};

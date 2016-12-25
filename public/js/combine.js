@@ -5439,11 +5439,11 @@ function setImageDevice() {
 }
 ;function loadVideo(t, e) {
     var i = e.attr('id');
-    if (typeof (i) == 'undefined') {
+    if (typeof (i) == 'undefined' && typeof fadePlayBtn != 'undefined') {
         fadePlayBtn('fadeOut');
         return
     }
-    ;if (i.indexOf('#') == -1)
+    ;if (typeof (i) != 'undefined' && i.indexOf('#') == -1)
         i = '#' + i;
     nowPlay = t;
     if (t == 'video') {

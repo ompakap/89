@@ -3,7 +3,6 @@
 
 <div class="content">
 
-    <div class="container">
         <div class="container_inner--detail">
             
 			<?php
@@ -20,6 +19,5 @@
 			?>
 
         </div>
-    </div>
 
 </div>

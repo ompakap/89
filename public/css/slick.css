@@ -1715,7 +1715,6 @@ body.vjs-full-window {
     overflow: hidden;
     width: 100%;
     float: left;
-    padding-bottom: 52px
 }
 
 .box_banner_bg .banner_product .box_ctn_banner_image {
@@ -1986,7 +1985,6 @@ body.vjs-full-window {
     .box_banner_bg .banner_product.pst_right .box_ctn_banner_txt .box_banner_txt--boxtxt {
         float: right;
         margin-left: 0;
-        margin-right: 10%
     }
     .bx_ctn_bodybooster .box_banner_bg .banner_product .box_ctn_banner_txt .box_banner_txt--boxtxt {
         margin-left: 10%;
@@ -2384,7 +2382,7 @@ body.vjs-full-window {
     display: block;
     width: 14px;
     height: 24px;
-    background-image: url(../../images/spot_a_fake/slide_btn.png)!important;
+    background-image: url(/images/layout/slide_btn.png)!important;
     background-size: 100% auto;
     background-position: center center;
     opacity: .5
@@ -2479,7 +2477,6 @@ body.vjs-full-window {
     height: 100%;
     position: relative;
     width: 100%;
-    background: #FFF
 }
 
 .row-slide-detail .slide-box {
@@ -2752,12 +2749,13 @@ body.vjs-full-window {
         margin-left: 40px;
         top: 180px;
         right: 0;
+		position: absolute;
         transform: none;
         -ms-transform: none;
         -webkit-transform: none
     }
     .row-slide-detail .slide-row .row-txt .txt-wrap .txt-topic {
-        font-size: 6em
+        font-size: 4em
     }
     .row-slide-detail .slide-row .row-txt .txt-wrap .txt-topic-sub {
         font-size: 3.5em;
@@ -2772,11 +2770,7 @@ body.vjs-full-window {
     .row-slide-detail .slide-row .row-txt .txt-wrap .txt-detail {
         font-size: 2.1em
     }
-    .row-slide-detail .slide-row.pst_right .row-txt .txt-wrap {
-        max-width: 400px;
-        right: 0;
-        margin-left: 40px
-    }
+ 
     .row-slide-detail .slide-row.pst_right .row-pic {
         float: right;
         padding-right: 40px
@@ -2784,6 +2778,13 @@ body.vjs-full-window {
     .row-slide-detail .slide-row.pst_right .row-pic .img-show {
         background-position: center center
     }
+
+	.row-slide-detail .slide-row.pst_right .row-txt .txt-wrap {
+        margin-right: 0px;
+        margin-left: 40px;
+        max-width: 400px;
+    }
+
     .row-slide-detail .slide-row.pst_left .row-txt {
         margin-left: 50%
     }
@@ -2927,15 +2928,7 @@ body.vjs-full-window {
 @media screen and (min-width:980px) {
     .row-slide-detail .slide-row .row-txt .txt-detail br {
         display: block
-    }
-    .row-slide-detail .slide-row.pst_right .row-txt .txt-wrap {
-        margin-right: 8%;
-        margin-left: 0
-    }
-    .row-slide-detail .slide-row.pst_left .row-txt .txt-wrap {
-        margin-left: 8%;
-        margin-right: 0
-    }
+	}	
     .row-slide-detail .slide-row.sl_quickcleensing .row-txt {
         margin-left: 50%;
         width: 50%
@@ -3628,31 +3621,12 @@ body.vjs-full-window {
     margin-top: .7em
 }
 
-.row-slide-howto .slide-row .row-pic.pic-1 .img-show {
-    background-image: url(../../images/product/sunscreen/img-htu-sunscreen1.jpg)
-}
-
-.row-slide-howto .slide-row .row-pic.pic-2 .img-show {
-    background-image: url(../../images/product/sunscreen/img-htu-sunscreen2.jpg)
-}
-
-.row-slide-howto .slide-row .row-pic.pic-3 .img-show {
-    background-image: url(../../images/product/sunscreen/img-htu-sunscreen3.jpg)
-}
-
-.row-slide-howto .slide-row .row-pic.pic-4 .img-show {
-    background-image: url(../../images/product/sunscreen/img-htu-sunscreen4.jpg)
-}
-
 .row-product-publish .content-box {
-    background-image: url(../../images/product/sunscreen/product_publish_bg.jpg);
     background-size: cover;
     padding: 45px 20px 20px
 }
 
 .row-product-publish .content-box .box-pic {
-    height: 180px;
-    background-image: url(../../images/product/sunscreen/product_publish_obj_product.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center
@@ -3662,10 +3636,6 @@ body.vjs-full-window {
     text-align: center
 }
 
-.row-product-publish .content-box .box-txt .txt-row:nth-child(1) {
-    font-size: 2.2em;
-    margin-top: 2.5em
-}
 
 .row-product-publish .content-box .box-txt .txt-row:nth-child(2) {
     font-size: 3.5em;
@@ -3750,17 +3720,7 @@ body.vjs-full-window {
 }
 
 @media screen and (min-width:768px) {
-    .box_banner_bg .banner_product {
-        padding: 0;
-        background-image: url(/images/products/pure_cream_02.jpgxx)
-    }
-    .box_banner_bg .banner_product .box_banner_image--image .img-show {
-        background-image: url(/images/products/pure_cream_02.jpg);
-        margin: 0;
-        height: 580px;
-        background-position: center 8px;
-        background-size: auto 100%;
-    }
+ 
     .box_guide_bg {
         font-size: .8em
     }
@@ -3823,4 +3783,13 @@ body.vjs-full-window {
 
 .ani-p-nomargin {
     margin: 0
+}
+
+
+.row-slide .slick-prev {
+    left: 15%;
+}
+
+.row-slide .slick-next {
+    right: 15%;
 }
