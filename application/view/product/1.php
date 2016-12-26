@@ -34,6 +34,10 @@
 		margin-top: 50px;
 	}
 
+	.slick-slide {
+		background: white;
+	}
+
 	.txt-topic, .txt-detail {
 		font-family: DBHelvet-Li;
 		
@@ -65,6 +69,10 @@
 		margin-bottom: 22px;
 	}
 
+	.box-txt-foot-qt {
+		font-size: 3em;
+		margin-top: 50px;
+	}
 
 	@media screen and (min-width:768px) {
 		
@@ -176,15 +184,18 @@ $m = 'pdd';
 			</div>
 			
 			<div class="clear-both"></div>
-			
-			<div class="box-txt-foot col-xs-12 col-sm-12">
-				<div class="foot-row helvethaica_x_it_li">&quot;มาร์คผิวไว้ก่อนนอน ตื่นมาผิวขาวใสขึ้นกว่าเดิม&quot; ปรับสภาพผิวให้ขาวออร่าสุขภาพแบบเร่งด่วน ลดรอยจุดด่างดำ รอยแตกลาย ข้อศอก ข้อพับ เข่า ขาหนีบรักแร้ให้ขาวเนียนใสบำรุงผิวอย่างล้ำลึก</div>
-			</div>
 
-			<div class="clear-both"></div>
 		</div>
 	</div>
 </div>
+
+<div class="container">
+	<div class="box-txt-foot-qt col-xs-12 col-sm-12 text-center">
+		<div class="foot-row helvethaica_x_it_li">&quot;มาร์คผิวไว้ก่อนนอน ตื่นมาผิวขาวใสขึ้นกว่าเดิม&quot; <br>ปรับสภาพผิวให้ขาวออร่าสุขภาพแบบเร่งด่วน ลดรอยจุดด่างดำ รอยแตกลาย ข้อศอก ข้อพับ เข่า ขาหนีบรักแร้ให้ขาวเนียนใสบำรุงผิวอย่างล้ำลึก</div>
+	</div>
+</div>	
+
+<div class="clearfix"></div>
 
 <div class="container-fluid">
     <div id="banner-mom" class="row sty_banner">
@@ -616,17 +627,40 @@ $m = 'pdd';
 			</div>
 			
 			<div class="clear-both"></div>
-			
-			<div class="box-txt-foot col-xs-12 col-sm-12">
-				<div class="foot-row helvethaica_x_it_li">Add fair skin look like the natural white skin, nourishing skin and sun protection well.Light cream to equalize easily spread and not sticky. Features available with for all skin to whiteradiant skin.</div>
-			</div>
 
-			<div class="clear-both"></div>
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid">
+
+<div class="container">
+	<div class="box-txt-foot-qt col-xs-12 col-sm-12 text-center">
+		<div class="foot-row helvethaica_x_it_li">Add fair skin look like the natural white skin, nourishing skin and sun protection well.Light cream to equalize easily spread and not sticky. Features available with for all skin to whiteradiant skin.</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- <div class="container-fluid">
     <div id="banner-mom" class="row sty_banner">
         <div id="doslicke1" class="row-slide row-slide-detail">
                  
@@ -714,6 +748,6 @@ $m = 'pdd';
 
         </div>
     </div>
-</div>
+</div> -->
 
 </div>

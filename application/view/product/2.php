@@ -61,6 +61,10 @@
 		margin-top: 50px;
 	}
 
+	.slick-slide {
+		background: white;
+	}
+
 	.txt-topic, .txt-detail {
 		font-family: DBHelvet-Li;
 		
@@ -95,9 +99,14 @@
 
 	@media screen and (min-width:768px) {
 		
-		.box_banner_bg .banner_product {
+		.banner_product.bg1 {
 			padding: 0;
 			background-image: url(/images/products/2/bg_pureDD01.png);
+		}
+
+		.banner_product.bg2 {
+			padding: 0;
+			background-image: url(/images/products/2/bg_pureDD02.png);
 		}
 
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
@@ -124,8 +133,7 @@
 	}
 	
 	@media screen and (max-width: 767px) {
-		
-	
+
 		.text_fd p {
 			display: block !important;
 		}
@@ -133,10 +141,6 @@
 		.text_detail {
 			font-size: 1.8em;
 			padding: 10px;
-		}
-
-		.contain_prod {
-			padding: 60px 0;
 		}
 
 		.box_banner_bg .banner_product {
@@ -150,7 +154,38 @@
 		#banner-mom .slick-list, #banner-mom .slick-track {
 			height: 400px !important;
 		}
+		
+		.box_ctn_banner_image {
+			height: 490px;
+		}
 
+		.slidebg_1 {
+			background-position: 100px;
+		}
+		.slidebg_2 {
+			background-position: 100px;
+		}
+		.slidebg_3 {
+			background-position: 100px;
+		}
+		.slidebg_4 {
+			background-position: 100px;
+		}
+		.slidebg_5 {
+			background-position: 100px;
+		}
+		.slidebg_6 {
+			background-position: 100px;
+		}
+		.slidebg_7 {
+			background-position: 100px;
+		}
+		.slidebg_8 {
+			background-position: 100px;
+		}
+		.slidebg_9 {
+			background-position: 100px;
+		}
 	}
 
 </style>
@@ -167,13 +202,13 @@ $m = 'pdd';
 <div style="<?=$ds_th;?>">
 
 <div class="box_banner_bg">
-	<div class="banner_product pst_left" style="margin:auto; max-width: none;">
+	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">
 				<div class="box_banner_image--image">	
-					<!-- <div class="img-show text-center">
-						<img class="hidden-md hidden-lg" width="290" src="<?=URL;?>images/products/pure_dd_cream_01_edited.jpg" style="margin: auto;">
-					</div> -->
+					<div class="img-show text-center">
+						<img class="hidden-md hidden-lg" width="290" src="<?=URL;?>images/products/pure_dd_cream_01.jpg" style="margin: auto;">
+					</div>
 				</div>
 			</div>
 			<div class="box_ctn_banner_txt">
@@ -192,150 +227,121 @@ $m = 'pdd';
 	</div>
 </div>
 
-<div id="row-product-publish" class="row-product-publish">
-	<div class="content-box">
-		<div class="wrap-ctn">
-			<div class="box-txt col-xs-12 col-sm-6">
-				<div class="txt-row helvethaica_xcond_li"></div>
-				<div class="txt-row helvethaica_xcond_med">เพียว ดีดี ครีม</div>
-				<div class="txt-row helvethaica_x_li">
-					<div>ผิวขาวแบบมีออร่าเจิดจรัสทากลางวันยิ่งเนียน ทากลางคืนยิ่งออร่าทาผิวขาว กันแดด กันน้ำ บำรุงผิว แบบ 3 in 1 ตัวเดียวจบ!!! <br>ครีมกันแดดประสิทธิภาพสูง บางเบาถึงขีดสุด แต่ปกป้องล้ำลึกถึงระดับ DNA เพื่อผิวขาวกระจ่างใส</div>
+<div class="box_banner_bg">
+	<div class="banner_product bg2 pst_right" style="margin:auto; max-width: none;">
+		<div class="container contain_prod">
+			<div class="box_ctn_banner_image">
+				<div class="box_banner_image--image">	
+					<div class="img-show text-center">
+						<img class="hidden-md hidden-lg" width="290" src="<?=URL;?>images/products/pure_dd_cream_02.jpg" style="margin: auto;">
+					</div>
 				</div>
 			</div>
-			<div class="box-txt col-xs-12 col-sm-6"></div>
-
-
-			<div class="clear-both"></div>
+			<div class="box_ctn_banner_txt">
+				<div class="box_banner_txt--boxtxt">
+					<!-- <div class="box_banner_txt--text1">SNAILWHITE</div> -->
+					<div class="box_banner_txt--text2">เพียว ดีดี ครีม</div>
+					<div class="box_banner_txt--line"></div>
+					<div class="box_banner_txt--text3">
+						<!-- <div class="p1">ครีมกันแดดทาหน้าประสิทธิภาพสูง สูตรบางเบา </div> -->
+						<span class="p3">ผิวขาวแบบมีออร่าเจิดจรัสทากลางวันยิ่งเนียน ทากลางคืนยิ่งออร่าทาผิวขาว กันแดด กันน้ำ บำรุงผิว แบบ 3 in 1 ตัวเดียวจบ!!! ครีมกันแดดประสิทธิภาพสูง บางเบาถึงขีดสุด แต่ปกป้องล้ำลึกถึงระดับ DNA เพื่อผิวขาวกระจ่างใส</span></div>
+					<div class="box_btn"><div class="box_btn_size"></div></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>
 
-<div class="container">
-    <div id="banner-mom" class="row sty_banner">
-        <div id="doslick1" class="row-slide row-slide-detail">
-                 
-			<div class="banner-list">
-				<div class="bx-item slide-row pst_left">
-					<div id="img_xs" class="img_xs_style visible-xs">
-						<div class="bx-ct-inner">
-							<div class="row-pic pic-1 col-md-6 slidebg_step1">
-								<div class="img-show"></div>
-							</div>
-							<div class="row-txt col-md-6 text-center">
-								<div class="txt-wrap">
-									<div class="txt-topic">ขั้นตอน สำหรับการปกป้องผิวของคุณใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div><br><br>
-									<div class="txt-topic-sub"></div>
-									<div class="txt-number h4">1</div><br><br>
-									<div class="obj-line"><div></div></div>
-									<div class="txt-detail des">บีบ Pure DD cream ลงบนฝ่ามือ</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
+<div id="row-slide-detail" class="row-slide-detail">
+    <div class="row-slide ctrl_bx">
+        <div class="slide-box">
+			<div class="slide-row pst_right">
+				<div class="bx-ct-inner">
+					<div class="row-pic pic-1">
+						<div class="img-show slidebg_1"></div>
+					</div>
+					<div class="row-txt">
+						<div class="txt-wrap">
+							<div class="txt-topic">สารสกัดจากน้ำนม</div>
+							<div class="txt-topic-sub">MILK EXTRACT</div>
+							<div class="txt-detail">อนุพันธ์เมือกหอยทาก HELIX
+								<br>ที่มี Elastin, Collagen, Glycoaminoglycan,Vitamins, Alantoin
+								<br>และ Glycolic Acid ซึ่งช่วยในการฟื้นฟูเซลล์ผิวที่เสื่อมสภาพ
+								<br>และเพิ่มความยืดหยุ่นให้กับผิวไปพร้อมๆ กับกระตุ้น
+								<br>การสร้างคอลลาเจนในผิว ทำให้ผิวกระชับและสดใส</div>
 						</div>
 					</div>
-					<div id="img_lg" class="img_lg_style hidden-xs">
-						<div class="bx-ct-inner slidebg_step1">
-							<div class="row-pic pic-1 col-md-6">
-								<div class="img-show"></div>
-							</div>
-							<div class="row-txt col-md-6 text-center">
-								<div class="txt-wrap">
-									<div class="txt-topic">ขั้นตอน สำหรับการปกป้องผิวของคุณใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div><br><br>
-									<div class="txt-topic-sub"></div>
-									<div class="txt-number h4">1</div><br><br>
-									<div class="obj-line"><div></div></div>
-									<div class="txt-detail des">บีบ Pure DD cream ลงบนฝ่ามือ</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-
+					<div class="clearfix"></div>
 				</div>
 			</div>
+		</div>
+    </div>
+</div>
 
-			<div class="banner-list">
-				<div class="bx-item slide-row pst_right">
-					<div id="img_xs" class="img_xs_style visible-xs">
-						<div class="bx-ct-inner">
-							<div class="row-pic pic-1 col-md-6 slidebg_step1">
-								<div class="img-show"></div>
+<div id="row-slide-howto" class="row-slide-howto">
+    <div class="ctrl_bx row-slide">
+		<div class="slide-box">
+			<div class="slide-row pst_right">
+				<div class="bx-ct-inner">
+					<div class="row-txt">
+						<div class="txt-wrap">
+							<div class="txt-topic">3 ขั้นตอน สำหรับการปกป้องผิวของคุณ</div>
+							<div class="txt-topic-sub">ใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div>
+							<div class="txt-number">1</div>
+							<div class="obj-line">
+								<div></div>
 							</div>
-							<div class="row-txt col-md-6 text-center">
-								<div class="txt-wrap">
-									<div class="txt-topic">ขั้นตอน สำหรับการปกป้องผิวของคุณใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div><br><br>
-									<div class="txt-topic-sub"></div>
-									<div class="txt-number h4">2</div><br><br>
-									<div class="obj-line"><div></div></div>
-									<div class="txt-detail des">ทาเนื้อครีมให้ทั่วผิวกาย เกลี่ยเนื้อครีมให้ทั่วผิวกาย</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
+							<div class="txt-detail des">บีบ Pure DD cream ลงบนฝ่ามือ</div>
 						</div>
 					</div>
-					<div id="img_lg" class="img_lg_style hidden-xs">
-						<div class="bx-ct-inner slidebg_step2">
-							<div class="row-pic pic-1 col-md-6">
-								<div class="img-show"></div>
-							</div>
-							<div class="row-txt col-md-6 text-center">
-								<div class="txt-wrap">
-									<div class="txt-topic">ขั้นตอน สำหรับการปกป้องผิวของคุณใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div><br><br>
-									<div class="txt-topic-sub"></div>
-									<div class="txt-number h4">2</div><br><br>
-									<div class="obj-line"><div></div></div>
-									<div class="txt-detail des">ทาเนื้อครีมให้ทั่วผิวกาย เกลี่ยเนื้อครีมให้ทั่วผิวกาย</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
+					<div class="row-pic">
+						<div class="img-show slidebg_step1"></div>
 					</div>
-
+					<div class="clearfix"></div>
 				</div>
 			</div>
-
-			<div class="banner-list">
-				<div class="bx-item slide-row pst_left">
-					<div id="img_xs" class="img_xs_style visible-xs">
-						<div class="bx-ct-inner">
-							<div class="row-pic pic-1 col-md-6 slidebg_step1">
-								<div class="img-show"></div>
+			<div class="slide-row pst_right">
+				<div class="bx-ct-inner">
+					<div class="row-txt ">
+						<div class="txt-wrap">
+							<div class="txt-topic">3 ขั้นตอน สำหรับการปกป้องผิวของคุณ</div>
+							<div class="txt-topic-sub">ใช้ทาบนใบหน้าหลังจากผลิตภัณฑ์บำรุงผิวก่อนลงเครื่องสำอางค์
+								<br>หรือทับเครื่องสำอางค์โดยทาเนื้อครีมบางๆ ในระหว่างวันได้</div>
+							<div class="txt-number">2</div>
+							<div class="obj-line">
+								<div></div>
 							</div>
-							<div class="row-txt col-md-6 text-center">
-								<div class="txt-wrap">
-									<div class="txt-topic">ขั้นตอน สำหรับการปกป้องผิวของคุณใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div><br><br>
-									<div class="txt-topic-sub"></div>
-									<div class="txt-number h4">3</div><br><br>
-									<div class="obj-line"><div></div></div>
-									<div class="txt-detail des">ตบเบาๆ ให้เนื้อครีมซึมลงสู่ผิว</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
+							<div class="txt-detail des">ทาเนื้อครีมให้ทั่วผิวกาย เกลี่ยเนื้อครีมให้ทั่วผิวกาย</div>
 						</div>
 					</div>
-					<div id="img_lg" class="img_lg_style hidden-xs">
-						<div class="bx-ct-inner slidebg_step3">
-							<div class="row-pic pic-1 col-md-6">
-								<div class="img-show"></div>
-							</div>
-							<div class="row-txt col-md-6 text-center">
-								<div class="txt-wrap">
-									<div class="txt-topic">ขั้นตอน สำหรับการปกป้องผิวของคุณใช้ทาผิวกายก่อนออกแดดเป็นประจำทุกวัน หรือในระหว่างวันได้</div><br><br>
-									<div class="txt-topic-sub"></div>
-									<div class="txt-number h4">3</div><br><br>
-									<div class="obj-line"><div></div></div>
-									<div class="txt-detail des">ตบเบาๆ ให้เนื้อครีมซึมลงสู่ผิว</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
+					<div class="row-pic pic-1 ">
+						<div class="img-show slidebg_step2"></div>
 					</div>
-
+					<div class="clearfix"></div>
 				</div>
 			</div>
-
-
-        </div>
+			<div class="slide-row pst_right">
+				<div class="bx-ct-inner">
+					<div class="row-txt ">
+						<div class="txt-wrap">
+							<div class="txt-topic">3 ขั้นตอน สำหรับการปกป้องผิวของคุณ</div>
+							<div class="txt-topic-sub">ใช้ทาบนใบหน้าหลังจากผลิตภัณฑ์บำรุงผิวก่อนลงเครื่องสำอางค์
+								<br>หรือทับเครื่องสำอางค์โดยทาเนื้อครีมบางๆ ในระหว่างวันได้</div>
+							<div class="txt-number">3</div>
+							<div class="obj-line">
+								<div></div>
+							</div>
+							<div class="txt-detail des">ตบเบาๆ ให้เนื้อครีมซึมลงสู่ผิว</div>
+						</div>
+					</div>
+					<div class="row-pic pic-1 ">
+						<div class="img-show slidebg_step3"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
     </div>
 </div>
 
@@ -668,6 +674,10 @@ $m = 'pdd';
         </div>
     </div>
 </div>
+
+
+
+
 
 </div>
 

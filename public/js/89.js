@@ -215,6 +215,35 @@ var jelly = function( $, d, w ) {
 				slidesToScroll: 1,
 				fade: !0
 			});
+			
+
+			var i = 3
+			  , t = i * 1000
+			  , e = !1;
+			$('.row-slide-detail .slide-box').slick({
+				autoplay: e,
+				autoplaySpeed: t,
+				fade: !0,
+				draggable: !1,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						draggable: !0
+					}
+				}]
+			});
+			$('.row-slide-howto .slide-box').slick({
+				autoplay: e,
+				autoplaySpeed: t,
+				fade: !0,
+				draggable: !1,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						draggable: !0
+					}
+				}]
+			});
 
 		}
 	

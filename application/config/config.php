@@ -63,7 +63,7 @@ date_default_timezone_set("Asia/Bangkok");
 $host = "localhost";
 $username ="root"; 
 $password =""; 
-$dbname ="jellys_db"; 
+$dbname ="eityeight_local_db"; 
 
 
 define('DB_TYPE', 'mysql');

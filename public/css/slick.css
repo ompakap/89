@@ -2489,7 +2489,6 @@ body.vjs-full-window {
 }
 
 .row-slide-detail .slide-row .row-pic .img-show {
-    background-position: center center;
     background-repeat: no-repeat;
     background-size: auto 100%;
     height: 300px;
@@ -2669,8 +2668,6 @@ body.vjs-full-window {
         margin: 0 auto
     }
     .row-slide-detail .slide-row.sl_snail .img-show {
-        background-image: url(../../images/product/img_snail_mb.jpg);
-        background-position: center center;
         background-size: auto 100%;
         margin: 0 auto;
         height: 275px;
