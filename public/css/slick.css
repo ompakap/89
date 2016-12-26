@@ -1684,7 +1684,6 @@ body.vjs-full-window {
 
 .div-before-load,
 .div-loading {
-    background-image: url(../../images/layout/loading_img.gif);
     background-repeat: no-repeat;
     background-position: center center
 }
@@ -1833,7 +1832,6 @@ body.vjs-full-window {
 .box_banner_bg .box_banner_txt--button.btn_vdo {
     cursor: pointer;
     display: block;
-    background-image: url(../../images/product/btn_play_video.png);
     width: 140px;
     background-size: 100% auto;
     height: 35px;
@@ -1845,7 +1843,6 @@ body.vjs-full-window {
 }
 
 .box_banner_bg .box_banner_txt--button.btn_vdo:hover {
-    background-image: url(../../images/product/btn_play_video.png);
     background-position: 0 -43px;
     background-repeat: no-repeat
 }
@@ -1955,7 +1952,6 @@ body.vjs-full-window {
         height: 43px
     }
     .box_banner_bg .box_banner_txt--button.btn_vdo:hover {
-        background-image: url(../../images/product/btn_play_video.png);
         background-position: 0 -53px;
         background-repeat: no-repeat
     }
@@ -2112,7 +2108,7 @@ body.vjs-full-window {
     width: 9px;
     height: 9px;
     margin: 7px;
-    background-image: url(../../images/layout/all_icon.png);
+    background-image: url(/images/layout/all_icon.png);
     background-position: -60px -23px
 }
 
@@ -2225,7 +2221,6 @@ body.vjs-full-window {
 }
 
 .row-vdo-behind .wrap-content {
-    background-image: url(../../../../images/product/image_bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2554,15 +2549,8 @@ body.vjs-full-window {
     font-size: 1.1em
 }
 
-.row-slide-detail .slide-row.sl_ceramide .img-show {
-    background-image: url(../../images/product/img-ceramind.jpg);
-    background-position: center top;
-    margin-left: -40px;
-    height: 245px
-}
-
-.row-slide-detail .slide-row.sl_edelweiss_ep .img-show {
-    background-image: url(../../images/product/img-edelweiss_ep.jpg);
+.row-slide-detail .slide-row.gluta .img-show {
+    background-image: url(/images/products/use/glutathione_edited.jpg);
     height: 240px;
     margin: auto;
     width: 240px;
@@ -2572,8 +2560,8 @@ body.vjs-full-window {
     height: 235px
 }
 
-.row-slide-detail .slide-row.sl_vc_ip .img-show {
-    background-image: url(../../images/product/img-vc_ip.jpg);
+.row-slide-detail .slide-row.milk .img-show {
+    background-image: url(/images/products/use/milk-extract_edited.jpg);
     height: 240px;
     margin: auto;
     width: 240px;
@@ -2583,8 +2571,8 @@ body.vjs-full-window {
     height: 235px
 }
 
-.row-slide-detail .slide-row.sl_uvinul_a_plus .img-show {
-    background-image: url(../../images/product/img-uvinul_a_plus.png);
+.row-slide-detail .slide-row.acids .img-show {
+    background-image: url(/images/products/use/alpha-hydroxy-acids_edited.jpg);
     height: 240px;
     margin: auto;
     width: 240px;
@@ -2594,28 +2582,114 @@ body.vjs-full-window {
     height: 235px
 }
 
-.bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-2 .img-show {
-    background-image: url(../../images/product/cream/slide_bg_2_mb.jpg)
+.row-slide-detail .slide-row.vite .img-show {
+    background-image: url(/images/products/use/vitamin-e_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
 }
 
-.bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-3 .img-show {
-    background-image: url(../../images/product/cream/img-centella_asiatica.jpg)
+.row-slide-detail .slide-row.vitb .img-show {
+    background-image: url(/images/products/use/vitamin-b_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
 }
 
-.bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-4 .img-show {
-    background-image: url(../../images/product/cream/slide_bg_4_mb.jpg)
+.row-slide-detail .slide-row.vitc .img-show {
+    background-image: url(/images/products/use/vitamin-c_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
 }
 
-.bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-5 .img-show {
-    background-image: url(../../images/product/cream/slide_bg_5_mb.jpg)
+.row-slide-detail .slide-row.snai .img-show {
+    background-image: url(/images/products/use/snail-extract_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
 }
 
-.bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-6 .img-show {
-    background-image: url(../../images/product/cream/img-ginseng.jpg)
+.row-slide-detail .slide-row.hors .img-show {
+    background-image: url(/images/products/use/horse-oil_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
 }
 
-.bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-7 .img-show {
-    background-image: url(../../images/product/cream/slide_bg_7_mb.jpg)
+.row-slide-detail .slide-row.ging .img-show {
+    background-image: url(/images/products/use/ginseng-extract_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
+}
+
+.row-slide-detail .slide-row.arbu .img-show {
+    background-image: url(/images/products/use/alpha-arbutin_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
+}
+
+.row-slide-detail .slide-row.aloe .img-show {
+    background-image: url(/images/products/use/aloe-vera-extract_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
+}
+
+.row-slide-detail .slide-row.vitb3 .img-show {
+    background-image: url(/images/products/use/vitamin-b3_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
+}
+
+.row-slide-detail .slide-row.chom .img-show {
+    background-image: url(/images/products/use/chomomile-extract_edited.jpg);
+    height: 240px;
+    margin: auto;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 235px
 }
 
 @media screen and (max-width:767px) {
@@ -2636,59 +2710,6 @@ body.vjs-full-window {
     }
     .bx_ctn_cream .row-slide-detail .slide-row .row-pic.pic-6 .img-show {
         height: 200px
-    }
-    .row-slide-detail .slide-row.sl_alphaarbutin .img-show {
-        background-image: url(../../images/product/img-alpha-arbutin.jpg);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        height: 235px;
-        width: 100%;
-        max-width: 280px;
-        margin: 0 auto
-    }
-    .row-slide-detail .slide-row.sl_synake .img-show {
-        background-image: url(../../images/product/img-syn-ake-mb.jpg);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        height: 235px;
-        width: 100%;
-        max-width: 335px;
-        margin: 0 auto
-    }
-    .row-slide-detail .slide-row.sl_astaxanthin .img-show {
-        background-image: url(../../images/product/img_astaxanthin_mb.jpg);
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-        height: 235px;
-        width: 100%;
-        max-width: 405px;
-        margin: 0 auto
-    }
-    .row-slide-detail .slide-row.sl_snail .img-show {
-        background-size: auto 100%;
-        margin: 0 auto;
-        height: 275px;
-        max-width: 450px
-    }
-    .row-slide-detail .slide-row.sl_quickcleensing {
-        background-color: #f5f1f0
-    }
-    .row-slide-detail .slide-row.sl_quickcleensing .img-show {
-        background-image: url(../../images/product/img_quickcleensing_mb.jpg);
-        background-position: center bottom;
-        background-size: 100% auto
-    }
-    .bx_ctn_bodybooster .row-slide-detail .slide-row.sl_ceramide .img-show,
-    .bx_ctn_mask .row-slide-detail .slide-row.sl_ceramide .img-show {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH"
     }
 }
 
@@ -2752,7 +2773,7 @@ body.vjs-full-window {
         -webkit-transform: none
     }
     .row-slide-detail .slide-row .row-txt .txt-wrap .txt-topic {
-        font-size: 4em
+        font-size: 6em
     }
     .row-slide-detail .slide-row .row-txt .txt-wrap .txt-topic-sub {
         font-size: 3.5em;
@@ -2797,146 +2818,13 @@ body.vjs-full-window {
     .row-slide-detail .slide-row.pst_left .row-pic .img-show {
         background-position: center center
     }
-    .row-slide-detail .slide-row.sl_astaxanthin .row-pic {
-        padding-left: 0;
-        position: relative;
-        width: 100%
-    }
-    .row-slide-detail .slide-row.sl_astaxanthin .row-pic .img-show {
-        background-image: url(../../images/product/img_astaxanthin.jpg);
-        background-position: left top;
-        background-size: 100% auto;
-        height: 600px;
-        margin-top: 0;
-        max-width: 1180px;
-        position: absolute
-    }
-    .row-slide-detail .slide-row.sl_astaxanthin .row-txt .txt-wrap {
-        max-width: 335px
-    }
-    .row-slide-detail .slide-row.sl_ceramide .row-pic {
-        padding-right: 0;
-        padding-left: 4%
-    }
-    .row-slide-detail .slide-row.sl_ceramide .row-pic .img-show {
-        background-position: left top;
-        background-size: auto 100%;
-        height: 548px;
-        margin-left: 0
-    }
-    .row-slide-detail .slide-row.sl_ceramide .row-txt .txt-wrap {
-        max-width: 390px;
-        right: 0
-    }
-    .row-slide-detail .slide-row.sl_ceramide.pst_left .row-pic {
-        padding-right: 4%;
-        padding-left: 0
-    }
-    .row-slide-detail .slide-row.sl_ceramide.pst_left .row-pic .img-show {
-        background-position: left top;
-        background-size: auto 100%;
-        height: 548px;
-        margin-left: 0
-    }
-    .row-slide-detail .slide-row.sl_snail .row-pic .img-show {
-        background-image: url(../../images/product/img_snail.jpg)
-    }
-    .row-slide-detail .slide-row.sl_snail .row-pic {
-        float: left;
-        width: 100%;
-        padding-right: 0;
-        padding-left: 0
-    }
-    .row-slide-detail .slide-row.sl_snail .row-pic .img-show {
-        margin: 0 auto;
-        background-position: right bottom;
-        background-size: auto 100%;
-        height: 600px;
-        width: 100%;
-        min-width: 990px
-    }
-    .row-slide-detail .slide-row.sl_snail.pst_left .row-pic .img-show {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-        background-position: left bottom;
-        height: 600px;
-        width: 100%;
-        margin: 0 auto;
-        background-size: auto 100%;
-        min-width: 1110px
-    }
-    .row-slide-detail .slide-row.sl_synake .row-pic {
-        float: left;
-        width: 100%;
-        padding-left: 0
-    }
-    .row-slide-detail .slide-row.sl_synake .row-pic .img-show {
-        background-image: url(../../images/product/img-syn-ake.jpg);
-        background-position: right bottom;
-        background-size: auto auto;
-        height: 600px;
-        max-width: 1280px;
-        min-width: 1035px;
-        width: 100%
-    }
-    .row-slide-detail .slide-row.sl_alphaarbutin .row-pic .img-show {
-        background-image: url(../../images/product/img-alpha-arbutin.jpg);
-        background-position: right bottom;
-        background-size: auto 100%;
-        height: 600px;
-        min-width: 600px
-    }
-    .row-slide-detail .slide-row.sl_quickcleensing .row-pic {
-        padding-left: 0;
-        width: 100%
-    }
-    .row-slide-detail .slide-row.sl_quickcleensing .row-pic .img-show {
-        background-image: url(../../images/product/img_quickcleensing.jpg);
-        background-color: #fff;
-        background-size: cover;
-        background-position: 0 right
-    }
-    .row-slide-detail .slide-row.sl_quickcleensing .row-txt {
-        margin-left: 47%;
-        width: 53%
-    }
-    .row-slide-detail .slide-row.sl_quickcleensing .row-txt .txt-wrap {
-        max-width: 370px;
-        left: 0;
-        margin-left: 0
-    }
-    .row-slide-detail .slide-row.sl_edelweiss_ep .row-txt .txt-wrap .txt-topic-sub2 {
-        font-size: 2.9em
-    }
-    .bx_ctn_mask .row-slide-detail .slide-row.sl_ceramide .img-show {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH"
-    }
+ 
 }
 
 @media screen and (min-width:980px) {
     .row-slide-detail .slide-row .row-txt .txt-detail br {
         display: block
 	}	
-    .row-slide-detail .slide-row.sl_quickcleensing .row-txt {
-        margin-left: 50%;
-        width: 50%
-    }
-    .row-slide-detail .slide-row.sl_alphaarbutin .row-pic .img-show {
-        min-width: 713px
-    }
-    .row-slide-detail .slide-row.sl_snail.pst_left .row-pic .img-show {
-        min-width: 1280px;
-        background-position: right bottom
-    }
 }
 
 .row-slide-howto {
@@ -3161,7 +3049,6 @@ body.vjs-full-window {
 
 .img-guide {
     height: 101px;
-    background-image: url(../../images/product/guide/img-guide1.jpg);
     background-repeat: no-repeat
 }
 
@@ -3558,7 +3445,6 @@ body.vjs-full-window {
 }
 
 .row-product-anime .ctn .box .txt-desc {
-    background-image: url(../../images/product/sunscreen/product_animate_obj.png);
     margin: -35px 0 20px
 }
 
@@ -3573,12 +3459,10 @@ body.vjs-full-window {
 
 @media screen and (min-width:768px) {
     .row-product-anime .ctn .box .txt-desc {
-        background-image: url(../../images/product/sunscreen/product_animate_obj_dt.png);
         padding: 138px 20px 0 0;
         margin: 0
     }
     .row-product-anime .ctn .box.top .img {
-        background-image: url(../../images/product/sunscreen/product_animate_top.jpg)
     }
 }
 
@@ -3604,12 +3488,12 @@ body.vjs-full-window {
 .box_banner_bg .banner_product {
     height: auto;
     padding-bottom: 52px;
-    background-image: url(../../images/product/sunscreen/product_bannner_bg_mb.jpg);
-    background-size: cover
+    background-size: cover;
+	background-color: #f1f5fb;
 }
 
 .box_banner_bg .banner_product .box_banner_image--image .img-show {
-    background-image: url(../../images/product/sunscreen/obj_sunscreen_xs.png);
+    background-image: url(/images/products/pure_dd_cream_01.jpg);
     margin: 29px 0 0 -11px;
     height: 255px
 }
@@ -3620,13 +3504,16 @@ body.vjs-full-window {
 
 .row-product-publish .content-box {
     background-size: cover;
+	background: #dfe3e6;
     padding: 45px 20px 20px
 }
 
 .row-product-publish .content-box .box-pic {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center
+	height: 180px;
+	background-image: url(/images/products/use/bg_pureDD02_edited.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .row-product-publish .content-box .box-txt {
@@ -3668,7 +3555,6 @@ body.vjs-full-window {
 }
 
 .row-product-detail .content-box {
-    background-image: url(../../images/product/sunscreen/product_detail_bg.jpg);
     background-size: cover;
     padding: 32px 20px 20px
 }
@@ -3676,7 +3562,6 @@ body.vjs-full-window {
 .row-product-detail .content-box .box-pic {
     padding: 0;
     height: 186px;
-    background-image: url(../../images/product/sunscreen/product_detail_obj_product.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center
@@ -3729,14 +3614,15 @@ body.vjs-full-window {
         margin: auto
     }
     .row-product-publish .content-box {
-        background-image: url(../../images/product/sunscreen/product_publish_bg_dt.jpg)
+        background-image: url();
+		background-color: #dee2e5;
     }
     .row-product-publish .content-box .box-pic,
     .row-product-publish .content-box .box-txt {
         min-height: 440px
     }
     .row-product-publish .content-box .box-pic {
-        background-image: url(../../images/product/sunscreen/product_publish_obj_product_dt.png)
+        background-image: url(/images/products/use/bg_pureDD02_edited.jpg)
     }
     .row-product-publish .content-box .box-txt {
         font-size: 1.5em
@@ -3747,9 +3633,7 @@ body.vjs-full-window {
     .row-product-publish .content-box .box-txt-foot {
         font-size: 1.55em
     }
-    .row-product-detail .content-box {
-        background-image: url(../../images/product/sunscreen/product_detail_bg_dt.jpg)
-    }
+ 
     .row-product-detail .content-box .box-pic,
     .row-product-detail .content-box .box-txt {
         height: 374px
@@ -3784,9 +3668,15 @@ body.vjs-full-window {
 
 
 .row-slide .slick-prev {
-    left: 15%;
+    left: 6%;
 }
 
 .row-slide .slick-next {
-    right: 15%;
+    right: 6%;
 }
+
+.slick-slide {
+	background: white;
+}
+
+
