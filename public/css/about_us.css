@@ -51,8 +51,11 @@
 }
 
 .about_us_contant_top {
-    background: #f8f8f8;
-    position: relative
+    background: #e8edf0 url(/public/images/aboutus/aboutus01.png);
+    position: relative;
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: center center;
 }
 
 .bg_cream {

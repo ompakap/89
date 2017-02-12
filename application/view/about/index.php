@@ -48,7 +48,9 @@
 </div>
 
 
-<div class="about_us_contant_detail">
+<div class="about_us_contant_detail" style=" background: #e8edf0 url(/public/images/aboutus/aboutus02.png);
+    background-repeat: no-repeat;
+	background-size: cover;background-position: center center;  ">
 	<div class="wrapContent">
 		<div class="detail_content">
 			บริษัทฯ มุ่งมั่นที่จะพัฒนาผลิตภัณฑ์อย่างสร้างสรรค์ให้มีความแปลกใหม่และมีคุณภาพสูงเพื่อตอบสนองความต้องการของลูกค้าที่หลากหลาย โดยบริษัทฯใส่ใจในทุกขั้นตอนการผลิต เพื่อให้ได้มาตรฐานและประโยชน์สูงสุดต่อผู้บริโภคทั้งในประเทศและต่างประเทศโดยคำนึงถึงประสิทธิภาพและคุณภาพเพื่อลูกค้าเป็นสำคัญ ภายใต้ปรัชญาองค์กรที่ว่า <span class="content_bold">“สร้างสรรค์ มุ่งมั่น ก้าวไกล”</span> ด้วย 4 พันธกิจหลัก คือ 
@@ -63,7 +65,9 @@
 		</div>
 	</div>
 
-	<div style="background: #f8f8f8;position: relative;">
+	<div style=" position: relative; background: #f8f8f8 url(/public/images/aboutus/aboutus03.png);
+    background-repeat: no-repeat;
+	background-size: cover; background-position: center center; ">
 		<div class="wrapContent">
 			<div class="detail_content">
 				<h3>Jellys PRODUCTS</h3>

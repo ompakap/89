@@ -107,46 +107,13 @@
 
 </div>
 
+<br><br>
+
+<div class="helvethaica_x_li h1 text-center col-md-12">จัดส่งโดย</div>
 
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+<img src="<?=URL;?>images/banner/transport.png" alt="">
 <?php
 
 $m = 'wtb';

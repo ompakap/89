@@ -13,6 +13,7 @@
 				<div class="contact-box__row__txt">
 					<div class="contact-box__row__txt__row helvethaica_x_li">รับข่าวสารผ่านไลน์ (OFFICIAL ACCOUNT)</div>
 					<div class="contact-box__row__txt__row helvethaica_xcond_med">LINE ID: @JELLYS</div>
+					<img src="<?=URL;?>images/QRline.jpg" alt="" class="img-responsive">
 				</div>
 				<div class="clear-both"></div>
 			</div>
@@ -21,8 +22,8 @@
 				<div class="contact-box__row__pic contact-box__row__pic--tel"></div>
 				<div class="contact-box__row__txt">
 					<div class="contact-box__row__txt__row helvethaica_x_li">หมายเลขโทรศัพท์</div>
-					<div class="contact-box__row__txt__row helvethaica_xcond_med"><a href="tel:0876032277">+6687 603 2277</a></div>
-					<div class="contact-box__row__txt__row helvethaica_xcond_med"><a href="tel:0949252614">+6694 551 9522</a></div>
+					<div class="contact-box__row__txt__row helvethaica_xcond_med"><a href="tel:0876032277">094-5519522</a></div>
+					<div class="contact-box__row__txt__row helvethaica_xcond_med"><a href="tel:0949252614">094-9252614</a></div>
 				</div>
 				<div class="clear-both"></div>
 			</div>
@@ -37,6 +38,8 @@
 			</div>
 
 		</div>
+
+		<br>
 	</div>
 
 	<div class="content__form col-xs-12 col-sm-6">
