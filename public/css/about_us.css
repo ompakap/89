@@ -11,7 +11,8 @@
 
 .about_us_contant_top .wrap_left_content .wrap_left_position_content {
     width: 100%;
-    margin-left: 0
+    margin-left: 0;
+	padding-bottom: 40px;
 }
 
 .about_us_contant_top .wrap_left_content .txt_quote {
@@ -54,8 +55,8 @@
     background: #e8edf0 url(/public/images/aboutus/aboutus01.png);
     position: relative;
     background-repeat: no-repeat;
-	background-size: contain;
-    background-position: center center;
+	background-size: cover;
+    
 }
 
 .bg_cream {
@@ -79,7 +80,6 @@
     }
 
     .wrap_left_content .wrap_left_position_content {
-        padding-top: 63%;
         margin-left: -11%
     }
 }
@@ -121,7 +121,7 @@
     text-indent: 4%;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 8px
+    padding-bottom: 8px;
 }
 
 .detail_content_bottom {
@@ -156,7 +156,7 @@
 .wrap_right_content {
     font-family: DBHelvetORI-Li;
     font-size: 2.1em;
-    padding: 10% 0 10% 0;
+    padding: 10% 0 0 0;
     position: relative;
     z-index: 2
 }
