@@ -113,7 +113,11 @@
 
 <br>
 <br>
-<img src="<?=URL;?>images/banner/transport.png" alt="">
+
+<div class="col-xs-12 col-md-12" style="padding: 0px;">
+	<img src="<?=URL;?>images/banner/transport.png" alt="" class="img-responsive">
+</div>
+
 <?php
 
 $m = 'wtb';

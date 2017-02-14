@@ -7,15 +7,15 @@
 
 <div class="about_us_contant_top">
 	
-	<div class="bg_cream">
+	<!-- <div class="bg_cream">
 		<div style="position:relative;">
-			<!-- <img style="" class="img-responsive" src="" alt="Cream"> -->
+			<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus01.png" alt="Cream">
 		</div>
-	</div>
+	</div> -->
 
 	<div class="wrapContent row">
 		<div class="col-sm-5 nopad">
-			
+			<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus01.png" alt="Cream">
 		</div>
 		<div class="col-sm-6 col-sm-offset-1 nopad">
 			<div class="wrap_right_content">
@@ -49,10 +49,8 @@
 </div>
 
 
-<div class="about_us_contant_detail" style=" background: #e8edf0 url(/public/images/aboutus/aboutus02.png);
-    background-repeat: no-repeat;
-	background-size: cover;background-position: center center;  ">
-	<div class="wrapContent">
+<div class="about_us_contant_detail" style=" background: #eff4f7">
+	<div class="col-md-6 col-md-offset-2 col-xs-12 col-xs-push-12 nopad">
 		<div class="detail_content col-xs-12 col-sm-9 col-md-9">
 			บริษัทฯ มุ่งมั่นที่จะพัฒนาผลิตภัณฑ์อย่างสร้างสรรค์ให้มีความแปลกใหม่และมีคุณภาพสูงเพื่อตอบสนองความต้องการของลูกค้าที่หลากหลาย โดยบริษัทฯใส่ใจในทุกขั้นตอนการผลิต เพื่อให้ได้มาตรฐานและประโยชน์สูงสุดต่อผู้บริโภคทั้งในประเทศและต่างประเทศโดยคำนึงถึงประสิทธิภาพและคุณภาพเพื่อลูกค้าเป็นสำคัญ ภายใต้ปรัชญาองค์กรที่ว่า <span class="content_bold">“สร้างสรรค์ มุ่งมั่น ก้าวไกล”</span> ด้วย 4 พันธกิจหลัก คือ 
 		</div>
@@ -67,14 +65,17 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
+	<div class="col-md-3 col-xs-12 col-xs-pull-12 nopad">
+		<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus02.png" alt="Cream">
+	</div>
 	
 	<div class="clearfix"></div>
 
-	<div style=" position: relative; background: #f8f8f8 url(/public/images/aboutus/aboutus03.png);
-    background-repeat: no-repeat;
-	    background-size: cover;
-    background-position: 0px -131px;">
-		<div class="col-md-7 col-md-offset-5">
+	<div style=" position: relative; background:#edf2f6;">
+		<div class="col-md-3 col-md-offset-2 nopad">
+			<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus03.png" alt="Cream">
+		</div>
+		<div class="col-md-7">
 			<div class="detail_content">
 				<h3>Jellys PRODUCTS</h3>
 				<p>เจลลี่ มุ่งมั่นนำเสนอผลิตภัณฑ์สกินแคร์ดูแลผิว ที่คัดสรรวัตถุดิจากธรรมชาติเพื่อให้ได้มาซึ่งผลิตภัณฑ์บำรุงผิวที่มีคุณภาพมาตรฐาน</p>
