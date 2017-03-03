@@ -35,8 +35,12 @@
 	
 	@media screen and (max-width: 767px) {
 		
+		.bn-box-1 {
+			margin-bottom: 40px;
+		}
+
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image: url(/images/products/pure_underarm_cream_01.jpg);
+			background-image: url(/images/products/pure_underarm_cream_product01.png);
 		}
 
 		.box_banner_bg .banner_product .box_banner_txt--text2 {
@@ -69,7 +73,7 @@ $m = 'pdd';
 
 <div style="<?=$ds_th;?>">
 
-<div class="box_banner_bg">
+<div class="box_banner_bg bn-box-1">
 	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">
@@ -227,8 +231,8 @@ $m = 'pdd';
 
 <div style="<?=$ds_en;?>">
 
-<div class="box_banner_bg">
-	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
+<div class="box_banner_bg bn-box-1">
+	<div class="banner_product bg1 pst_left " style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">
 				<div class="box_banner_image--image">	

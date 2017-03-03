@@ -45,35 +45,35 @@ class Product extends Controller
 				'id' => 1, 
 				'name' => 'PURE CREAM' , 
 				"detail" => '',
-				'image' => URL . 'images/products/pure_cream_01.jpg',
+				'image' => URL . 'images/products/pure_cream_product01.png',
 				'link' => $_URL . 'product/detail/1'
 			),
 			'1' => array( 
 				'id' => 2, 
 				'name' => 'PURE DD CREAM' , 
 				"detail" => '',
-				'image' => URL . 'images/products/pure_dd_cream_01.jpg',
+				'image' => URL . 'images/products/pure_dd_cream_product01.png',
 				'link' => $_URL . 'product/detail/2'
 			),
 			'2' => array( 
 				'id' => 3, 
 				'name' => 'PURE LOTION' , 
 				"detail" => '',
-				'image' => URL . 'images/products/pure_lotion_01.jpg',
+				'image' => URL . 'images/products/pure_lotion_product01.png',
 				'link' => $_URL . 'product/detail/3'
 			),
 			'3' => array( 
 				'id' => 4, 
 				'name' => 'PURE SOAP' , 
 				"detail" => '',
-				'image' => URL . 'images/products/pure_soap_01.jpg',
+				'image' => URL . 'images/products/pure_soap_product01.png',
 				'link' => $_URL . 'product/detail/4'
 			),
 			'4' => array( 
 				'id' => 5, 
 				'name' => 'PURE UNDERARM CREAM' , 
 				"detail" => '',
-				'image' => URL . 'images/products/pure_underarm_cream_01.jpg',
+				'image' => URL . 'images/products/pure_underarm_cream_product01.png',
 				'link' => $_URL . 'product/detail/5'
 			)
 		);

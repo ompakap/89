@@ -16,34 +16,46 @@
 		background-repeat: no-repeat;
 	}
 
+	.bn-box {
+		min-height: 350px;
+		font-size: 16px;
+	}
+
+	.bn-full {
+		margin-top: 180px;
+	}
+
+	.bn-full-img {
+		padding-top: 60px;
+	}
+
 	@media screen and (min-width:768px) {
 		
-		.banner_product.bg1 {
-			padding: 0;
-			background-image: url(/images/products/3/bg_purelotion01.png);
-		}
-		
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image:none;
-			height: 580px;
+			background-image: url(/images/products/3/Pure_lotion_b1.png);
+			height: 445px;
 		}
 	
 		.row-product-publish .content-box .box-pic {
-			background-image: url(/images/products/use/bg_purelotion02_edited.jpg);
+			background-image: url(/images/products/3/Pure_lotion_b2.png);
 		}
 
 		.box-txt {
 			padding-top:140px;
 		}
+
+		.row-product-publish .content-box {
+			background-color:#e0e1e3;
+		}
 	}
 	
 	@media screen and (max-width: 767px) {
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image: url(/images/products/pure_lotion_01.jpg);
+			background-image: url(/images/products/3/Pure_lotion_b1.png);
 		}
 
 		.row-product-publish .content-box .box-pic {
-			background-image: url(/images/products/pure_lotion_02.jpg);
+			background-image: url(/images/products/3/Pure_lotion_b2.png);
 		}
 
 		.box_banner_bg .banner_product {
@@ -51,7 +63,23 @@
 		}
 
 		.row-product-publish .content-box {
-			background-color: #f7faff;
+			background-color: #e0e1e3;
+		}
+	
+		.bn-box-1 {
+			margin-bottom: 40px;
+		}
+
+		.bn-box-2 {
+			padding:40px 0;
+		}
+
+		.bn-full {
+			margin-top: 50px;
+		}
+
+		.bn-full-img {
+			padding-top: 10px;
 		}
 	}
 
@@ -68,7 +96,7 @@ $m = 'pdd';
 
 <div style="<?=$ds_th;?>">
 
-<div class="box_banner_bg">
+<div class="box_banner_bg bn-box-1">
 	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">
@@ -113,6 +141,39 @@ $m = 'pdd';
         </div>
     </div>
 </div>
+
+
+<div style="background-color: #f1f5fb;">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-5">
+			<div class="bn-full col-md-10 col-md-offset-1">
+				<div class="helvethaica_x_li text-center" style="font-size: 1.6em;">โลชั่นบำรุงผิวกาย สูตรเฉพาะของ Jellys ที่สาวๆหลงรัก ด้วยคุณสมบัติเปลี่ยนผิวเสียให้เป็นผิวสวย</div>	
+			</div>
+		</div>
+		<div class="bn-full-img col-md-7">
+			<img src="/images/products/3/Pure_lotion_b3.png" class="img-responsive" alt="">
+		</div>
+
+	</div>
+</div>
+
+<div style="background-color: #e0e1e3;">
+	<div class="bn-box bn-box-2 box_banner_bg container">
+		
+		<div class="bn-full-img col-md-7">
+			<img src="/images/products/3/Pure_lotion_b4.png" class="img-responsive" alt="">
+		</div>
+
+		<div class="col-md-5">
+			<div class="bn-full col-md-10 col-md-offset-1">
+				<div class="helvethaica_x_li text-center" style="font-size: 1.6em;">มอบผิวขาวกระจ่างใส ปรนนิบัติผิวคุณให้ใส นุ่มเนียน น่าสัมผัส ช่วยรักษาความชุมชื่นของน้ำในผิวกาย</div>	
+			</div>
+		</div>
+		
+	</div>
+</div>
+
 
 <!-- detail -->
 <div id="row-slide-detail" class="row-slide-detail">
@@ -224,7 +285,7 @@ $m = 'pdd';
 <div style="<?=$ds_en;?>">
 
 
-<div class="box_banner_bg">
+<div class="box_banner_bg bn-box-1">
 	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">

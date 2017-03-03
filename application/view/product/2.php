@@ -1,31 +1,28 @@
 <style type="text/css">
 
 	.slidebg_step1 {
-		background-image: url(/images/products/2/step-dd-cream1.png);
+		background-image: url(/images/products/2/pure_dd_cream_step01.png);
 		background-position: left;
 		background-repeat: no-repeat;
 	}
 	.slidebg_step2 {
-		background-image: url(/images/products/2/step-dd-cream2.png);
+		background-image: url(/images/products/2/pure_dd_cream_step02.png);
 		background-position: right;
 		background-repeat: no-repeat;
 	}
 	.slidebg_step3 {
-		background-image: url(/images/products/2/step-dd-cream3.png);
+		background-image: url(/images/products/2/pure_dd_cream_step03.png);
 		background-position: left;
 		background-repeat: no-repeat;
 	}
 
 	@media screen and (min-width:768px) {
-		
-		.banner_product.bg1 {
-			padding: 0;
-			background-image: url(/images/products/2/bg_pureDD01.png);
-		}
+	
 		
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image:none;
-			height: 580px;
+			background-image: url(/images/products/2/Pure_DD_Cream_b1.png);
+			background-repeat: no-repeat;
+			height: 435px;
 		}
 
 		.box-txt {
@@ -34,6 +31,15 @@
 	}
 	
 	@media screen and (max-width: 767px) {
+		
+		.bn-box-1 {
+			padding-bottom: 30px;
+		}
+
+		.box_banner_bg .banner_product .box_banner_image--image .img-show {
+			background-image: url(/images/products/2/Pure_DD_Cream_b1.png);
+			background-repeat: no-repeat;
+		}
 
 	}
 
@@ -51,7 +57,7 @@ $m = 'pdd';
 <div style="<?=$ds_th;?>">
 
 <div class="box_banner_bg">
-	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
+	<div class="banner_product bg1 pst_left bn-box-1" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">
 				<div class="box_banner_image--image">	

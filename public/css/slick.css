@@ -1863,7 +1863,7 @@ body.vjs-full-window {
         height: 100%
     }
     .box_banner_bg .banner_product .box_ctn_banner_image {
-        width: 54%
+        width: 67%
     }
     .box_banner_bg .banner_product .box_banner_image--image .img-show {
         background-position: center 40px;
@@ -2550,14 +2550,13 @@ body.vjs-full-window {
 }
 
 .row-slide-detail .slide-row.gluta .img-show {
-    background-image: url(/images/products/use/glutathione_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/GLUTATHIONE.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.milk .img-show {
@@ -2572,76 +2571,70 @@ body.vjs-full-window {
 }
 
 .row-slide-detail .slide-row.acids .img-show {
-    background-image: url(/images/products/use/alpha-hydroxy-acids_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/alpha-hydroxy-acids.png);
+    max-width: 350px;
+	width: 240px;
     margin: auto;
-    width: 240px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.vite .img-show {
-    background-image: url(/images/products/use/vitamin-e_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/vitamin_e.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.vitb .img-show {
-    background-image: url(/images/products/use/vitamin-b_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/vitamin_b.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.vitc .img-show {
-    background-image: url(/images/products/use/vitamin-c_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/vitamin_c.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.snai .img-show {
-    background-image: url(/images/products/use/snail-extract_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/SNAIL_EXTRACT.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.hors .img-show {
-    background-image: url(/images/products/use/horse-oil_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/House-oil-Ceramine.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.ging .img-show {
-    background-image: url(/images/products/use/ginseng-extract_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/GINSENG_EXTRACT.png);
     margin: auto;
     width: 240px;
+	max-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2660,25 +2653,23 @@ body.vjs-full-window {
 }
 
 .row-slide-detail .slide-row.aloe .img-show {
-    background-image: url(/images/products/use/aloe-vera-extract_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/ALOE_VERA_EXTRACT.png);
     margin: auto;
+	max-width: 350px;
     width: 240px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.vitb3 .img-show {
-    background-image: url(/images/products/use/vitamin-b3_edited.jpg);
-    height: 240px;
+    background-image: url(/images/products/use/VITAMIN-B3.png);
     margin: auto;
     width: 240px;
+	min-width: 350px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 235px
 }
 
 .row-slide-detail .slide-row.chom .img-show {
@@ -3487,13 +3478,20 @@ body.vjs-full-window {
 
 .box_banner_bg .banner_product {
     height: auto;
-    padding-bottom: 52px;
     background-size: cover;
 	background-color: #f1f5fb;
 }
 
 .box_banner_bg .banner_product .box_banner_image--image .img-show {
-    background-image: url(/images/products/pure_dd_cream_01.jpg);
+    background-image: url(/images/products/1/Pure_cream_b1.png);
+	background-repeat: no-repeat;
+    margin: 29px 0 0 -11px;
+    height: 255px
+}
+
+.box_banner_bg .banner_product .box_banner_image--image .img-show2 {
+    background-image: url(/images/products/1/Pure_cream_b3.png);
+	background-repeat: no-repeat;
     margin: 29px 0 0 -11px;
     height: 255px
 }
@@ -3510,7 +3508,7 @@ body.vjs-full-window {
 
 .row-product-publish .content-box .box-pic {
 	height: 180px;
-	background-image: url(/images/products/use/bg_pureDD02_edited.jpg);
+	background-image: url(/images/products/2/Pure_DD_Cream_b2.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -3615,14 +3613,14 @@ body.vjs-full-window {
     }
     .row-product-publish .content-box {
         background-image: url();
-		background-color: #dee2e5;
+		background-color: #e1e5e8;
     }
     .row-product-publish .content-box .box-pic,
     .row-product-publish .content-box .box-txt {
-        min-height: 440px
+        min-height: 450px;
     }
     .row-product-publish .content-box .box-pic {
-        background-image: url(/images/products/use/bg_pureDD02_edited.jpg)
+        background-image: url(/images/products/2/Pure_DD_Cream_b2.png)
     }
     .row-product-publish .content-box .box-txt {
         font-size: 1.5em

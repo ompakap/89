@@ -50,8 +50,12 @@
 	
 	@media screen and (max-width: 767px) {
 		
+		.bn-box-1 {
+			padding-bottom: 30px;
+		}
+
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image: url(/images/products/pure_soap_02.jpg);
+			background-image: url(/images/products/pure_soap_product01.png);
 		}
 
 		.box_banner_bg .banner_product {
@@ -73,7 +77,7 @@ $m = 'pdd';
 <div style="<?=$ds_th;?>">
 
 <div class="box_banner_bg">
-	<div class="banner_product bg1 pst_right" style="margin:auto; max-width: none;">
+	<div class="banner_product bg1 pst_right bn-box-1" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
 			<div class="box_ctn_banner_image">
 				<div class="box_banner_image--image">	
