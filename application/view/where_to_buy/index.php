@@ -23,8 +23,8 @@
 								</div>
 
 								<h4>THAILAND</h4>
-								<h6>+6687 603 2277</h6>
-								<h6>+6694 925 2614</h6>
+								<h6>094-5519522</h6>
+								<h6>094-9252614</h6>
 							</div>
 						</div>
 
@@ -95,6 +95,17 @@
 								</div>
 								<h4>MALAYSIA</h4>
 								<h6>0811566621</h6>
+							</div>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 col_no_padding list-shop">
+							<div class="image-banner-ic">
+								<div>
+									<span class="flag flag-iq"></span>
+								</div>
+								<h4>Iraq</h4>
+								<h6>0066818992208</h6>
+								<h6>009647707989846</h6>
 							</div>
 						</div>
 

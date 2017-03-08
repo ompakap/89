@@ -1,29 +1,23 @@
 <style type="text/css">
 
 	.slidebg_step1 {
-		background-image: url(/images/products/4/step-soap-1.png);
+		background-image: url(/images/products/4/Pure_Soap_Step01.png);
 		background-position: left;
 		background-repeat: no-repeat;
 	}
 	.slidebg_step2 {
-		background-image: url(/images/products/4/step-soap-2.png);
+		background-image: url(/images/products/4/Pure_Soap_Step02.png);
 		background-position: right;
 		background-repeat: no-repeat;
 	}
 	.slidebg_step3 {
-		background-image: url(/images/products/4/step-soap-3.png);
+		background-image: url(/images/products/4/Pure_Soap_Step03.png);
 		background-position: left;
 		background-repeat: no-repeat;
 	}
 	.slidebg_step4 {
-		background-image: url(/images/products/4/step-soap-4.png);
+		background-image: url(/images/products/4/Pure_Soap_Step04.png);
 		background-position: left;
-		background-repeat: no-repeat;
-	}
-
-	.row-product-publish .content-box {
-		background-image: url(/images/products/4/bg_soap02.png);
-		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
@@ -31,12 +25,20 @@
 		background-image: none;
 	}
 
+	.pg4 {
+		margin-top:150px;
+	}
+
+	.pg3 {
+		margin-top:85px;
+	}
+	
+	.row-product-publish .content-box {
+		padding: 15px 20px 20px;
+	}
+
 	@media screen and (min-width:768px) {
 		
-		.banner_product.bg1 {
-			padding: 0;
-			background-image: url(/images/products/4/bg_soap01.png);
-		}
 		
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
 			background-image:none;
@@ -54,12 +56,16 @@
 			padding-bottom: 30px;
 		}
 
-		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image: url(/images/products/pure_soap_product01.png);
-		}
-
 		.box_banner_bg .banner_product {
 			background-color: #fff;
+		}
+
+		.pg4 {
+			margin-top:50px;
+		}
+
+		.pg3 {
+			margin-top:15px;
 		}
 	}
 
@@ -78,10 +84,10 @@ $m = 'pdd';
 
 <div class="box_banner_bg">
 	<div class="banner_product bg1 pst_right bn-box-1" style="margin:auto; max-width: none;">
-		<div class="container contain_prod">
-			<div class="box_ctn_banner_image">
-				<div class="box_banner_image--image">	
-					<div class="img-show"></div>
+		<div class="container contain_prod" style="    padding: 25px 0 0 0;">
+			<div class="col-md-6 col-md-offset-6">
+				<div class="box_banner_image--image text-right">	
+					<img src="/images/products/4/Pure_soap_b1.png" class="img-responsive" alt="">
 				</div>
 			</div>
 			<div class="box_ctn_banner_txt">
@@ -89,8 +95,8 @@ $m = 'pdd';
 					<div class="box_banner_txt--text2">เพียวโซฟ</div>
 					<div class="box_banner_txt--line"></div>
 					<div class="box_banner_txt--text3">
-						<span class="p3">นวัฒกรรมการผลิตขั้นสูง ทำความสะอาดล้ำลึกง่ายๆ ในขั้นตอนเดียว พร้อมสารสกัดเต็มโดส ด้วยสูตรกลูต้าไธโอนเข้มข้นถึง20เท่า และหัวเชื้อวิตามินเข้มข้นอัดแน่นในก้อนเดียว ปรับผิวขาวเนียนใส ผิวอิ่มน้ำ ชุ่มชื่น ดุจผิวเด้งเหมือนหยดน้ำ  พร้อมผลัดเซลล์ผิวที่คล้ำเสียออก ขจัดสิ่งสกปรกและขี้ไคล เห็นผลตั้งแต่ครั้งแรกที่ใช้</span></div>
-					<div class="box_btn"><div class="box_btn_size"></div></div>
+						<span class="p3">นวัฒกรรมการผลิตขั้นสูง ทำความสะอาดล้ำลึกง่ายๆ ในขั้นตอนเดียว พร้อมสารสกัดเต็มโดส ด้วยสูตรกลูต้าไธโอนเข้มข้นถึง20เท่า และหัวเชื้อวิตามินเข้มข้นอัดแน่นในก้อนเดียว ปรับผิวขาวเนียนใส ผิวอิ่มน้ำ ชุ่มชื่น ดุจผิวเด้งเหมือนหยดน้ำ พร้อมผลัดเซลล์ผิวที่คล้ำเสียออก ขจัดสิ่งสกปรกและขี้ไคล เห็นผลตั้งแต่ครั้งแรกที่ใช้</span>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -99,31 +105,61 @@ $m = 'pdd';
 </div>
 
 <div id="row-product-publish" class="row-product-publish">
-    <div class="content-box bg1">
-        <div class="wrap-ctn">
+    <div class="content-box container" style="background-color: #fff;">
 
-			<div class="box-pic col-xs-12 col-sm-6"></div>
+		<div class="col-md-6">
+			<div class="box_banner_image--image text-right">	
+				<img src="/images/products/4/Pure_soap_b2.png" class="img-responsive" alt="">
+			</div>
+		</div>
 
-            <div class="box-txt col-xs-12 col-sm-6">
-                <div class="txt-row helvethaica_xcond_li"></div>
-                <div class="txt-row helvethaica_xcond_med">เพียวโซฟ</div>
-                <div class="txt-row helvethaica_x_li">
-                    <div>การทำความสะอาดผิวเป็นสิ่งสำคัญอย่างมาก เป็นขั้นตอนแรกในการบำรุงผิว เพียวโซฟ ไม่ใช่สบู่ทั่วๆไป แต่เป็นสบู่ที่ส่วนผสมของหัวเชื้อกลูต้าไธโอนและวิตามินเข้มข้นที่สุด อัดแน่นสารสกัดเต็มโดส เข้าไปช่วยเสมือนการดีท็อกผิว ดูสิ่งสกปรกออกมาได้หมดจด พร้อมทั้งบำรุงผิวได้อย่างล้ำลึก</div>
-                </div>
-            </div>
-
-            
-
-            <div class="clear-both"></div>
-
-            <div class="box-txt-foot col-xs-12 col-sm-12">
-                <div class="foot-row helvethaica_x_it_li">ปรับสีผิวให้สม่ำเสมอ ลดฝ้า กระ จุดด่างดำ ควบคุมความมันที่เป็นต้นเหตุของการเกิดสิว ปรับผิวขาวสว่างกระจ่างใสเปล่งปลั่งดูมีน้ำมีนวล มีสารต้านอนุมูลอิสระได้อย่างมีประสิทธิภาพอุดมด้วยวิตามินและแร่ธาตุที่เป็นประโยชน์ต่อผิวปราศจากสารเคมี<br>ช่วยทำความสะอาดผิว ล้ำลึกทุกอณุผิว </div>
-            </div>
-
-            <div class="clear-both"></div>
-        </div>
+		<div class="box-txt col-xs-12 col-sm-6 col-md-6">
+			<div class="txt-row helvethaica_xcond_li"></div>
+			<div class="txt-row helvethaica_xcond_med">เพียวโซฟ</div>
+			<div class="txt-row helvethaica_x_li">
+				<div>การทำความสะอาดผิวเป็นสิ่งสำคัญอย่างมาก เป็นขั้นตอนแรกในการบำรุงผิว เพียวโซฟ ไม่ใช่สบู่ทั่วๆไป แต่เป็นสบู่ที่ส่วนผสมของหัวเชื้อกลูต้าไธโอนและวิตามินเข้มข้นที่สุด อัดแน่นสารสกัดเต็มโดส เข้าไปช่วยเสมือนการดีท็อกผิว ดูสิ่งสกปรกออกมาได้หมดจด พร้อมทั้งบำรุงผิวได้อย่างล้ำลึก</div>
+			</div>
+		</div>
     </div>
 </div>
+
+<div style="">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-6 pg3">
+			<div class="bn-full col-md-10 col-md-offset-1" style="font-size: 1.5em;">
+				<div class="helvethaica_xcond_med text-center" style="font-size: 3.5em;">เพียวโซฟ</div>
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">ปรับสีผิวให้สม่ำเสมอ ลดฝ้า กระ จุดด่างดำ ควบคุมความมันที่เป็นต้นเหตุของการเกิดสิว </div>	
+			</div>
+		</div>
+		<div class="bn-full-img col-md-6">
+			<img src="/images/products/4/Pure_soap_b3.png" class="img-responsive" alt="">
+		</div>
+
+	</div>
+</div>
+
+<div style="background-color: #f1f5fb;">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-6 col-md-push-6 pg4">
+			<div class="bn-full col-md-10 ">
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">ปรับผิวขาวสว่างกระจ่างใสเปล่งปลั่งดูมีน้ำมีนวล มีสารต้านอนุมูลอิสระได้อย่างมีประสิทธิภาพอุดมด้วยวิตามินและแร่ธาตุที่เป็นประโยชน์ต่อผิวปราศจากสารเคมี</div>	
+			</div>
+		</div>
+
+		<div class="bn-full-img col-md-6 col-md-pull-6">
+			<img src="/images/products/4/Pure_soap_b4.png" class="img-responsive" alt="">
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+
+
 
 
 <!-- how to -->
@@ -319,12 +355,14 @@ $m = 'pdd';
 
 <div style="<?=$ds_en;?>">
 
+
+
 <div class="box_banner_bg">
-	<div class="banner_product bg1 pst_right" style="margin:auto; max-width: none;">
-		<div class="container contain_prod">
-			<div class="box_ctn_banner_image">
-				<div class="box_banner_image--image">	
-					<div class="img-show"></div>
+	<div class="banner_product bg1 pst_right bn-box-1" style="margin:auto; max-width: none;">
+		<div class="container contain_prod" style="    padding: 25px 0 0 0;">
+			<div class="col-md-6 col-md-offset-6">
+				<div class="box_banner_image--image text-right">	
+					<img src="/images/products/4/Pure_soap_b1.png" class="img-responsive" alt="">
 				</div>
 			</div>
 			<div class="box_ctn_banner_txt">
@@ -332,8 +370,8 @@ $m = 'pdd';
 					<div class="box_banner_txt--text2">Pure soap</div>
 					<div class="box_banner_txt--line"></div>
 					<div class="box_banner_txt--text3">
-						<span class="p3">New inovation and high concentrate extract, L-glutathione x20. <br>It's also contain several concentrate vitamin. lmprove your skin tone to bright, smooth and healthy skin. Help to shed old skin cell. You can see clear result in frist time you use this soap. "3 minutes miracle for white skin".</span></div>
-					<div class="box_btn"><div class="box_btn_size"></div></div>
+						<span class="p3">New inovation and high concentrate extract, L-glutathione x20. <br>It's also contain several concentrate vitamin. lmprove your skin tone to bright, smooth and healthy skin. Help to shed old skin cell. You can see clear result in frist time you use this soap. "3 minutes miracle for white skin".</span>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -341,35 +379,45 @@ $m = 'pdd';
 	</div>
 </div>
 
-
 <div class="clearfix"></div>
 
 <div id="row-product-publish" class="row-product-publish">
-    <div class="content-box bg2">
-        <div class="wrap-ctn">
+    <div class="content-box container" style="background-color: #fff;">
 
-			<div class="box-pic col-xs-12 col-sm-6"></div>
+		<div class="col-md-6">
+			<div class="box_banner_image--image text-right">	
+				<img src="/images/products/4/Pure_soap_b2.png" class="img-responsive" alt="">
+			</div>
+		</div>
 
-            <div class="box-txt col-xs-12 col-sm-6">
-                <div class="txt-row helvethaica_xcond_li"></div>
-                <div class="txt-row helvethaica_xcond_med">Pure soap</div>
-                <div class="txt-row helvethaica_x_li">
-                    <div>Concentrated Glutathione you can see clearly in 3 mintes. White bright and aura skin smooth and healthy skin. For a smoother, more radiant and Acne free skin. Reduces freckles, dark spots and eliminate acne while helping to make the skin pores smaller with its formulation of active ingredients. Use daily for all skin types including sensitive skin, for long lasting results.</div>
-                </div>
-            </div>
-
-            
-
-            <div class="clear-both"></div>
-
-            <div class="box-txt-foot col-xs-12 col-sm-12">
-                <div class="foot-row helvethaica_x_it_li">How to use : Apply lather onto your hands, and then put them on your face with water twice a day in the morning and night<br>Net. 100 g. <br>FDA. 10-1-5824484</div>
-            </div>
-
-            <div class="clear-both"></div>
-        </div>
+		<div class="box-txt col-xs-12 col-sm-6 col-md-6">
+			<div class="txt-row helvethaica_xcond_li"></div>
+			<div class="txt-row helvethaica_xcond_med">Pure soap</div>
+			<div class="txt-row helvethaica_x_li">
+				<div>Concentrated Glutathione you can see clearly in 3 mintes. White bright and aura skin smooth and healthy skin. For a smoother, more radiant and Acne free skin. Reduces freckles, dark spots and eliminate acne while helping to make the skin pores smaller with its formulation of active ingredients. Use daily for all skin types including sensitive skin, for long lasting results.</div>
+			</div>
+		</div>
     </div>
 </div>
+
+
+<div style="">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-6 pg3">
+			<div class="bn-full col-md-10 col-md-offset-1" style="font-size: 1.5em;">
+				<div class="helvethaica_xcond_med text-center" style="font-size: 3.5em;">Pure soap</div>
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">How to use : Apply lather onto your hands, and then put them on your face with water twice a day in the morning and night<br>Net. 100 g. <br>FDA. 10-1-5824484 </div>	
+			</div>
+		</div>
+		<div class="bn-full-img col-md-6">
+			<img src="/images/products/4/Pure_soap_b3.png" class="img-responsive" alt="">
+		</div>
+
+	</div>
+</div>
+
+
 
 
 </div>

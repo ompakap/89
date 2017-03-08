@@ -39,10 +39,12 @@ class News extends Controller
 	public function getnewslist()
 	{
 		$response = array(
-			'0' => array( 'id' => 4, 'title' => 'วันที่13-15 มกราคม 2560 ครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ' , 'image' => URL . '/images/news/hongkong01.jpg', "date" => '13&nbsp;JANUARY&nbsp;2017' ),
-			'1' => array( 'id' => 3, 'title' => 'TOP BRAND AWARDS 2016' , 'image' => URL . '/images/news/top_brand_awards_01.jpg', "date" => '03&nbsp;SEPTEMBER&nbsp;2016' ),
-			'2' => array( 'id' => 2, 'title' => 'ASIA BEAUTY & COSMETIC EXPO 2016' , 'image' => URL . '/images/news/asia_beauty_cosmetic_expo_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' ),
-			'3' => array( 'id' => 1, 'title' => 'ทริปพาตัวแทนJellys (เจลลี่) เที่ยวญี่ปุ่น วันที่ 21-26 มกราคม 2559' , 'image' => URL . '/images/news/japan_trip_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' )
+			'0' => array( 'id' => 5, 'title' => 'CEO THAILAND AWARDS 2017' , 'image' => URL . '/images/news/ceo01.jpg', "date" => '25&nbsp;February&nbsp;2017' ),
+			'1' => array( 'id' => 4, 'title' => 'วันที่13-15 มกราคม 2560 ครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ' , 'image' => URL . '/images/news/hongkong01.jpg', "date" => '13&nbsp;JANUARY&nbsp;2017' ),
+			'2' => array( 'id' => 3, 'title' => 'TOP BRAND AWARDS 2016' , 'image' => URL . '/images/news/top_brand_awards_01.jpg', "date" => '03&nbsp;SEPTEMBER&nbsp;2016' ),
+			'3' => array( 'id' => 2, 'title' => 'ASIA BEAUTY & COSMETIC EXPO 2016' , 'image' => URL . '/images/news/asia_beauty_cosmetic_expo_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' ),
+			'4' => array( 'id' => 1, 'title' => 'ทริปพาตัวแทนJellys (เจลลี่) เที่ยวญี่ปุ่น วันที่ 21-26 มกราคม 2559' , 'image' => URL . '/images/news/japan_trip_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' )
+			
 		);
 
 		return $response;
@@ -133,6 +135,22 @@ class News extends Controller
 						"date" => '13&nbsp;JANUARY&nbsp;2017',
 						"title" => 'วันที่13-15 มกราคม 2560 แบรนด์เจลลี่พาสมาชิกครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ',
 						"description" => ''
+					);
+
+				break;
+
+			case '5' :
+
+					$response = array(
+						"image" => array(
+							array( 'title'=>'01', 'path'=>URL.'images/news/ceo01.jpg'),
+							array( 'title'=>'02', 'path'=>URL.'images/news/ceo02.jpg'),
+							array( 'title'=>'03', 'path'=>URL.'images/news/ceo03.jpg')
+						),
+
+						"date" => '25&nbsp;February&nbsp;2017',
+						"title" => 'CEO THAILAND AWARDS 2017',
+						"description" => 'ภาพบรรยากาศที่คุณณัฐกานต์ บุราณรมย์ กรรมการบริษัท เอ็นทีบี พลัส (ไทยแลนด์) จำกัด และผู้บริหารสินค้าในเครือแบรนด์ Jellys (เจลลี่) ได้รับรางวัล CEO THAILAND AWARDS 2017 (ผู้บริหารแห่งปี 2017) วันที่ 25 กุมภาพันธ์ 2560 ณ ศูนย์ประชุม สถาบันวิจัยจุฬาภรณ์ กรุงเทพมหานครฯ'
 					);
 
 				break;

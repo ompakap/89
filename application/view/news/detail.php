@@ -72,6 +72,11 @@
 				
 						</div>
 					</div>
+
+					<div class="helvethaica_x_li" style="font-size: 18px;">
+						<?=$detail['description'];?>
+					</div>
+					<br>
 				</div>
 			</div>
 				<?php

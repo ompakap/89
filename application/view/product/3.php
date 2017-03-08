@@ -132,12 +132,6 @@ $m = 'pdd';
             <div class="box-pic col-xs-12 col-sm-6"></div>
 
             <div class="clear-both"></div>
-
-            <div class="box-txt-foot col-xs-12 col-sm-12">
-                <div class="foot-row helvethaica_x_it_li">โลชั่นบำรุงผิวกาย สูตรเฉพาะของ Jellys ที่สาวๆหลงรัก ด้วยคุณสมบัติเปลี่ยนผิวเสียให้เป็นผิวสวย มอบผิวขาวกระจ่างใส ปรนนิบัติผิวคุณให้ใส นุ่มเนียน น่าสัมผัส ช่วยรักษาความชุมชื่นของน้ำในผิวกาย</div>
-            </div>
-
-            <div class="clear-both"></div>
         </div>
     </div>
 </div>

@@ -1,11 +1,5 @@
 <style type="text/css">
-	
-	.row-product-publish .content-box {
-		background-image: url(/images/products/1/Pure_cream_b2.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-	
+		
 	.bn-box {
 		min-height: 350px;
 	}
@@ -16,6 +10,11 @@
 
 	.bn-full-img {
 		padding-top: 60px;
+	}
+
+	.row-product-publish .content-box {
+		background-color: #fff; 
+		padding: 15px 20px 20px; 
 	}
 
 	@media screen and (min-width:768px) {
@@ -36,13 +35,6 @@
 	}
 	
 	@media screen and (max-width: 767px) {
-		
-		.row-product-publish .content-box {
-			background-image: url(/images/products/1/Pure_cream_b2.png);
-			background-size: cover;
-			background-repeat: no-repeat;
-			padding: 88px;
-		}
 
 		.bn-box-1 {
 			padding-bottom: 30px;
@@ -78,9 +70,9 @@ $m = 'pdd';
 <div class="box_banner_bg">
 	<div class="banner_product bg1 pst_right bn-box-1" style="margin:auto; max-width: none;">
 		<div class="container contain_prod">
-			<div class="box_ctn_banner_image">
-				<div class="box_banner_image--image">	
-					<div class="img-show"></div>
+			<div class="col-md-6 col-md-offset-6">
+				<div class="box_banner_image--image text-right">	
+					<img src="/images/products/1/Pure_cream_b1.png" class="img-responsive" alt="">
 				</div>
 			</div>
 			<div class="box_ctn_banner_txt">
@@ -88,8 +80,8 @@ $m = 'pdd';
 					<div class="box_banner_txt--text2">เพียว ครีม</div>
 					<div class="box_banner_txt--line"></div>
 					<div class="box_banner_txt--text3">
-						<span class="p3">ให้ความรู้สึกแตกต่างด้วยเนื้อบางเบาและซึมซาบสู่ผิวอย่างรวดเร็ว ไม่เหนอะหนะ สามารถซึมลึกเข้าสู่ผิวชั้นในได้อย่างล้ำลึก เพื่อฟื้นฟูและแก้ไขทุกปัญหาผิว พร้อมชาร์ตพลังผิวให้สวยเปล่งประกายกระจ่างใสในชั่วข้ามคืน</span></div>
-					<div class="box_btn"><div class="box_btn_size"></div></div>
+						<span class="p3">ให้ความรู้สึกแตกต่างด้วยเนื้อบางเบาและซึมซาบสู่ผิวอย่างรวดเร็ว ไม่เหนอะหนะ สามารถซึมลึกเข้าสู่ผิวชั้นในได้อย่างล้ำลึก เพื่อฟื้นฟูและแก้ไขทุกปัญหาผิว พร้อมชาร์ตพลังผิวให้สวยเปล่งประกายกระจ่างใสในชั่วข้ามคืน</span>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -98,28 +90,21 @@ $m = 'pdd';
 </div>
 
 <div id="row-product-publish" class="row-product-publish">
-    <div class="content-box">
-        <div class="wrap-ctn">
-			<div class="box-pic col-xs-12 col-sm-6 hidden-xs hidden-sm"></div>
+    <div class="content-box container">
 
-            <div class="box-txt col-xs-12 col-sm-6">
-                <div class="txt-row helvethaica_xcond_li"></div>
-                <div class="txt-row helvethaica_xcond_med">เพียว ดีดี ครีม</div>
-                <div class="txt-row helvethaica_x_li">
-                    <div>เผยผิวขาวกระจ่างใสแบบมีออร่า เน้นฟื้นฟูผิวขณะหลับ ปรับสภาพผิวยามค่ำคืน ปรนนิบัติผิวคุณอย่างล้ำลึกถึงเซลล์ผิว</div>
-                </div>
-            </div>
+		<div class="col-md-6">
+			<div class="box_banner_image--image text-right">	
+				<img src="/images/products/1/Pure_cream_b2.png" class="img-responsive" alt="">
+			</div>
+		</div>
 
-            
-
-            <div class="clear-both"></div>
-
-            <div class="box-txt-foot col-xs-12 col-sm-12">
-                <div class="foot-row helvethaica_x_it_li">เพียว ครีม "มาร์คผิวไว้ก่อนนอน ตื่นมาผิวขาวใสขึ้นกว่าเดิม"</div>
-            </div>
-
-            <div class="clear-both"></div>
-        </div>
+		<div class="box-txt col-xs-12 col-sm-6 col-md-6">
+			<div class="txt-row helvethaica_xcond_li"></div>
+			<div class="txt-row helvethaica_xcond_med">เพียว ครีม</div>
+			<div class="txt-row helvethaica_x_li">
+				<div>เผยผิวขาวกระจ่างใสแบบมีออร่า เน้นฟื้นฟูผิวขณะหลับ ปรับสภาพผิวยามค่ำคืน ปรนนิบัติผิวคุณอย่างล้ำลึกถึงเซลล์ผิว</div>
+			</div>
+		</div>
     </div>
 </div>
 
@@ -127,14 +112,31 @@ $m = 'pdd';
 	<div class="bn-box box_banner_bg container">
 		
 		<div class="col-md-6">
-			<div class="bn-full col-md-10 col-md-offset-1">
-				<div class="helvethaica_x_li text-center" style="font-size: 25px;">ปรับสภาพผิวให้ขาวออร่า สุขภาพแบบเร่งด่วน ลดรอยจุดด่างดำ รอยแตกลาย ให้ขาวเนียนใสบำรุงผิวอย่างล้ำลึก</div>	
+			<div class="bn-full col-md-10 col-md-offset-1" style="font-size: 1.5em;">
+				<div class="helvethaica_xcond_med text-center" style="font-size: 3.5em;">เพียว ครีม</div>
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">"มาร์คผิวไว้ก่อนนอน ตื่นมาผิวขาวใสขึ้นกว่าเดิม"</div>	
 			</div>
 		</div>
 		<div class="bn-full-img col-md-6">
 			<img src="/images/products/1/Pure_cream_b3.png" class="img-responsive" alt="">
 		</div>
 
+	</div>
+</div>
+
+<div style="background-color: #f1f5fb;">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class=" col-md-6 col-md-push-6">
+			<div class="bn-full col-md-10 ">
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">ปรับสภาพผิวให้ขาวออร่า สุขภาพแบบเร่งด่วน ลดรอยจุดด่างดำ รอยแตกลาย ให้ขาวเนียนใสบำรุงผิวอย่างล้ำลึก</div>	
+			</div>
+		</div>
+
+		<div class="bn-full-img col-md-6 col-md-pull-6">
+			<img src="/images/products/1/Pure_cream_b4.png" class="img-responsive" alt="">
+		</div>
+		
 	</div>
 </div>
 
@@ -270,33 +272,65 @@ $m = 'pdd';
 	</div>
 </div>
 
-<div class="clearfix"></div>
-
 <div id="row-product-publish" class="row-product-publish">
-    <div class="content-box">
-        <div class="wrap-ctn">
+    <div class="content-box container">
 
-			<div class="box-pic col-xs-12 col-sm-6 hidden-xs hidden-sm"></div>
+		<div class="col-md-6">
+			<div class="box_banner_image--image text-right">	
+				<img src="/images/products/1/Pure_cream_b2.png" class="img-responsive" alt="">
+			</div>
+		</div>
 
-            <div class="box-txt col-xs-12 col-sm-6">
-                <div class="txt-row helvethaica_xcond_li"></div>
-                <div class="txt-row helvethaica_xcond_med">Pure DD cream</div>
-                <div class="txt-row helvethaica_x_li">
-                    <div>Concentrated glutathione you can see clearly in 7 days. White bright and aura skin smooth and healthy skin. Add fair skin look like the natural white skin, nourishing skin and sun protection well. Light cream to equalize easily spread and not sticky. Features available with for all skin to white radiant skin.</div>
-                </div>
-            </div>
-
-            <div class="clear-both"></div>
-
-            <div class="box-txt-foot col-xs-12 col-sm-12">
-                <div class="foot-row helvethaica_x_it_li">How to use : squeeze cream onto your plam and touch the cream around the body and equalize to smooth <br>Net. 30 g. <br>FDA. 10-1-5835261 </div>
-            </div>
-
-            <div class="clear-both"></div>
-        </div>
+		<div class="box-txt col-xs-12 col-sm-6 col-md-6">
+			<div class="txt-row helvethaica_xcond_li"></div>
+			<div class="txt-row helvethaica_xcond_med">Pure cream</div>
+			<div class="txt-row helvethaica_x_li">
+				<div>Concentrated glutathione you can see clearly in 7 days. White bright and aura skin smooth and healthy skin. Add fair skin look like the natural white skin, nourishing skin and sun protection well</div>
+			</div>
+		</div>
     </div>
 </div>
 
+<div style="background-color: #f1f5fb;">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-6">
+			<div class="bn-full col-md-10 col-md-offset-1" style="font-size: 1.5em;">
+				<div class="helvethaica_xcond_med text-center" style="font-size: 3.5em;">Pure cream</div>
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">Light cream to equalize easily spread and not sticky. Features available with for all skin to white radiant skin.</div>	
+			</div>
+		</div>
+		<div class="bn-full-img col-md-6">
+			<img src="/images/products/1/Pure_cream_b3.png" class="img-responsive" alt="">
+		</div>
+
+	</div>
+</div>
+
+
+<!-- detail -->
+<div id="row-slide-detail" class="row-slide-detail">
+    <div class="row-slide ctrl_bx">
+        <div class="slide-box">
+
+			<div class="slide-row milk pst_left">
+				<div class="bx-ct-inner">
+					<div class="row-pic pic-1">
+						<img src="/images/products/1/Pure_cream_b1.png" class="img-responsive" alt="">
+					</div>
+					<div class="row-txt">
+						<div class="txt-wrap">
+							<div class="txt-topic">How to use</div>
+							<div class="txt-detail">squeeze cream onto your plam and touch the cream around the body and equalize to smooth <br>Net. 30 g. <br>FDA. 10-1-5835261 </div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+		</div>
+    </div>
+</div>
 
 </div>
 

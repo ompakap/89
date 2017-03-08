@@ -1,18 +1,21 @@
 <style type="text/css">
 
+	.row-product-publish .content-box {
+		padding: 65px 20px 0px 20px;
+	}
+
+	.pg4 {
+		margin-top:150px;
+	}
+
+	.pg3 {
+		margin-top:145px;
+	}
+
 	@media screen and (min-width:768px) {
-		
-		.banner_product.bg1 {
-			padding: 0;
-			background-image: url(/images/products/5/bg_pureundercream01.png);
-		}
 		
 		.row-product-publish .content-box {
 			background-color: #e1e6ec;
-		}
-
-		.row-product-publish .content-box .box-pic {
-			background-image: url(/images/products/use/bg_pureundercream02_edited.jpg);
 		}
 
 		.box_banner_bg .banner_product .box_banner_image--image .img-show {
@@ -25,11 +28,15 @@
 		}
 
 		.box-txt {
-			padding-top: 140px;
+			padding-top: 95px;
 		}
 
 		.box_banner_bg .banner_product .box_ctn_banner_txt .box_banner_txt--text2 {
 			font-size: 6em;
+		}
+
+		.row-product-publish .content-box .box-pic, .row-product-publish .content-box .box-txt {
+			min-height: 300px;
 		}
 	}
 	
@@ -39,10 +46,10 @@
 			margin-bottom: 40px;
 		}
 
-		.box_banner_bg .banner_product .box_banner_image--image .img-show {
-			background-image: url(/images/products/pure_underarm_cream_product01.png);
+		.bn-box-2 {
+			padding-bottom: 40px;
 		}
-
+	
 		.box_banner_bg .banner_product .box_banner_txt--text2 {
 			font-size: 4em;
 		}
@@ -51,12 +58,16 @@
 			background-color: #fff;
 		}
 
-		.row-product-publish .content-box .box-pic {
-			background-image: url(/images/products/use/bg_pureundercream02_edited.jpg);
-		}
-
 		.row-product-publish .content-box {
 			background: #e1e6ec;
+		}
+
+		.pg4 {
+			margin-top:50px;
+		}
+
+		.pg3 {
+			margin-top:15px;
 		}
 	}
 
@@ -73,21 +84,22 @@ $m = 'pdd';
 
 <div style="<?=$ds_th;?>">
 
+
 <div class="box_banner_bg bn-box-1">
-	<div class="banner_product bg1 pst_left" style="margin:auto; max-width: none;">
-		<div class="container contain_prod">
-			<div class="box_ctn_banner_image">
-				<div class="box_banner_image--image">	
-					<div class="img-show"></div>
+	<div class="banner_product bg1 pst_right " style="margin:auto; max-width: none;">
+		<div class="container contain_prod" style=" padding: 25px 0 0 0;">
+			<div class="col-md-6 col-md-offset-6">
+				<div class="box_banner_image--image text-right">	
+					<img src="/images/products/5/Pure_Under_arm_cream_b1.png" class="img-responsive" alt="">
 				</div>
 			</div>
 			<div class="box_ctn_banner_txt">
 				<div class="box_banner_txt--boxtxt">
-					<div class="box_banner_txt--text2">เพียว อั้นเดอร์อาร์ม ครีม</div>
+					<div class="box_banner_txt--text2">เพียว อันเดอร์อาร์ม ครีม</div>
 					<div class="box_banner_txt--line"></div>
 					<div class="box_banner_txt--text3">
-						<span class="p3">ผลิตภัณฑ์บำรุงผิวใต้วงแขน และระงับกลิ่นกาย เพื่อผิวใต้วงแขนเนียนกระจ่างใส ลดความหมองคล้ำ ลดการอักแสบจากการถอนขน เผยผิวเรียบเนียน และดูมีสุขภาพดีอย่างธรรมชาติ </span></div>
-					<div class="box_btn"><div class="box_btn_size"></div></div>
+						<span class="p3">ผลิตภัณฑ์บำรุงผิวใต้วงแขน และระงับกลิ่นกาย เพื่อผิวใต้วงแขนเนียนกระจ่างใส ลดความหมองคล้ำ ลดการอักแสบจากการถอนขน เผยผิวเรียบเนียน และดูมีสุขภาพดีอย่างธรรมชาติ</span>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -95,32 +107,59 @@ $m = 'pdd';
 	</div>
 </div>
 
-<div id="row-product-publish" class="row-product-publish">
-    <div class="content-box bg1">
-        <div class="wrap-ctn">
+<div class="clearfix"></div>
 
-			
+<div id="row-product-publish " class="row-product-publish bn-box-2"  style="background-color: #c1d6db;">
+    <div class="content-box container" style="background-color: #c1d6db;">
 
-            <div class="box-txt col-xs-12 col-sm-6">
-                <div class="txt-row helvethaica_xcond_li"></div>
-                <div class="txt-row helvethaica_xcond_med">เพียว อั้นเดอร์อาร์ม ครีม</div>
-                <div class="txt-row helvethaica_x_li">
-                    <div>ผิวเนียนเรียบกระจ่างใส<br>ระงับกลิ่นกาย มั่นใจ24 ชม. <br>	กลิ่นน้ำหอมจากประเทศฝรั่งเศส</div>
-                </div>
-            </div>
+		<div class="col-md-6">
+			<div class="box_banner_image--image text-right">	
+				<img src="/images/products/5/Pure_Under_arm_cream_b2.png" class="img-responsive" alt="">
+			</div>
+		</div>
 
-			<div class="box-pic col-xs-12 col-sm-6"></div>
-
-            <div class="clear-both"></div>
-
-            <div class="box-txt-foot col-xs-12 col-sm-12">
-                <div class="foot-row helvethaica_x_it_li">รักแร้นุ่มเนียน พร้อมรับวันใหม่สดใส ครีมบำรุงใต้วงแขน เวชสำอางค์คุณภาพ ส่วนผสมที่คิดค้นและพัฒนาสูตรจากผู้เชี่ยวชาญด้านผิวหนังโดยตรง เน้นปรับสมดุลการทำงานของเซลล์ผิว ผสานแอคทีฟที่สกัดจากธรรมาชาติ ให้ทุกวันคือการบำรุงฟื้นฟู</div>
-            </div>
-
-            <div class="clear-both"></div>
-        </div>
+		<div class="box-txt col-xs-12 col-sm-6 col-md-6">
+			<div class="txt-row helvethaica_xcond_li"></div>
+			<div class="txt-row helvethaica_xcond_med">เพียว อันเดอร์อาร์ม ครีม</div>
+			<div class="txt-row helvethaica_x_li">
+				<div>เพียว อันเดอร์อาร์ม ครีม<br>ผิวเนียนเรียบกระจ่างใส<br>ระงับกลิ่นกาย มั่นใจ24 ชม. <br>กลิ่นน้ำหอมจากประเทศฝรั่งเศส</div>
+			</div>
+		</div>
     </div>
 </div>
+
+<div style="">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-6 pg3">
+			<div class="bn-full col-md-10 col-md-offset-1" style="font-size: 1.5em;">
+				<div class="helvethaica_xcond_med text-center" style="font-size: 2.5em;">เพียว อันเดอร์อาร์ม ครีม</div>
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">รักแร้นุ่มเนียน พร้อมรับวันใหม่สดใส </div>	
+			</div>
+		</div>
+		<div class="bn-full-img col-md-6">
+			<img src="/images/products/5/Pure_Under_arm_cream_b3.png" class="img-responsive" alt="">
+		</div>
+
+	</div>
+</div>
+
+<div style="background-color: #f1f5fb;">
+	<div class="bn-box box_banner_bg container">
+		
+		<div class="col-md-6 col-md-push-6 pg4">
+			<div class="bn-full col-md-10 ">
+				<div class="helvethaica_x_li text-center" style="font-size: 25px;">ครีมบำรุงใต้วงแขน เวชสำอางค์คุณภาพ ส่วนผสมที่คิดค้นและพัฒนาสูตรจากผู้เชี่ยวชาญด้านผิวหนังโดยตรง เน้นปรับสมดุลการทำงานของเซลล์ผิว ผสานแอคทีฟที่สกัดจากธรรมาชาติ </div>	
+			</div>
+		</div>
+
+		<div class="bn-full-img col-md-6 col-md-pull-6">
+			<img src="/images/products/5/Pure_Under_arm_cream_b4.png" class="img-responsive" alt="">
+		</div>
+		
+	</div>
+</div>
+
 
 <!-- detail -->
 <div id="row-slide-detail" class="row-slide-detail">
@@ -231,12 +270,14 @@ $m = 'pdd';
 
 <div style="<?=$ds_en;?>">
 
+
+
 <div class="box_banner_bg bn-box-1">
-	<div class="banner_product bg1 pst_left " style="margin:auto; max-width: none;">
-		<div class="container contain_prod">
-			<div class="box_ctn_banner_image">
-				<div class="box_banner_image--image">	
-					<div class="img-show"></div>
+	<div class="banner_product bg1 pst_right " style="margin:auto; max-width: none;">
+		<div class="container contain_prod" style=" padding: 25px 0 0 0;">
+			<div class="col-md-6 col-md-offset-6">
+				<div class="box_banner_image--image text-right">	
+					<img src="/images/products/5/Pure_Under_arm_cream_b1.png" class="img-responsive" alt="">
 				</div>
 			</div>
 			<div class="box_ctn_banner_txt">
@@ -244,8 +285,8 @@ $m = 'pdd';
 					<div class="box_banner_txt--text2">Pure underarm cream</div>
 					<div class="box_banner_txt--line"></div>
 					<div class="box_banner_txt--text3">
-						<span class="p3">Underarm cream that contains Vitamin B3 Vitamin C and Glutathione to protect the skin from darkening. It also contains Aloe vera extract, Chomomile extract, and Alpha Arbutin which gently sooth and moisturize the skin, to make the skin looks radiant and healthy.</span></div>
-					<div class="box_btn"><div class="box_btn_size"></div></div>
+						<span class="p3">Underarm cream that contains Vitamin B3 Vitamin C and Glutathione to protect the skin from darkening. It also contains Aloe vera extract, Chomomile extract, and Alpha Arbutin which gently sooth and moisturize the skin, to make the skin looks radiant and healthy.</span>
+					</div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -254,28 +295,30 @@ $m = 'pdd';
 </div>
 
 
+
+
 <div class="clearfix"></div>
 
-<div id="row-product-publish" class="row-product-publish">
-    <div class="content-box bg2">
-        <div class="wrap-ctn">
 
-			
+<div id="row-product-publish " class="row-product-publish bn-box-2"  style="background-color: #c1d6db;">
+    <div class="content-box container" style="background-color: #c1d6db;">
 
-            <div class="box-txt col-xs-12 col-sm-6">
-                <div class="txt-row helvethaica_xcond_li"></div>
-                <div class="txt-row helvethaica_xcond_med">Pure underarm cream</div>
-                <div class="txt-row helvethaica_x_li">
-                    <div>Underarm skin treatment cream and deodorant. For white and smooth underarm skin. Reduce darkness, irritation form picking. lmprove your underarm skin tone to bright, smooth and healthy underarm skin.</div>
-                </div>
-            </div>
+		<div class="col-md-6">
+			<div class="box_banner_image--image text-right">	
+				<img src="/images/products/5/Pure_Under_arm_cream_b2.png" class="img-responsive" alt="">
+			</div>
+		</div>
 
-			<div class="box-pic col-xs-12 col-sm-6"></div>
-
-            <div class="clear-both"></div>
-        </div>
+		<div class="box-txt col-xs-12 col-sm-6 col-md-6">
+			<div class="txt-row helvethaica_xcond_li"></div>
+			<div class="txt-row helvethaica_xcond_med">Pure underarm cream</div>
+			<div class="txt-row helvethaica_x_li">
+				<div>Underarm skin treatment cream and deodorant. For white and smooth underarm skin. Reduce darkness, irritation form picking. lmprove your underarm skin tone to bright, smooth and healthy underarm skin.</div>
+			</div>
+		</div>
     </div>
 </div>
+
 
 
 </div>

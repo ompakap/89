@@ -2943,11 +2943,11 @@ body.vjs-full-window {
     }
     .row-slide-howto .slide-row .bx-ct-inner .row-txt .txt-wrap {
         height: 400px;
-        max-width: 470px;
+		max-width: 530px;
         padding-top: 0
     }
     .row-slide-howto .slide-row .bx-ct-inner .row-txt .txt-wrap .txt-topic {
-        font-size: 4em
+        font-size: 3em;
     }
     .row-slide-howto .slide-row .bx-ct-inner .row-txt .txt-wrap .txt-topic-sub {
         font-size: 2.2em;
