@@ -70,6 +70,52 @@ class Model
 		return $query->fetch(PDO::FETCH_ASSOC);
 	}
 	
+	public function gen_continue_product()
+	{
+		$sql = " select count(*) as maxs FROM product_serials WHERE code_product = '".$_POST['prod_id']."' ";
+		$query = $this->db->prepare($sql);
+		$query->execute();
+
+		$count = $query->fetch(PDO::FETCH_ASSOC);
+			
+		$max = $_POST['max_product'];
+		$i = 0;
+		$ci = $count['maxs'] + 1;
+		$chuck = ceil($max / 20);
+		$vsql = '';
+
+		while( $i <= $max )
+		{
+			$code = md5( $ci . $_POST['prod_id'] );
+			//$code = substr($code, 0, 13);
+			
+			$vsql .= "( '".$_POST['prod_id']."', '".$code."' ),";
+
+			if( ($i % $chuck) == 0 || $i == $max )
+			{
+				$sql = 'INSERT INTO product_serials( code_product, code_serial ) VALUES ';
+				$strSQL = $sql . substr($vsql, 0, -1);
+			
+				$query = $this->db->prepare($strSQL);
+				$query->execute();
+				$vsql = '';
+			}
+			
+			$ci++;
+			$i++;
+		}
+
+		/*
+		$handle = fopen('gencode.sql','w');
+		fwrite($handle, $sql);
+		fclose($handle);
+
+		echo $command = "mysql -u ".DB_USER." -p ".DB_PASS." ".DB_NAME." < gencode.sql ";
+
+		exec($command);
+		*/
+	}
+
 	public function generateProductCode($id, $stocks)
 	{
 		$sql = " DELETE FROM product_serials WHERE code_product = '".$id."' ";

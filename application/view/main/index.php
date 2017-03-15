@@ -13,7 +13,7 @@
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
-					<div id="btnVideoPlay1462424183570" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="53ZqxQqnt4w"></div>
+					<div id="btnVideoPlay1462424183570" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="L35Z3XhnqIQ"></div>
 					<div class="play-control play_video " onclick="playPauseVideo();"></div>
 					<div class="dim_shield_video"></div>
 				</div>
@@ -28,7 +28,7 @@
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
-					<div id="btnVideoPlay234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="4bhWbQre0mA"></div>
+					<div id="btnVideoPlay234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="-2PNZ0fW4F4"></div>
 					<div class="play-control play_video " onclick="playPauseVideo();"></div>
 					<div class="dim_shield_video"></div>
 				</div>
@@ -43,7 +43,7 @@
 				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
 
 				<div class="bx-item playing">
-					<div id="btnVideoPlaydd234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="ETvOEXwi98o"></div>
+					<div id="btnVideoPlaydd234" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="WDyUQCQjmes"></div>
 					<div class="play-control play_video " onclick="playPauseVideo();"></div>
 					<div class="dim_shield_video"></div>
 				</div>

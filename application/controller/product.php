@@ -94,4 +94,15 @@ class Product extends Controller
         
         echo json_encode($res);
     }
+
+	public function gen_code()
+    {
+        require APP . 'view/product/gen.php';
+    }
+
+	public function dogen()
+    {
+		$this->model->gen_continue_product();
+		echo 'done';
+    }
 }
