@@ -29,8 +29,13 @@
 					</div>
 				</div>
 				
+				
+
 				<div class="c_box_fulldetail">
 					<div class="c_box_fulldetail--text">
+
+						
+
 						<div class="slide_news_box">
 							<div class="slide_news_box--show slider-for">
 								<?php

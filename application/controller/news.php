@@ -39,11 +39,12 @@ class News extends Controller
 	public function getnewslist()
 	{
 		$response = array(
-			'0' => array( 'id' => 5, 'title' => 'CEO THAILAND AWARDS 2017' , 'image' => URL . '/images/news/ceo01.jpg', "date" => '25&nbsp;February&nbsp;2017' ),
-			'1' => array( 'id' => 4, 'title' => 'วันที่13-15 มกราคม 2560 ครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ' , 'image' => URL . '/images/news/hongkong01.jpg', "date" => '13&nbsp;JANUARY&nbsp;2017' ),
-			'2' => array( 'id' => 3, 'title' => 'TOP BRAND AWARDS 2016' , 'image' => URL . '/images/news/top_brand_awards_01.jpg', "date" => '03&nbsp;SEPTEMBER&nbsp;2016' ),
-			'3' => array( 'id' => 2, 'title' => 'ASIA BEAUTY & COSMETIC EXPO 2016' , 'image' => URL . '/images/news/asia_beauty_cosmetic_expo_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' ),
-			'4' => array( 'id' => 1, 'title' => 'ทริปพาตัวแทนJellys (เจลลี่) เที่ยวญี่ปุ่น วันที่ 21-26 มกราคม 2559' , 'image' => URL . '/images/news/japan_trip_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' )
+			'0' => array( 'id' => 6, 'title' => 'Grand opening Pure face sunscreen cream by Jellys' , 'image' => URL . '/images/news/grand01.jpg', "date" => '05&nbsp;March&nbsp;2017' ),
+			'1' => array( 'id' => 5, 'title' => 'CEO THAILAND AWARDS 2017' , 'image' => URL . '/images/news/ceo01.jpg', "date" => '25&nbsp;February&nbsp;2017' ),
+			'2' => array( 'id' => 4, 'title' => 'วันที่13-15 มกราคม 2560 ครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ' , 'image' => URL . '/images/news/hongkong01.jpg', "date" => '13&nbsp;JANUARY&nbsp;2017' ),
+			'3' => array( 'id' => 3, 'title' => 'TOP BRAND AWARDS 2016' , 'image' => URL . '/images/news/top_brand_awards_01.jpg', "date" => '03&nbsp;SEPTEMBER&nbsp;2016' ),
+			'4' => array( 'id' => 2, 'title' => 'ASIA BEAUTY & COSMETIC EXPO 2016' , 'image' => URL . '/images/news/asia_beauty_cosmetic_expo_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' ),
+			'5' => array( 'id' => 1, 'title' => 'ทริปพาตัวแทนJellys (เจลลี่) เที่ยวญี่ปุ่น วันที่ 21-26 มกราคม 2559' , 'image' => URL . '/images/news/japan_trip_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' )
 			
 		);
 
@@ -151,6 +152,33 @@ class News extends Controller
 						"date" => '25&nbsp;February&nbsp;2017',
 						"title" => 'CEO THAILAND AWARDS 2017',
 						"description" => 'ภาพบรรยากาศที่คุณณัฐกานต์ บุราณรมย์ กรรมการบริษัท เอ็นทีบี พลัส (ไทยแลนด์) จำกัด และผู้บริหารสินค้าในเครือแบรนด์ Jellys (เจลลี่) ได้รับรางวัล CEO THAILAND AWARDS 2017 (ผู้บริหารแห่งปี 2017) วันที่ 25 กุมภาพันธ์ 2560 ณ ศูนย์ประชุม สถาบันวิจัยจุฬาภรณ์ กรุงเทพมหานครฯ'
+					);
+
+				break;
+
+			case '6' :
+
+					$response = array(
+						"image" => array(
+							array( 'title'=>'01', 'path'=>URL.'images/news/grand01.jpg'),
+							array( 'title'=>'02', 'path'=>URL.'images/news/grand02.jpg'),
+							array( 'title'=>'03', 'path'=>URL.'images/news/grand03.jpg'),
+							array( 'title'=>'04', 'path'=>URL.'images/news/grand04.jpg'),
+							array( 'title'=>'05', 'path'=>URL.'images/news/grand05.jpg'),
+							//array( 'title'=>'06', 'path'=>URL.'images/news/grand06.jpg'),
+							array( 'title'=>'07', 'path'=>URL.'images/news/grand07.jpg'),
+							array( 'title'=>'08', 'path'=>URL.'images/news/grand08.jpg'),
+							array( 'title'=>'09', 'path'=>URL.'images/news/grand09.jpg'),
+							array( 'title'=>'10', 'path'=>URL.'images/news/grand10.jpg'),
+							array( 'title'=>'11', 'path'=>URL.'images/news/grand11.jpg'),
+							array( 'title'=>'12', 'path'=>URL.'images/news/grand12.jpg')
+						),
+
+						"video" => array('r10oIEZjpCU&t=59s'),
+
+						"date" => '05&nbsp;March&nbsp;2017',
+						"title" => 'Grand opening Pure face sunscreen cream by Jellys',
+						"description" => 'ภาพบรรยากาศงานเปิดตัวสินค้า "ครีมกันแดดหน้าเพียวเฟส" ที่ ศูนย์การค้าเซ็นทรัลบางนา เปิดตัวอย่างเป็นทางการ พร้อมดาราศิลปินพิเศษมากมาย '
 					);
 
 				break;

@@ -1810,6 +1810,132 @@
         return t
     }
 }));
+
+!function(t, e) {
+    var o = {
+        ratio: 16 / 9,
+        videoId: 'ZCAnLxRvNNc',
+        mute: !0,
+        repeat: !1,
+        width: t(e).width(),
+        wrapperZIndex: 99,
+        start: 0,
+        end: !1,
+        onReadyApi: !1,
+        onStateChangeApi: !1
+    }
+      , i = function(i, s) {
+        var u = t(i).parent()
+          , r = t(i)
+          , l = 'tubularPlayer-' + r.attr('id');
+        if ('string' == typeof s) {
+            var c = r.data('tubularPlayer');
+            try {
+                switch (s) {
+                case 'play':
+                    c.playVideo();
+                    break;
+                case 'pause':
+                    c.pauseVideo();
+                    break;
+                case 'stop':
+                    c.stopVideo()
+                }
+            } catch (n) {}
+        } else {
+            var s = t.extend({}, o, s)
+              , a = t('<div>', {
+                id: 'tubularContainer-' + r.attr('id'),
+                'class': 'tubular-panel'
+            }).css({
+                position: 'absolute',
+                'z-index': 1,
+                width: '100%',
+                height: '100%'
+            }).append(t('<div>', {
+                id: l
+            }).css({
+                position: 'absolute'
+            }))
+              , p = function() {
+                r.data('tubularPlayer', new YT.Player(l,{
+                    width: s.width,
+                    height: Math.ceil(s.width / s.ratio),
+                    videoId: s.videoId,
+                    playerVars: {
+                        controls: 0,
+                        showinfo: 0,
+                        modestbranding: 1,
+                        wmode: 'transparent',
+                        end: s.end
+                    },
+                    events: {
+                        onReady: function(t) {
+                            d(),
+                            s.mute && t.target.mute(),
+                            s.onReadyApi && s.onReadyApi(t)
+                        },
+                        onStateChange: function(t) {
+                            s.onStateChangeApi && s.onStateChangeApi(t),
+                            0 === t.data && s.repeat && r.data('tubularPlayer').seekTo(s.start)
+                        },
+                        onError: function(t) {
+                            a.hide()
+                        }
+                    }
+                }))
+            }
+              , d = function() {
+                var o, n, i = a.width(), e = a.height(), r = t('#' + l);
+                i / s.ratio < e ? (o = Math.ceil(e * s.ratio),
+                r.width(o).height(e).css({
+                    left: (i - o) / 2,
+                    top: 0
+                })) : (n = Math.ceil(i / s.ratio),
+                r.width(i).height(n).css({
+                    left: 0,
+                    top: (e - n) / 2
+                }))
+            }
+            ;
+            e.YT ? p() : (r.addClass('initTubular').data('initTubular', function() {
+                p()
+            }),
+            e.onYouTubeIframeAPIReady || (e.onYouTubeIframeAPIReady = function() {
+                t('body .initTubular').each(function(e, i) {
+                    t(i).data('initTubular')()
+                })
+            }
+            ,
+            t('body').append(t('<script>', {
+                src: 'https://www.youtube.com/iframe_api'
+            })))),
+            u.prepend(a),
+            a.after(t('<div class="ytshield">').css({
+                width: '100%',
+                height: '100%',
+                'z-index': 2,
+                position: 'absolute',
+                left: 0,
+                top: 0
+            })),
+            r.css({
+                position: 'relative',
+                'z-index': s.wrapperZIndex
+            }),
+            t(e).on('resize.tubular', function() {
+                d()
+            })
+        }
+    }
+    ;
+    t.fn.tubular = function(e) {
+        return this.each(function() {
+            t.data(this, 'tubular_instantiated') || t.data(this, 'tubular_instantiated', i(this, e))
+        })
+    }
+}(jQuery, window);
+
 ! function (e, i) {
     function u(e, i, t) {
         var l = e.children(),
@@ -2059,7 +2185,42 @@ $(document).ready(function () {
     if ($('.c_box_more--content .link_more_news').size() > 0) {
         $('.c_box_more--content .link_more_news').each(function () {})
     }
+
+	$('.news_list').find('.player_list').each(function() {
+		var t = $(this).attr('id')
+		  , e = $(this).data('source');
+		options_yt = {
+			videoId: e,
+			mute: !0,
+			onStateChangeApi: function(e) {
+				if (e.data == 0) {
+					getNowElement().removeClass('playing');
+					slickNext();
+					played = !1
+				}
+				;if (e.data == 1) {
+					getNowElement().addClass('playing');
+					if (isMobile || media == 'tablet') {
+						clearAutoPlay()
+					}
+					;played = !0
+				}
+				;if (e.data == 2) {
+					if (isMobile) {
+						getNowElement().removeClass('playing');
+						played = !1;
+						clearAutoPlay();
+						playAuto()
+					} else {
+						arrYT[t].seekTo(0)
+					}
+				}
+			}
+		};
+		$('#' + t).tubular(options_yt);
+	});
 });
+
 $(window).resize(function () {
     $('.news_item_child--title, .news_item_first--title').dotdotdot();
     $('.c_box_more_text--title').dotdotdot()
