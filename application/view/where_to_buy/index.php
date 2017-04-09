@@ -23,8 +23,8 @@
 								</div>
 
 								<h4>THAILAND</h4>
-								<h6>094-5519522</h6>
-								<h6>094-9252614</h6>
+								<h6>+6694 551 9522</h6>
+								<h6>+6694 925 2614</h6>
 							</div>
 						</div>
 
@@ -125,8 +125,8 @@
 <br>
 <br>
 
-<div class="col-xs-12 col-md-12" style="padding: 0px;">
-	<img src="<?=URL;?>images/banner/transport.png" alt="" class="img-responsive">
+<div class="col-xs-12 col-md-12 text-center" style="background-color: #ededed; padding: 0px;">
+	<img src="<?=URL;?>images/banner/transport.png" alt="" class="img-responsive" style="    margin: auto;">
 </div>
 
 <?php

@@ -5,7 +5,7 @@
 
 
 
-<div class="about_us_contant_top">
+<div class="about_us_contant_top" style="background-color: #ffdef2;">
 	
 	<!-- <div class="bg_cream">
 		<div style="position:relative;">
@@ -13,11 +13,11 @@
 		</div>
 	</div> -->
 
-	<div class="wrapContent row">
-		<div class="col-sm-5 nopad">
+	<div class="row">
+		<div class="col-xs-12 col-md-5 col-md-offset-1 ab1">
 			<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus01.png" alt="Cream">
 		</div>
-		<div class="col-sm-6 col-sm-offset-1 nopad">
+		<div class="col-xs-12 col-md-5">
 			<div class="wrap_right_content">
 				<h1>บริษัท เอ็นทีบีพลัส (ไทยแลนด์) จำกัด</h1>
 				<p>เป็นหนึ่งในผู้ผลิต จัดจำหน่าย และส่งออกผลิตภัณฑ์บำรุงผิว (SkinCare)ภายใต้แบรนด์ “JELLYS” ซึ่งเป็นที่รู้จักกันอย่างกว้างขวางในปัจจุบันและได้รับการยอมรับทั่วโลก อาทิ อินโดนีเซีย มาเลเซีย ฮ่องกง พม่า ลาว กัมพูชาฟิลิปปินส์ สิงคโปร์ ซาอุดิอาระเบีย และประเทศตะวันออกกลางความภาคภูมิใจของ บริษัท เอ็นทีบีพลัส (ไทยแลนด์) จำกัดผู้บริหารการจัดจำหน่ายผลิตภัณฑ์ ในภูมิภาค ประเทศไทย
@@ -50,7 +50,7 @@
 
 
 <div class="about_us_contant_detail" style=" background: #eff4f7">
-	<div class="col-md-6 col-md-offset-2 col-xs-12 col-xs-push-12 nopad">
+	<div class="col-md-6 col-md-offset-2 col-xs-12 col-xs-push-12">
 		<div class="detail_content col-xs-12 col-sm-9 col-md-9">
 			บริษัทฯ มุ่งมั่นที่จะพัฒนาผลิตภัณฑ์อย่างสร้างสรรค์ให้มีความแปลกใหม่และมีคุณภาพสูงเพื่อตอบสนองความต้องการของลูกค้าที่หลากหลาย โดยบริษัทฯใส่ใจในทุกขั้นตอนการผลิต เพื่อให้ได้มาตรฐานและประโยชน์สูงสุดต่อผู้บริโภคทั้งในประเทศและต่างประเทศโดยคำนึงถึงประสิทธิภาพและคุณภาพเพื่อลูกค้าเป็นสำคัญ ภายใต้ปรัชญาองค์กรที่ว่า <span class="content_bold">“สร้างสรรค์ มุ่งมั่น ก้าวไกล”</span> ด้วย 4 พันธกิจหลัก คือ 
 		</div>
@@ -65,17 +65,17 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
-	<div class="col-md-3 col-xs-12 col-xs-pull-12 nopad">
+	<div class="col-md-3 col-xs-12 col-xs-pull-12 ab2 nopad">
 		<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus02.png" alt="Cream">
 	</div>
 	
 	<div class="clearfix"></div>
 
-	<div style=" position: relative; background:#edf2f6;">
-		<div class="col-md-3 col-md-offset-2 nopad">
+	<div style=" position: relative; background:#ffdef2;">
+		<div class="col-md-3 col-md-offset-2 ab3 nopad">
 			<img style="" class="img-responsive" src="<?=URL;?>images/aboutus/aboutus03.png" alt="Cream">
 		</div>
-		<div class="col-md-7">
+		<div class="col-md-7 col-md-offset-5">
 			<div class="detail_content">
 				<h3>Jellys PRODUCTS</h3>
 				<p>เจลลี่ มุ่งมั่นนำเสนอผลิตภัณฑ์สกินแคร์ดูแลผิว ที่คัดสรรวัตถุดิจากธรรมชาติเพื่อให้ได้มาซึ่งผลิตภัณฑ์บำรุงผิวที่มีคุณภาพมาตรฐาน</p>

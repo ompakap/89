@@ -170,8 +170,7 @@ class News extends Controller
 							array( 'title'=>'08', 'path'=>URL.'images/news/grand08.jpg'),
 							array( 'title'=>'09', 'path'=>URL.'images/news/grand09.jpg'),
 							array( 'title'=>'10', 'path'=>URL.'images/news/grand10.jpg'),
-							array( 'title'=>'11', 'path'=>URL.'images/news/grand11.jpg'),
-							array( 'title'=>'12', 'path'=>URL.'images/news/grand12.jpg')
+							array( 'title'=>'11', 'path'=>URL.'images/news/grand11.jpg')
 						),
 
 						"video" => array('r10oIEZjpCU&t=59s'),

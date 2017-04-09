@@ -64,6 +64,18 @@
     top: 0
 }
 
+.ab1 {
+	margin-top: 100px;
+}
+
+.ab2 {
+	margin-top: 100px;
+}
+
+.ab3 {
+	bottom: 0px; position: absolute;
+}
+
 @media screen and (min-width: 768px) {
     .bg_cream {
         width:50%
@@ -198,6 +210,18 @@
         display: block;
         position: relative
     }
+
+	.ab1 {
+		margin-top: 10px;
+	}
+
+	.ab2 {
+		margin-top: 10px;
+	}
+
+	.ab3 {
+		bottom: 0px; position: relative;
+	}
 }
 
 .wrap_mobile_left_position_content {

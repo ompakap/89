@@ -2148,6 +2148,7 @@ var limit = 7,
     now_page = 1,
     adapH = !1,
     ArrowMainShow = !1;
+
 $(document).ready(function () {
     mobileLineAppVisible();
     $(window).resize(function () {
@@ -2186,39 +2187,6 @@ $(document).ready(function () {
         $('.c_box_more--content .link_more_news').each(function () {})
     }
 
-	$('.news_list').find('.player_list').each(function() {
-		var t = $(this).attr('id')
-		  , e = $(this).data('source');
-		options_yt = {
-			videoId: e,
-			mute: !0,
-			onStateChangeApi: function(e) {
-				if (e.data == 0) {
-					getNowElement().removeClass('playing');
-					slickNext();
-					played = !1
-				}
-				;if (e.data == 1) {
-					getNowElement().addClass('playing');
-					if (isMobile || media == 'tablet') {
-						clearAutoPlay()
-					}
-					;played = !0
-				}
-				;if (e.data == 2) {
-					if (isMobile) {
-						getNowElement().removeClass('playing');
-						played = !1;
-						clearAutoPlay();
-						playAuto()
-					} else {
-						arrYT[t].seekTo(0)
-					}
-				}
-			}
-		};
-		$('#' + t).tubular(options_yt);
-	});
 });
 
 $(window).resize(function () {

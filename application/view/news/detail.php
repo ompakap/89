@@ -14,7 +14,24 @@
 			<?php
 			if( count($detail) )
 			{
+
+				if( isset($detail['video']) && count($detail['video']) )
+				{
+					$url = 'https://www.youtube.com/watch?v='.$detail['video'][0];
+					preg_match('/[\\?\\&]v=([^\\?\\&]+)/', $url, $matches);
+					$id = $matches[1];
+					?>
+					<iframe id="ytplayer" type="text/html" style="width:100%;height:400px;"
+					src="https://www.youtube.com/embed/<?php echo $id ?>?rel=0&showinfo=0&color=white&iv_load_policy=3"
+					frameborder="0" allowfullscreen></iframe> 
+
+					<br>
+					<br>
+					<br>
+					<?php
+				}
 				?>
+
 			<div class="c_box--right">
 				
 				<div class="c_box_title">
