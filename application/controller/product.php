@@ -75,6 +75,13 @@ class Product extends Controller
 				"detail" => '',
 				'image' => URL . 'images/products/pure_underarm_cream_product01.png',
 				'link' => $_URL . 'product/detail/5'
+			),
+			'5' => array( 
+				'id' => 6, 
+				'name' => 'PURE FACE SUNSCREEN CREAM' , 
+				"detail" => '',
+				'image' => URL . 'images/products/6/pure_face_sunscreen_cream_product01.png',
+				'link' => $_URL . 'product/detail/6'
 			)
 		);
 

@@ -2662,6 +2662,86 @@ body.vjs-full-window {
     background-size: contain;
 }
 
+.row-slide-detail .slide-row.waterproof .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b04_2.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.collagen .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b05_5.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.sunscreen .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b05_6.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.primer .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b05_7.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.foundation .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b05_8.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.howgood1 .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b04_1.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.howgood2 .img-show {
+    background-image: url(/images/products/6/pure_face_sunscreen_cream_product_b04_2.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row-slide-detail .slide-row.honey .img-show {
+    background-image: url(/images/products/use/honey.png);
+    margin: auto;
+	max-width: 350px;
+    width: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .row-slide-detail .slide-row.vitb3 .img-show {
     background-image: url(/images/products/use/VITAMIN-B3.png);
     margin: auto;
