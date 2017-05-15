@@ -39,13 +39,14 @@ class News extends Controller
 	public function getnewslist()
 	{
 		$response = array(
-			'0' => array( 'id' => 7, 'title' => 'ตลาดนัดแตก ‼️‼️' , 'image' => URL . '/images/news/market01.jpg', "date" => '28&nbsp;March&nbsp;2017' ),
-			'1' => array( 'id' => 6, 'title' => 'Grand opening Pure face sunscreen cream by Jellys' , 'image' => URL . '/images/news/grand01.jpg', "date" => '05&nbsp;March&nbsp;2017' ),
-			'2' => array( 'id' => 5, 'title' => 'CEO THAILAND AWARDS 2017' , 'image' => URL . '/images/news/ceo01.jpg', "date" => '25&nbsp;February&nbsp;2017' ),
-			'3' => array( 'id' => 4, 'title' => 'วันที่13-15 มกราคม 2560 ครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ' , 'image' => URL . '/images/news/hongkong01.jpg', "date" => '13&nbsp;JANUARY&nbsp;2017' ),
-			'4' => array( 'id' => 3, 'title' => 'TOP BRAND AWARDS 2016' , 'image' => URL . '/images/news/top_brand_awards_01.jpg', "date" => '03&nbsp;SEPTEMBER&nbsp;2016' ),
-			'5' => array( 'id' => 2, 'title' => 'ASIA BEAUTY & COSMETIC EXPO 2016' , 'image' => URL . '/images/news/asia_beauty_cosmetic_expo_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' ),
-			'6' => array( 'id' => 1, 'title' => 'ทริปพาตัวแทนJellys (เจลลี่) เที่ยวญี่ปุ่น วันที่ 21-26 มกราคม 2559' , 'image' => URL . '/images/news/japan_trip_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' )
+			'0' => array( 'id' => 8, 'title' => 'Meeting Jellys' , 'image' => URL . '/images/news/Meeting Jellys_Bangsean2017 (1).jpg', "date" => '29&nbsp;April&nbsp;2017' ),
+			'1' => array( 'id' => 7, 'title' => 'ตลาดนัดแตก ‼️‼️' , 'image' => URL . '/images/news/market01.jpg', "date" => '28&nbsp;March&nbsp;2017' ),
+			'2' => array( 'id' => 6, 'title' => 'Grand opening Pure face sunscreen cream by Jellys' , 'image' => URL . '/images/news/grand01.jpg', "date" => '05&nbsp;March&nbsp;2017' ),
+			'3' => array( 'id' => 5, 'title' => 'CEO THAILAND AWARDS 2017' , 'image' => URL . '/images/news/ceo01.jpg', "date" => '25&nbsp;February&nbsp;2017' ),
+			'4' => array( 'id' => 4, 'title' => 'วันที่13-15 มกราคม 2560 ครอบครัวเจลลี่ เที่ยว กิน ทัวร์ไหว้พระที่ประเทศฮ่องกง ' , 'image' => URL . '/images/news/hongkong01.jpg', "date" => '13&nbsp;JANUARY&nbsp;2017' ),
+			'5' => array( 'id' => 3, 'title' => 'TOP BRAND AWARDS 2016' , 'image' => URL . '/images/news/top_brand_awards_01.jpg', "date" => '03&nbsp;SEPTEMBER&nbsp;2016' ),
+			'6' => array( 'id' => 2, 'title' => 'ASIA BEAUTY & COSMETIC EXPO 2016' , 'image' => URL . '/images/news/asia_beauty_cosmetic_expo_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' ),
+			'7' => array( 'id' => 1, 'title' => 'ทริปพาตัวแทนJellys (เจลลี่) เที่ยวญี่ปุ่น วันที่ 21-26 มกราคม 2559' , 'image' => URL . '/images/news/japan_trip_01.jpg', "date" => '28&nbsp;APRIL&nbsp;2016' )
 		);
 
 		return $response;
@@ -212,6 +213,34 @@ class News extends Controller
 						"date" => '28&nbsp;March&nbsp;2017',
 						"title" => 'ตลาดนัดแตก ‼️‼️',
 						"description" => 'ภาพบรรยากาศ #งานเดินทรูป #ครีมกันแดดหน้าเพียวเฟส ตะลุยตลาดนัดจตุจักร กทม. ในวันที่ 22 เมษายน 2560 ที่ผ่านมา #ครึกครื้นหนักมาก ลูกค้าสนใจกันเพียบ ❤️❤️ หอบหิ้วถุงเพียวเฟสกันยกใหญ่ #สวยท้าแดดกันทั่วบ้านทั่วเมืองแล้วค่ะ ☀️☀️'
+					);
+
+				break;
+
+			case '8' :
+
+					$response = array(
+						"image" => array(
+							array( 'title'=>'01', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (1).jpg'),
+							array( 'title'=>'02', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (2).jpg'),
+							array( 'title'=>'03', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (3).jpg'),
+							array( 'title'=>'04', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (4).jpg'),
+							array( 'title'=>'05', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (5).jpg'),
+							array( 'title'=>'06', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (6).jpg'),
+							array( 'title'=>'07', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (7).jpg'),
+							array( 'title'=>'08', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (8).jpg'),
+							array( 'title'=>'09', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (9).jpg'),
+							array( 'title'=>'10', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (10).jpg'),
+							array( 'title'=>'11', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (11).jpg'),
+							array( 'title'=>'12', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (12).jpg'),
+							array( 'title'=>'13', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (13).jpg'),
+							array( 'title'=>'14', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (14).jpg'),
+							array( 'title'=>'15', 'path'=>URL.'images/news/Meeting Jellys_Bangsean2017 (15).jpg')
+						),
+
+						"date" => '29&nbsp;April&nbsp;2017',
+						"title" => 'Meeting Jellys',
+						"description" => '<b>ภาพบรรยากาศงาน Meeting Jellys  ณ โรงแรม เดอะไทด์ รีสอร์ท บางแสน  ​​ในวันที่ 29 เมษายน 2560 ที่ผ่านมา</b><br>#ยิ่งใหญ่อลังการ 💥💥💥#จัดหนัก #จัดเต็ม กับงาน #meetingjellys<br> และนัดรับ #ครีมกันแดดหน้าเพียวเฟส ล็อต 2 🎉✨  <br>ยอดขายกว่า 240,000 กระปุก ‼️‼️‼️ แบรนด์ Jellys ไม่ใช่แบรนด์เล็กๆ แต่เป็นครอบครัวที่ใหญ่และอบอุ่น บ้านหลังนี้พร้อมต้อบรับทุกคนค่ะ<br>#จับมือกันก้าวสู่ความสำเร็จ'
 					);
 
 				break;
