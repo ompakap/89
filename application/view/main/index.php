@@ -151,6 +151,17 @@
 							</a>
 						</div>
 					</div>
+					<div class="lt_pd">
+						<div class="bx_pd">
+							<a href="<?=$_URL;?>product/detail/6">
+								<div class="dt_img">
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/6/pure_face_sunscreen_cream_product01.png');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/6/pure_face_sunscreen_cream_product01.png" alt="Pure Face Sunscreen Cream"><div class="dim_shield"></div></div>
+									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
+								</div>
+								<div class="dt_pd"><p class="tt1">PURE FACE SUNSCREEN CREAM</p></div>
+							</a>
+						</div>
+					</div>
 
 				</div>
 
