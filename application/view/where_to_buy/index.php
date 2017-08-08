@@ -126,7 +126,7 @@
 <br>
 
 <div class="col-xs-12 col-md-12 text-center" style="background-color: #ededed; padding: 0px;">
-	<img src="<?=URL;?>images/banner/transport.png" alt="" class="img-responsive" style="    margin: auto;">
+	<img src="<?=URL;?>images/banner/transport.jpg" alt="" class="img-responsive" style=" margin: auto;">
 </div>
 
 <?php

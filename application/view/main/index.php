@@ -48,6 +48,21 @@
 					<div class="dim_shield_video"></div>
 				</div>
 			</div>
+		
+			<div class="banner-list" data-delay="10">
+				<input type="hidden" class="image_hide_pc" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_hide_mb" value="<?=URL;?>images/banner/01.gif">
+				<input type="hidden" class="image_title_pc" value="">
+				<input type="hidden" class="image_title_mb" value="">
+				<input type="hidden" class="title_banner" value="jellysthailand">
+				<input type="hidden" class="set_class" value="mobile-detect mobile-detect-video">
+
+				<div class="bx-item playing">
+					<div id="btnVideoPlaydd2345" class="btnPlayVideo slide-banner-list player_list" data-type="youtube" data-source="YxUJqlRzPgA"></div>
+					<div class="play-control play_video " onclick="playPauseVideo();"></div>
+					<div class="dim_shield_video"></div>
+				</div>
+			</div>
 
 			<!-- 
 			<div class="banner-list" data-delay="10">
@@ -133,7 +148,7 @@
 						<div class="bx_pd">
 							<a href="<?=$_URL;?>product/detail/4">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_soap_02.jpg');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_soap_02.jpg" alt="Pure Soap"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/pure_soap_product01.png'); background-size: contain;"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/pure_soap_product01.png" alt="Pure Soap"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
 								<div class="dt_pd"><p class="tt1">PURE SOAP</p></div>
@@ -155,7 +170,7 @@
 						<div class="bx_pd">
 							<a href="<?=$_URL;?>product/detail/6">
 								<div class="dt_img">
-									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/6/pure_face_sunscreen_cream_product01.png');"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/6/pure_face_sunscreen_cream_product01.png" alt="Pure Face Sunscreen Cream"><div class="dim_shield"></div></div>
+									<div class="img_pd" style="background-image: url('<?=URL;?>images/products/6/pure_face_sunscreen_cream_product01.png');background-size: contain;"><img width="308" height="349" class="img-responsive img-fake" src="<?=URL;?>images/products/6/pure_face_sunscreen_cream_product01.png" alt="Pure Face Sunscreen Cream"><div class="dim_shield"></div></div>
 									<div class="dim_text">อ่านรายละเอียด <span class="sprite sprite-white gf"></span></div>
 								</div>
 								<div class="dt_pd"><p class="tt1">PURE FACE SUNSCREEN CREAM</p></div>
