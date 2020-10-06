@@ -33,7 +33,7 @@
                                             <th>Date</th>
                                             <th>Code Product</th>
                                             <th>Name Eng</th>
-                                            <th>ชื่อ</th>
+                                            <th>ชื่อ-นามสกุล</th>
                                             <th>Price</th>
                                             <th>#</th>
                                         </tr>
@@ -85,7 +85,7 @@
 
 <script type="text/javascript">
 <!--
-	var 
+	var
 		URL = "<?=URL;?>",
 		mode = "<?=$mode;?>";
 //-->
