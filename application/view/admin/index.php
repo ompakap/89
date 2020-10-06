@@ -47,7 +47,7 @@
 									?>
                                         <tr class="odd gradeA">
                                             <td><?=$prod["timep"];?></td>
-                                            <td><?=$prod["code_product"];?></td>
+                                            <td><?php echo $prod["code_product"];?></td>
                                             <td><?=$prod["name_en"];?></td>
                                             <td><?=$prod["name_th"];?></td>
                                             <td><?=$prod["costs"];?></td>
