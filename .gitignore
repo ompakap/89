@@ -21,7 +21,6 @@
 *.zip
 
 # Logs and databases #
-
 ######################
 *.log
 *.sql
