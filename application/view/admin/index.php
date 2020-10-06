@@ -42,11 +42,11 @@
 									<?php
 										//print_r($product);exit;
 
-										foreach( $product as $prod )
-										{
+									foreach( $product as $prod )
+									{
 									?>
                                         <tr class="odd gradeA">
-                                            <td><?=$prod["timep"];?></td>
+                                            <td><?=$prod['timep'];?></td>
                                             <td><?=$prod["code_product"];?></td>
                                             <td><?=$prod["name_en"];?></td>
                                             <td><?=$prod["name_th"];?></td>
