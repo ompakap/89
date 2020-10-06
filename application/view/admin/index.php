@@ -42,10 +42,8 @@
                                     </thead>
                                     <tbody>
 									<?php
-										//print_r($product);exit;
-
-										foreach( $product as $prod )
-										{
+									foreach( $product as $prod )
+									{
 									?>
                                         <tr class="odd gradeA">
                                             <td><?=$prod["timep"];?></td>
