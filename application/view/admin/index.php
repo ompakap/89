@@ -20,8 +20,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
 							<div class="row">
-                            <div class="col-lg-6">List</div>
-							<div class="col-lg-6 text-right"><a href="product/add">New Product <i class="fa fa-plus"></i></a></div>
+                                <div class="col-lg-6">List</div>
+    							<div class="col-lg-6 text-right">
+                                    <a href="product/add">New Product <i class="fa fa-plus"></i></a>
+                                </div>
 							</div>
                         </div>
                         <!-- /.panel-heading -->
