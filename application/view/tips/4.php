@@ -7,12 +7,10 @@
 </div>
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
 	<div class="c_box--right">
-		
-		<?php
 
+		<?php
 		//$ds_th = ( $_SESSION["Lang"] == 'th' )? '' : 'display:none;';
 		//$ds_en = ( $_SESSION["Lang"] == 'en' )? '' : 'display:none;';
-
 		?>
 
 		<div id="lang-th" style="<?=$ds_th;?>">
@@ -22,7 +20,7 @@
 			<div class="c_box_socials" style="border-top:none;"></div>
 			<div class="c_box_fulldetail">
 				<div class="c_box_fulldetail--text">
-					
+
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 visible-xs">
 						<div class="c_box--left">
 							<div class="c_box_image">

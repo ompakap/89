@@ -31,13 +31,11 @@
 
 	</div><!-- /card-container -->
 </div><!-- /container -->
-	
+
 <div class="clearfix"></div>
 
 <script type="text/javascript">
-<!--
-	var 
+	var
 		page_id = "vl",
 		URL = "<?=URL;?>";
-//-->
 </script>
