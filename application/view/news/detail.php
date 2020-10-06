@@ -1,5 +1,3 @@
-
-
 <link href="<?=URL;?>css/slick_news.css" rel="stylesheet">
 
 
@@ -8,9 +6,9 @@
 <div class="container">
 
 	<div class="container_inner--detail">
-		
+
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col_no_padding">
-			
+
 			<?php
 			if( count($detail) )
 			{
@@ -23,7 +21,7 @@
 					?>
 					<iframe id="ytplayer" type="text/html" style="width:100%;height:400px;"
 					src="https://www.youtube.com/embed/<?php echo $id ?>?rel=0&showinfo=0&color=white&iv_load_policy=3"
-					frameborder="0" allowfullscreen></iframe> 
+					frameborder="0" allowfullscreen></iframe>
 
 					<br>
 					<br>
@@ -33,7 +31,7 @@
 				?>
 
 			<div class="c_box--right">
-				
+
 				<div class="c_box_title">
 					<span class="helvethaica_xcond_med txt_date"><?=$detail['date'];?></span>
 					<div class="news_item--line"></div>
@@ -45,13 +43,13 @@
 						<!-- <span class="helvethaica_x_li box_socials--textshere">แชร์บทความนี้: </span> -->
 					</div>
 				</div>
-				
-				
+
+
 
 				<div class="c_box_fulldetail">
 					<div class="c_box_fulldetail--text">
 
-						
+
 
 						<div class="slide_news_box">
 							<div class="slide_news_box--show slider-for">
@@ -66,7 +64,7 @@
 								}
 								?>
 							</div>
-						
+
 							<?php
 							if( count($detail['image']) > 1 )
 							{
@@ -91,7 +89,7 @@
 								echo '<br>';
 							}
 							?>
-				
+
 						</div>
 					</div>
 
