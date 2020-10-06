@@ -84,9 +84,7 @@
 <div class="clearfix"></div>
 
 <script type="text/javascript">
-<!--
 	var
 		URL = "<?=URL;?>",
 		mode = "<?=$mode;?>";
-//-->
 </script>
