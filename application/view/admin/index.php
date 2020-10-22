@@ -42,8 +42,6 @@
                                     </thead>
                                     <tbody>
 									<?php
-										//print_r($product);exit;
-
 									foreach( $product as $prod )
 									{
 									?>
