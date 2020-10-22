@@ -1,5 +1,6 @@
 <?php
 // set a constant that holds the project's folder path, like "/var/www/".
+
 define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 // set a constant that holds the project's "application" folder, like "/var/www/application".
 define('APP', ROOT . 'application' . DIRECTORY_SEPARATOR);
