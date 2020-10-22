@@ -15,7 +15,7 @@ require APP . 'libs/img_handle.php';
 require APP . 'libs/resize_image.php';
 require APP . 'libs/phpmailer/class.sendmail.php';
 
-
+echo "hello";
 
 session_start();
 
